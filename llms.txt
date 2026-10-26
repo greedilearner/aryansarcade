@@ -1,6 +1,6 @@
 # AryansArcade
 
-> AryansArcade is the studio of Aryan, who builds Android and iOS apps, fast websites and AI automations for people and small businesses. Contact: hello@aryansarcade.in.
+> AryansArcade is the studio of Aryan Singh, who builds Android and iOS apps, fast websites and AI automations for people and small businesses. Contact: hello@aryansarcade.in.
 
 ## Projects
 - [Spinpath](https://greedilearner.github.io/spinpath/): Spin a topic, learn it, say it out loud. A learning website that spins a random concept from your chosen path (AI engineer, web, data, security and more), then turns it into speaking drills: debate motions, fresh articles from the past week, interview questions and "explain it to…" prompts. Built with JavaScript, HTML / CSS, GitHub Actions, GitHub Pages. Status: Live, 2026.
@@ -24,3 +24,6 @@
 - [About](https://aryansarcade.in/#/about)
 - [Contact](https://aryansarcade.in/#/contact)
 - [GitHub](https://github.com/greedilearner)
+- [LinkedIn](https://www.linkedin.com/in/aryan-singh-709020205/)
+- [Instagram](https://www.instagram.com/aryansarcade/)
+- [X](https://x.com/Aryansarcde)
