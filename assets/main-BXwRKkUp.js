@@ -183,7 +183,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
 
           <div class="hero-photo-wrap" data-parallax="0.06">
             <div class="hero-photo-frame" data-tilt>
-              <img src="profile.jpg" alt="${u.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
+              <img src="portrait.jpg" alt="${u.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
             </div>
             <div class="hero-badge" aria-hidden="true">
               <svg viewBox="0 0 120 120">
