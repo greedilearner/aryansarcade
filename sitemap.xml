@@ -3,8 +3,32 @@
   <url>
     <loc>https://aryansarcade.in/</loc>
     <lastmod>2026-10-26</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://aryansarcade.in/portrait.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aryansarcade.in/work</loc>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aryansarcade.in/services</loc>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aryansarcade.in/content</loc>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aryansarcade.in/about</loc>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aryansarcade.in/contact</loc>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>

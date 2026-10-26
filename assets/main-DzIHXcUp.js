@@ -1,17 +1,17 @@
-(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e={name:`AryansArcade`,shortName:`AA`,tagline:`Personal Builder Ecosystem & Digital Storefront`,founder:`Aryan`,founderFullName:`Aryan Singh`,description:`Independent software builder crafting production-grade developer tools, AI applications, web systems, and digital storefronts with architectural restraint.`,domain:`aryansarcade.in`,email:`hello@aryansarcade.in`,navLinks:[{label:`Work`,path:`#/work`},{label:`Products`,path:`#/products`},{label:`Services`,path:`#/services`},{label:`Content`,path:`#/content`},{label:`Newsletter`,path:`#/newsletter`},{label:`About`,path:`#/about`}],footerLinks:[{label:`Work`,path:`#/work`},{label:`Products`,path:`#/products`},{label:`Services`,path:`#/services`},{label:`Content`,path:`#/content`},{label:`Newsletter`,path:`#/newsletter`},{label:`About`,path:`#/about`},{label:`Support`,path:`#/support`},{label:`Contact`,path:`#/contact`}],socials:{github:{label:`GitHub`,url:`https://github.com/greedilearner`,handle:`@greedilearner`},linkedin:{label:`LinkedIn`,url:`https://www.linkedin.com/in/aryan-singh-709020205/`,handle:`Aryan Singh`},instagram:{label:`Instagram`,url:`https://www.instagram.com/aryansarcade/`,handle:`@aryansarcade`},x:{label:`X`,url:`https://x.com/Aryansarcde`,handle:`@Aryansarcde`},youtube:null}},t=[`All`,`Apps`,`AI Tools`,`Automations`,`Websites`,`Digital Products`],n=[],r=[`All`,`Websites`,`Apps`,`Automation`],i=[{id:`spinpath`,slug:`spinpath`,title:`Spinpath`,kicker:`Spin a topic, learn it, say it out loud.`,category:`Websites`,year:`2026`,status:`Live`,description:`A learning website that spins a random concept from your chosen path (AI engineer, web, data, security and more), then turns it into speaking drills: debate motions, fresh articles from the past week, interview questions and "explain it to…" prompts.`,metrics:`Static site, no build step · articles refreshed daily by a GitHub Action`,tags:[`JavaScript`,`HTML / CSS`,`GitHub Actions`,`GitHub Pages`],linkText:`Visit live site →`,linkUrl:`https://greedilearner.github.io/spinpath/`,external:!0,highlight:!0},{id:`excuses`,slug:`excuses`,title:`Excuses`,kicker:`A to-do app that asks why, kindly.`,category:`Apps`,year:`2026`,status:`Android & iOS`,description:`Schedule tasks, then record a voice diary when they slip. AI reads the patterns behind missed tasks and reflects them back without shame. Built first in Expo / React Native, then ported to Kotlin Multiplatform with shared UI for Android and iOS.`,metrics:`Bring-your-own-key AI: Claude, Gemini, OpenAI, DeepSeek or NVIDIA NIM`,tags:[`React Native`,`Expo`,`Kotlin Multiplatform`,`Compose`,`Ktor`],linkText:`Ask for a demo →`,linkUrl:`#/contact`,highlight:!1},{id:`carousel-studio`,slug:`carousel-studio`,title:`Carousel Studio`,kicker:`Thoughts in, Instagram carousels out.`,category:`Apps`,year:`2026`,status:`Android`,description:`An Android app that turns spoken reflections, notes or YouTube transcripts into Instagram-ready carousel images and X threads. Runs on a local Ollama model, remembers your voice and past posts, and saves straight to the gallery.`,metrics:`Local LLM via Ollama · voice memory (RAG) · 1080×1350 PNG export`,tags:[`Kotlin`,`Jetpack Compose`,`Room`,`Ollama`,`RAG`],linkText:`View on GitHub →`,linkUrl:`https://github.com/greedilearner/post_automation`,external:!0},{id:`nightly-podcast`,slug:`nightly-podcast`,title:`Nightly AI Podcast`,kicker:`Ask a question at night, hear the answer by morning.`,category:`Automation`,year:`2026`,status:`Running nightly`,description:`An automation that asks for tonight's learning topic, drives Google NotebookLM in a real browser to generate a two-host audio overview, downloads the MP3 and files it in a personal podcast library with its own web player.`,metrics:`Scheduled job · browser automation with Playwright · no API keys needed`,tags:[`Python`,`Playwright`,`Flask`,`Scheduler`,`SQLite`],linkText:`Ask for a demo →`,linkUrl:`#/contact`}],a=[{id:`automation`,title:`Automation`,category:`Save hours`,tagline:`The boring, repeated work, done by software instead of people.`,description:`Scheduled jobs, browser automation and AI workflows that pull data, fill forms, post content, generate reports and send them where they need to go. Like the nightly podcast generator, but for your business.`,deliverables:[`Browser automation (Playwright) for sites with no API`,`AI workflows that read, summarise and draft for you`,`Scheduled jobs with alerts when something breaks`],timeline:`1–3 weeks`},{id:`website-development`,title:`Website Development`,category:`Get found`,tagline:`Fast, good-looking websites that are easy to keep up to date.`,description:`Portfolios, business sites, landing pages and web apps. Designed with care, built to load fast on phones, and set up so you can edit content yourself.`,deliverables:[`Custom design with motion that feels intentional`,`Mobile-first, fast loading, SEO basics done right`,`Hosting and domain set up, plus an admin to edit content`],timeline:`2–4 weeks`},{id:`app-development`,title:`App Development`,category:`Android & iOS`,tagline:`Mobile apps people keep on their home screen.`,description:`Native Android in Kotlin, or one codebase for Android and iOS with React Native or Kotlin Multiplatform. From first prototype to a build you can put in the Play Store.`,deliverables:[`Kotlin / Jetpack Compose, React Native or Kotlin Multiplatform`,`Offline storage, notifications, voice and camera features`,`Play Store and App Store build and release help`],timeline:`3–8 weeks`},{id:`ai-integration`,title:`AI Features`,category:`Add intelligence`,tagline:`Put Claude, GPT, Gemini or a local model inside your product.`,description:`Chat, search over your own documents, voice notes to text, summaries and smart suggestions, built into the app or site you already have.`,deliverables:[`Works with hosted models or private local models (Ollama)`,`Search and answers over your own documents (RAG)`,`Clear costs, with keys and data kept under your control`],timeline:`1–4 weeks`}],o=[{step:`01`,title:`Call`,desc:`A short call to understand what you need, who it is for and what done looks like.`},{step:`02`,title:`Plan`,desc:`A clear written plan with screens, features, price and timeline before any work starts.`},{step:`03`,title:`Build`,desc:`Weekly updates with a live link or test build, so you see progress and can steer it.`},{step:`04`,title:`Launch`,desc:`We launch it together. You own all the code, and get 30 days of fixes after launch.`}],s=[`All`,`Articles`,`Videos`,`Build Logs`],c=[],l={title:`ARYANSARCADE LETTER`,tagline:`AI, systems architecture, building in public, and technical experiments.`,cadence:`One useful dispatch every week. No spam. No marketing filler.`,subscriberCount:``,archive:[]},u={PRODUCTS:`rns_arcade_products_v2`,WORK:`rns_arcade_work_v2`,SERVICES:`rns_arcade_services_v2`,CONTENT:`rns_arcade_content_v4`,NEWSLETTER:`rns_arcade_newsletter_v3`};function d(e,t){try{let n=localStorage.getItem(e);return n?JSON.parse(n):(localStorage.setItem(e,JSON.stringify(t)),t)}catch(n){return console.error(`Failed to load ${e} from storage:`,n),t}}function f(){return p().length>0}function p(){return d(u.PRODUCTS,n)}function m(){return d(u.WORK,i)}function h(){return d(u.SERVICES,a)}function g(){return v().length>0}function _(){let e=y();return!!(e&&e.archive&&e.archive.length)}function v(){return d(u.CONTENT,c)}function y(){return d(u.NEWSLETTER,l)}var b={"#/products":f,"#/content":g,"#/newsletter":_},x=e=>e.filter(e=>!b[e.path]||b[e.path]());function ee(){let t=window.location.hash||`#/`;return`
+(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e={name:`AryansArcade`,shortName:`AA`,tagline:`Personal Builder Ecosystem & Digital Storefront`,founder:`Aryan`,founderFullName:`Aryan Singh`,description:`Independent software builder crafting production-grade developer tools, AI applications, web systems, and digital storefronts with architectural restraint.`,domain:`aryansarcade.in`,email:`hello@aryansarcade.in`,navLinks:[{label:`Work`,path:`/work`},{label:`Products`,path:`/products`},{label:`Services`,path:`/services`},{label:`Posts`,path:`/content`},{label:`Newsletter`,path:`/newsletter`},{label:`About`,path:`/about`}],footerLinks:[{label:`Work`,path:`/work`},{label:`Products`,path:`/products`},{label:`Services`,path:`/services`},{label:`Posts`,path:`/content`},{label:`Newsletter`,path:`/newsletter`},{label:`About`,path:`/about`},{label:`Support`,path:`/support`},{label:`Contact`,path:`/contact`}],socials:{github:{label:`GitHub`,url:`https://github.com/greedilearner`,handle:`@greedilearner`},linkedin:{label:`LinkedIn`,url:`https://www.linkedin.com/in/aryan-singh-709020205/`,handle:`Aryan Singh`},instagram:{label:`Instagram`,url:`https://www.instagram.com/aryansarcade/`,handle:`@aryansarcade`},x:{label:`X`,url:`https://x.com/Aryansarcde`,handle:`@Aryansarcde`},youtube:null}},t=[`All`,`Apps`,`AI Tools`,`Automations`,`Websites`,`Digital Products`],n=[],r=[`All`,`Websites`,`Apps`,`Automation`],i=[{id:`spinpath`,slug:`spinpath`,title:`Spinpath`,kicker:`Spin a topic, learn it, say it out loud.`,category:`Websites`,year:`2026`,status:`Live`,description:`A learning website that spins a random concept from your chosen path (AI engineer, web, data, security and more), then turns it into speaking drills: debate motions, fresh articles from the past week, interview questions and "explain it to…" prompts.`,metrics:`Static site, no build step · articles refreshed daily by a GitHub Action`,tags:[`JavaScript`,`HTML / CSS`,`GitHub Actions`,`GitHub Pages`],linkText:`Visit live site →`,linkUrl:`https://greedilearner.github.io/spinpath/`,external:!0,highlight:!0},{id:`excuses`,slug:`excuses`,title:`Excuses`,kicker:`A to-do app that asks why, kindly.`,category:`Apps`,year:`2026`,status:`Android & iOS`,description:`Schedule tasks, then record a voice diary when they slip. AI reads the patterns behind missed tasks and reflects them back without shame. Built first in Expo / React Native, then ported to Kotlin Multiplatform with shared UI for Android and iOS.`,metrics:`Bring-your-own-key AI: Claude, Gemini, OpenAI, DeepSeek or NVIDIA NIM`,tags:[`React Native`,`Expo`,`Kotlin Multiplatform`,`Compose`,`Ktor`],linkText:`Ask for a demo →`,linkUrl:`/contact`,highlight:!1},{id:`carousel-studio`,slug:`carousel-studio`,title:`Carousel Studio`,kicker:`Thoughts in, Instagram carousels out.`,category:`Apps`,year:`2026`,status:`Android`,description:`An Android app that turns spoken reflections, notes or YouTube transcripts into Instagram-ready carousel images and X threads. Runs on a local Ollama model, remembers your voice and past posts, and saves straight to the gallery.`,metrics:`Local LLM via Ollama · voice memory (RAG) · 1080×1350 PNG export`,tags:[`Kotlin`,`Jetpack Compose`,`Room`,`Ollama`,`RAG`],linkText:`View on GitHub →`,linkUrl:`https://github.com/greedilearner/post_automation`,external:!0},{id:`nightly-podcast`,slug:`nightly-podcast`,title:`Nightly AI Podcast`,kicker:`Ask a question at night, hear the answer by morning.`,category:`Automation`,year:`2026`,status:`Running nightly`,description:`An automation that asks for tonight's learning topic, drives Google NotebookLM in a real browser to generate a two-host audio overview, downloads the MP3 and files it in a personal podcast library with its own web player.`,metrics:`Scheduled job · browser automation with Playwright · no API keys needed`,tags:[`Python`,`Playwright`,`Flask`,`Scheduler`,`SQLite`],linkText:`Ask for a demo →`,linkUrl:`/contact`}],a=[{id:`automation`,title:`Automation`,category:`Save hours`,tagline:`The boring, repeated work, done by software instead of people.`,description:`Scheduled jobs, browser automation and AI workflows that pull data, fill forms, post content, generate reports and send them where they need to go. Like the nightly podcast generator, but for your business.`,deliverables:[`Browser automation (Playwright) for sites with no API`,`AI workflows that read, summarise and draft for you`,`Scheduled jobs with alerts when something breaks`],timeline:`1–3 weeks`},{id:`website-development`,title:`Website Development`,category:`Get found`,tagline:`Fast, good-looking websites that are easy to keep up to date.`,description:`Portfolios, business sites, landing pages and web apps. Designed with care, built to load fast on phones, and set up so you can edit content yourself.`,deliverables:[`Custom design with motion that feels intentional`,`Mobile-first, fast loading, SEO basics done right`,`Hosting and domain set up, plus an admin to edit content`],timeline:`2–4 weeks`},{id:`app-development`,title:`App Development`,category:`Android & iOS`,tagline:`Mobile apps people keep on their home screen.`,description:`Native Android in Kotlin, or one codebase for Android and iOS with React Native or Kotlin Multiplatform. From first prototype to a build you can put in the Play Store.`,deliverables:[`Kotlin / Jetpack Compose, React Native or Kotlin Multiplatform`,`Offline storage, notifications, voice and camera features`,`Play Store and App Store build and release help`],timeline:`3–8 weeks`},{id:`ai-integration`,title:`AI Features`,category:`Add intelligence`,tagline:`Put Claude, GPT, Gemini or a local model inside your product.`,description:`Chat, search over your own documents, voice notes to text, summaries and smart suggestions, built into the app or site you already have.`,deliverables:[`Works with hosted models or private local models (Ollama)`,`Search and answers over your own documents (RAG)`,`Clear costs, with keys and data kept under your control`],timeline:`1–4 weeks`}],o=[{step:`01`,title:`Call`,desc:`A short call to understand what you need, who it is for and what done looks like.`},{step:`02`,title:`Plan`,desc:`A clear written plan with screens, features, price and timeline before any work starts.`},{step:`03`,title:`Build`,desc:`Weekly updates with a live link or test build, so you see progress and can steer it.`},{step:`04`,title:`Launch`,desc:`We launch it together. You own all the code, and get 30 days of fixes after launch.`}],s=[`All`,`X`,`Instagram`],c=[{id:`x-code-review-hot-take`,type:`X`,tag:`AI & ENGINEERING`,title:`AI won't eliminate code review. It will change what it's for.`,date:`Oct 21, 2026`,isoDate:`2026-10-21`,readTime:`Post`,excerpt:`When an AI agent can generate hundreds of lines in minutes, reading every line becomes a poor use of senior engineering time. Define the expected behavior first, automate the checks you can prove, and save human review for architecture, trade-offs and failure modes. The goal isn't less accountability. It's better accountability.`,url:`https://x.com/Aryansarcde/status/2112968966251655192`},{id:`ig-review-the-right-thing`,type:`Instagram`,tag:`AI CODING`,title:`AI writes code faster than we can review it. Maybe we're reviewing the wrong thing.`,date:`Oct 21, 2026`,isoDate:`2026-10-21`,readTime:`Carousel`,excerpt:`Define what the code should do before it is written: clear acceptance criteria, recurring review comments turned into automated rules, behavior verified with evidence, and human reviewers kept on the decisions that matter.`,url:`https://www.instagram.com/aryansarcade/p/DexAs67E9dz/`},{id:`ig-fintech-funding-q3`,type:`Instagram`,tag:`STARTUPS`,title:`Fintech funding is getting more selective.`,date:`Oct 22, 2026`,isoDate:`2026-10-22`,readTime:`Carousel`,excerpt:`Global fintech startups raised $10.6B in Q3 2026, down 21.4% year on year, across the fewest rounds since 2018. Investors now want traction, growth and a path to profitability, and AI that delivers measurable results, not just an AI label. (Source: Crunchbase News.)`,url:`https://www.instagram.com/aryansarcade/p/DezsGUek-CK/`},{id:`x-energy-race`,type:`X`,tag:`AI & ENERGY`,title:`The real bill for AI comes due in watts, not dollars.`,date:`Oct 12, 2026`,isoDate:`2026-10-12`,readTime:`Post`,excerpt:`AI looks cheap because VCs are footing the bill. After the model race comes the energy race. Whoever controls power controls compute.`,url:`https://x.com/Aryansarcde/status/2109522003996836047`},{id:`ig-collison-lessons`,type:`Instagram`,tag:`GROWTH`,title:`7 lessons from Patrick Collison for young, ambitious builders.`,date:`Oct 19, 2026`,isoDate:`2026-10-19`,readTime:`Carousel`,excerpt:`Go deep, not wide. Learn relentlessly. Work hard on things you enjoy. Build relationships with people who challenge you. Create things even when the outcome is uncertain. Learn from people who've done it. Don't wait for the perfect time to start.`,url:`https://www.instagram.com/aryansarcade/p/DeswNFGE_PC/`},{id:`x-first-domain`,type:`X`,tag:`BUILDING IN PUBLIC`,title:`Just bought my first domain.`,date:`Sep 26, 2026`,isoDate:`2026-09-26`,readTime:`Post`,excerpt:`Yeah, I know, I'm late. But "better late than never" beats "never". What I'm building with it: the one thing I'm actually good at, turning other people's problems into products. Simple. Not easy.`,url:`https://x.com/Aryansarcde/status/2103908734783328688`}],l={title:`ARYANSARCADE LETTER`,tagline:`AI, systems architecture, building in public, and technical experiments.`,cadence:`One useful dispatch every week. No spam. No marketing filler.`,subscriberCount:``,archive:[]},u={PRODUCTS:`rns_arcade_products_v2`,WORK:`rns_arcade_work_v2`,SERVICES:`rns_arcade_services_v2`,CONTENT:`rns_arcade_content_v5`,NEWSLETTER:`rns_arcade_newsletter_v3`};function d(e,t){try{let n=localStorage.getItem(e);return n?JSON.parse(n):(localStorage.setItem(e,JSON.stringify(t)),t)}catch(n){return console.error(`Failed to load ${e} from storage:`,n),t}}function f(){return p().length>0}function p(){return d(u.PRODUCTS,n)}function m(){return d(u.WORK,i)}function h(){return d(u.SERVICES,a)}function g(){return v().length>0}function _(){let e=y();return!!(e&&e.archive&&e.archive.length)}function v(){return d(u.CONTENT,c)}function y(){return d(u.NEWSLETTER,l)}var b={"/products":f,"/content":g,"/newsletter":_},x=e=>e.filter(e=>!b[e.path]||b[e.path]());function ee(){let t=window.location.pathname.replace(/\/+$/,``)||`/`;return`
     <nav class="navbar" id="navbar">
       <div class="navbar-inner">
-        <a href="#/" class="nav-logo" aria-label="AryansArcade Home">
+        <a href="/" class="nav-logo" aria-label="AryansArcade Home">
           Aryans<span class="wordmark-em">Arcade</span><span class="logo-dot"></span>
         </a>
         
         <div class="nav-links" id="nav-links">
-          ${x(e.navLinks).map(e=>{let n=t===e.path||e.path!==`#/`&&t.startsWith(e.path);return`
+          ${x(e.navLinks).map(e=>{let n=t===e.path||e.path!==`/`&&t.startsWith(e.path);return`
               <a href="${e.path}" class="nav-link ${n?`active`:``}">
                 ${e.label}
               </a>
             `}).join(``)}
-          <a href="#/contact" class="nav-cta">Contact</a>
+          <a href="/contact" class="nav-cta">Contact</a>
         </div>
         
         <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu">
@@ -22,17 +22,17 @@
       </div>
       
       <div class="nav-mobile" id="nav-mobile">
-        <a href="#/" class="nav-link ${t===`#/`?`active`:``}">Home</a>
+        <a href="/" class="nav-link ${t===`/`?`active`:``}">Home</a>
         ${x(e.navLinks).map(e=>`
           <a href="${e.path}" class="nav-link ${t.startsWith(e.path)?`active`:``}">
             ${e.label}
           </a>
         `).join(``)}
-        <a href="#/support" class="nav-link ${t.startsWith(`#/support`)?`active`:``}">Support</a>
-        <a href="#/contact" class="nav-link ${t.startsWith(`#/contact`)?`active`:``}">Contact</a>
+        <a href="/support" class="nav-link ${t.startsWith(`/support`)?`active`:``}">Support</a>
+        <a href="/contact" class="nav-link ${t.startsWith(`/contact`)?`active`:``}">Contact</a>
       </div>
     </nav>
-  `}function S(){let e=document.getElementById(`nav-hamburger`),t=document.getElementById(`nav-mobile`);e&&t&&(e.onclick=()=>{e.classList.toggle(`active`),t.classList.toggle(`open`),document.body.style.overflow=t.classList.contains(`open`)?`hidden`:``},t.querySelectorAll(`.nav-link`).forEach(n=>{n.onclick=()=>{e.classList.remove(`active`),t.classList.remove(`open`),document.body.style.overflow=``}}))}var C=1800;function w(t,n=``){let r=new URLSearchParams;r.set(`subject`,String(t).slice(0,140)),n&&r.set(`body`,String(n).slice(0,C));let i=r.toString().replace(/\+/g,`%20`);window.location.href=`mailto:${e.email}?${i}`}function T(){return Object.entries(e.socials).filter(([,e])=>e&&e.url).map(([e,t])=>({key:e,...t}))}var E={"#/products":f,"#/content":g,"#/newsletter":_},D=e=>e.filter(e=>!E[e.path]||E[e.path]());function te(){return`
+  `}function te(){let e=document.getElementById(`nav-hamburger`),t=document.getElementById(`nav-mobile`);e&&t&&(e.onclick=()=>{e.classList.toggle(`active`),t.classList.toggle(`open`),document.body.style.overflow=t.classList.contains(`open`)?`hidden`:``},t.querySelectorAll(`.nav-link`).forEach(n=>{n.onclick=()=>{e.classList.remove(`active`),t.classList.remove(`open`),document.body.style.overflow=``}}))}var ne=1800;function S(t,n=``){let r=new URLSearchParams;r.set(`subject`,String(t).slice(0,140)),n&&r.set(`body`,String(n).slice(0,ne));let i=r.toString().replace(/\+/g,`%20`);window.location.href=`mailto:${e.email}?${i}`}function C(){return Object.entries(e.socials).filter(([,e])=>e&&e.url).map(([e,t])=>({key:e,...t}))}var w={"/products":f,"/content":g,"/newsletter":_},T=e=>e.filter(e=>!w[e.path]||w[e.path]());function re(){return`
     <footer class="footer-band" id="footer">
       <div class="container">
         <div class="footer-grid-layout">
@@ -45,7 +45,7 @@
           <div class="footer-nav-col">
             <span class="footer-col-title">ECOSYSTEM</span>
             <div class="footer-links-grid">
-              ${D(e.footerLinks).map(e=>`
+              ${T(e.footerLinks).map(e=>`
                 <a href="${e.path}" class="footer-link">${e.label}</a>
               `).join(``)}
             </div>
@@ -54,18 +54,18 @@
           <div class="footer-connect-col">
             <span class="footer-col-title">DIRECT CHANNELS</span>
             <div class="footer-social-links">
-              ${T().map(e=>`<a href="${e.url}" target="_blank" rel="noopener noreferrer" class="footer-link">${e.label||e.key}</a>`).join(``)}
+              ${C().map(e=>`<a href="${e.url}" target="_blank" rel="noopener noreferrer" class="footer-link">${e.label||e.key}</a>`).join(``)}
             </div>
             <a href="mailto:${e.email}" class="footer-email-link">${e.email}</a>
           </div>
         </div>
       </div>
     </footer>
-  `}function O(e){return`
+  `}function E(e){return`
     <article class="product-item-card" id="card-${e.slug}">
       <div class="card-identity-header">
         <div class="card-icon-frame" style="--product-accent: ${e.accentColor};">
-          ${ne(e.logoIcon)}
+          ${ie(e.logoIcon)}
         </div>
         <div class="card-meta-pill">
           <span class="card-category">${e.category}</span>
@@ -75,7 +75,7 @@
 
       <div class="card-text-body">
         <h3 class="card-product-name">
-          <a href="#/products/${e.slug}">${e.name}</a>
+          <a href="/products/${e.slug}">${e.name}</a>
         </h3>
         <p class="card-product-desc">${e.shortDescription}</p>
       </div>
@@ -85,12 +85,12 @@
           <span class="card-price">${e.price}</span>
           <span class="card-price-label">${e.priceLabel}</span>
         </div>
-        <a href="#/products/${e.slug}" class="card-view-btn">
+        <a href="/products/${e.slug}" class="card-view-btn">
           View Product →
         </a>
       </div>
     </article>
-  `}function ne(e){switch(e){case`activity`:return`
+  `}function ie(e){switch(e){case`activity`:return`
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
         </svg>
@@ -133,10 +133,10 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="12" cy="12" r="10"></circle>
         </svg>
-      `}}var re=`
+      `}}var ae=`
   <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
     <path d="M3.33 8h9.34M8.67 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>`;function k(e,t=0){return e.split(` `).map((e,n)=>`<span class="word-mask"><span class="word" style="--i:${t+n}">${e}</span></span>`).join(` `)}function A(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
+  </svg>`;function D(e,t=0){return e.split(` `).map((e,n)=>`<span class="word-mask"><span class="word" style="--i:${t+n}">${e}</span></span>`).join(` `)}function O(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
     <a class="project-row" href="${e.linkUrl}"${n} data-spotlight>
       <span class="project-index">${String(t+1).padStart(2,`0`)}</span>
       <div class="project-main">
@@ -151,7 +151,7 @@
         </div>
       </div>
       <span class="project-cta">${e.linkText}</span>
-    </a>`}function j(){let t=p(),n=m(),r=h(),i=v().slice(0,2),a=t.filter(e=>e.featured).slice(0,3),o=n.find(e=>e.highlight)||n[0],s=0,c=()=>`[ ${String(++s).padStart(2,`0`)} ]`,l=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
+    </a>`}function k(){let t=p(),n=m(),r=h(),i=v().slice(0,2),a=t.filter(e=>e.featured).slice(0,3),o=n.find(e=>e.highlight)||n[0],s=0,c=()=>`[ ${String(++s).padStart(2,`0`)} ]`,l=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
     <div class="page-view home-page">
       <!-- ═══════════ HERO ═══════════ -->
       <section class="home-hero-section hero-split">
@@ -163,9 +163,9 @@
             </div>
 
             <h1 class="home-hero-headline hero-words">
-              ${k(`I build apps, websites`,0)}<br />
-              ${k(`&amp;`,4)} <span class="word-mask"><em class="word" style="--i:5">automations</em></span><br />
-              ${k(`that save you time.`,6)}
+              ${D(`I build apps, websites`,0)}<br />
+              ${D(`&amp;`,4)} <span class="word-mask"><em class="word" style="--i:5">automations</em></span><br />
+              ${D(`that save you time.`,6)}
             </h1>
 
             <p class="home-hero-sub hero-fade" style="--d:1">
@@ -173,14 +173,14 @@
             </p>
 
             <div class="home-hero-ctas hero-fade" style="--d:2">
-              <a href="#/work" class="btn btn-primary magnetic">See my work ${re}</a>
-              <a href="#/services" class="btn btn-secondary magnetic">Services</a>
+              <a href="/work" class="btn btn-primary magnetic">See my work ${ae}</a>
+              <a href="/services" class="btn btn-secondary magnetic">Services</a>
             </div>
           </div>
 
           <div class="hero-photo-wrap" data-parallax="0.06">
             <div class="hero-photo-frame" data-tilt>
-              <img src="portrait.jpg" alt="${e.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
+              <img src="/portrait.jpg" alt="${e.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
             </div>
             <div class="hero-badge" aria-hidden="true">
               <svg viewBox="0 0 120 120">
@@ -228,12 +228,12 @@
                 <h2 class="section-title">Things we've built and shipped.</h2>
                 <p class="section-subtitle">A website, two apps and an automation. All real, all in use.</p>
               </div>
-              <a href="#/work" class="head-view-all-link">All projects (${n.length}) →</a>
+              <a href="/work" class="head-view-all-link">All projects (${n.length}) →</a>
             </div>
           </div>
 
           <div class="project-list animate-stagger">
-            ${n.map((e,t)=>A(e,t)).join(``)}
+            ${n.map((e,t)=>O(e,t)).join(``)}
           </div>
         </div>
       </section>
@@ -248,13 +248,13 @@
                 <h2 class="section-title">What I can build for you.</h2>
                 <p class="section-subtitle">Pick one, or combine them: an app with AI inside, a website with automations behind it.</p>
               </div>
-              <a href="#/services" class="head-view-all-link">Service details →</a>
+              <a href="/services" class="head-view-all-link">Service details →</a>
             </div>
           </div>
 
           <div class="home-services-list animate-stagger">
             ${r.map((e,t)=>`
-              <a href="#/services" class="home-service-item" data-spotlight>
+              <a href="/services" class="home-service-item" data-spotlight>
                 <span class="home-service-num">0${t+1}</span>
                 <h3 class="home-service-title">${e.title}</h3>
                 <p class="home-service-tag">${e.tagline}</p>
@@ -276,12 +276,12 @@
                 <h2 class="section-title">Engineered to ship. Priced to own.</h2>
                 <p class="section-subtitle">Commercial digital products, applications, and developer utilities with direct source code licenses.</p>
               </div>
-              <a href="#/products" class="head-view-all-link">View all products (${t.length}) →</a>
+              <a href="/products" class="head-view-all-link">View all products (${t.length}) →</a>
             </div>
           </div>
 
           <div class="home-products-grid animate-stagger">
-            ${a.map(e=>O(e)).join(``)}
+            ${a.map(e=>E(e)).join(``)}
           </div>
         </div>
       </section>
@@ -295,10 +295,10 @@
             <span class="section-label draw-line">${c()} LATEST CONTENT</span>
             <div class="section-head-split">
               <div>
-                <h2 class="section-title">Building in public.</h2>
-                <p class="section-subtitle">Technical teardowns, architecture blueprints, and engineering essays.</p>
+                <h2 class="section-title">Thinking out loud.</h2>
+                <p class="section-subtitle">Recent posts on AI, software and startups from X and Instagram.</p>
               </div>
-              <a href="#/content" class="head-view-all-link">Read all dispatches →</a>
+              <a href="/content" class="head-view-all-link">All posts →</a>
             </div>
           </div>
 
@@ -311,7 +311,7 @@
                 </div>
                 <h3 class="content-teaser-title">${e.title}</h3>
                 <p class="content-teaser-excerpt">${e.excerpt}</p>
-                <a href="${e.url}" class="card-view-btn">Read Entry →</a>
+                <a href="${e.url}" target="_blank" rel="noopener noreferrer" class="card-view-btn">View on ${e.type} →</a>
               </article>
             `).join(``)}
           </div>
@@ -351,14 +351,14 @@
               </p>
               <div class="about-teaser-footer">
                 <span class="builder-name">${e.founder} — Founder, AryansArcade</span>
-                <a href="#/contact" class="about-more-link">Start a project →</a>
+                <a href="/contact" class="about-more-link">Start a project →</a>
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
-  `}function M(e=`All`){let n=p(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
+  `}function A(e=`All`){let n=p(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view products-page">
       <section class="page-header-band">
         <div class="container">
@@ -386,18 +386,18 @@
       <section class="section catalog-grid-section">
         <div class="container">
           <div class="catalog-products-grid animate-stagger" id="products-catalog-container">
-            ${r.length>0?r.map(e=>O(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}
+            ${r.length>0?r.map(e=>E(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}
           </div>
         </div>
       </section>
     </div>
-  `}function N(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=p(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>O(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function P(e){let t=p(),n=t.find(t=>t.slug===e)||t[0];return`
+  `}function j(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=p(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>E(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function M(e){let t=p(),n=t.find(t=>t.slug===e)||t[0];return`
     <div class="page-view product-detail-page" style="--product-accent: ${n.accentColor};">
       <!-- ═══════════ PRODUCT HERO ═══════════ -->
       <section class="pdp-hero-band">
         <div class="container">
           <div class="pdp-breadcrumbs">
-            <a href="#/products">← Back to Products</a>
+            <a href="/products">← Back to Products</a>
             <span>/</span>
             <span>${n.category}</span>
             <span>/</span>
@@ -619,7 +619,7 @@
               <a href="${n.buyUrl}" class="btn btn-primary">
                 Buy License (${n.price})
               </a>
-              <a href="#/products" class="btn btn-secondary">
+              <a href="/products" class="btn btn-secondary">
                 Back to Catalogue
               </a>
             </div>
@@ -627,7 +627,7 @@
         </div>
       </section>
     </div>
-  `}function F(e=`All`){let t=m(),n=e===`All`?t:t.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
+  `}function N(e=`All`){let t=m(),n=e===`All`?t:t.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view work-page">
       <section class="page-header-band">
         <div class="container">
@@ -654,12 +654,12 @@
       <section class="section work-list-section">
         <div class="container">
           <div class="project-list animate-stagger" id="work-container">
-            ${n.map((e,t)=>A(e,t)).join(``)}
+            ${n.map((e,t)=>O(e,t)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function I(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=m(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map((e,t)=>A(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function L(){return`
+  `}function P(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=m(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map((e,t)=>O(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function F(){return`
     <div class="page-view services-page">
       <section class="page-header-band">
         <div class="container">
@@ -701,7 +701,7 @@
 
                 <div class="service-footer">
                   <span class="service-timeline">Typical Timeline: <strong>${e.timeline}</strong></span>
-                  <a href="#/contact" class="btn btn-secondary">Request Brief →</a>
+                  <a href="/contact" class="btn btn-secondary">Request Brief →</a>
                 </div>
               </div>
             `).join(``)}
@@ -736,7 +736,7 @@
           <div class="services-inquiry-box animate-on-scroll">
             <h2 class="inquiry-title">Have a technical project in mind?</h2>
             <p class="inquiry-desc">We review technical briefs within 24 hours. Engagements booked on fixed-price milestone contracts.</p>
-            <a href="#/contact" class="btn btn-primary btn-large">
+            <a href="/contact" class="btn btn-primary btn-large">
               Submit Project Brief
               <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
                 <path d="M14 2L7 9M14 2l-4.5 12L7 9 2 7.5 14 2z" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
@@ -746,15 +746,15 @@
         </div>
       </section>
     </div>
-  `}function R(e=`All`){let t=v(),n=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
+  `}function I(e=`All`){let t=v(),n=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
     <div class="page-view content-page">
       <section class="page-header-band">
         <div class="container">
           <div class="page-header-content animate-on-scroll">
-            <span class="section-label">[ CONTENT & DISPATCHES ]</span>
-            <h1 class="page-header-title">Engineering teardowns & build logs.</h1>
+            <span class="section-label">[ POSTS ]</span>
+            <h1 class="page-header-title">Thoughts on AI, building and startups.</h1>
             <p class="page-header-desc">
-              The central hub for all AryansArcade publications. Deep-dive architecture breakdowns, video walkthroughs, and empirical benchmarks shared in the open.
+              A few favourite posts from X and Instagram, where I share what I'm learning about AI, software and building products in public.
             </p>
 
             <div class="catalog-filter-bar" id="content-category-filters">
@@ -773,13 +773,13 @@
       <section class="section content-feed-section">
         <div class="container">
           <div class="content-feed-grid animate-stagger" id="content-feed-container">
-            ${n.map(e=>z(e)).join(``)}
+            ${n.map(e=>L(e)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function z(e){let t=e.type===`Videos`;return`
-    <article class="content-hub-card ${t?`video-card`:``}">
+  `}function L(e){let t=e.type===`Videos`,n={X:`Read on X →`,Instagram:`See carousel on Instagram →`,LinkedIn:`Read on LinkedIn →`}[e.type]||(t?`Watch video →`:`Read article →`),r=e.url.startsWith(`http`);return`
+    <article class="content-hub-card ${t?`video-card`:``}" data-spotlight>
       <div class="hub-card-header">
         <span class="hub-tag">${e.tag}</span>
         <span class="hub-type-badge">${e.type}</span>
@@ -792,12 +792,10 @@
       </div>
 
       <div class="hub-card-footer">
-        <a href="${e.url}" target="${e.url.startsWith(`http`)?`_blank`:`_self`}" rel="noopener" class="hub-action-link">
-          ${t?`Watch Video Breakdown →`:`Read Article →`}
-        </a>
+        <a href="${e.url}"${r?` target="_blank" rel="noopener noreferrer"`:``} class="hub-action-link">${n}</a>
       </div>
     </article>
-  `}function B(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=v(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>z(e)).join(``)}})}function V(){let e=y();return`
+  `}function R(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=v(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>L(e)).join(``)}})}function z(){let e=y();return`
     <div class="page-view newsletter-page">
       <section class="page-header-band newsletter-hero-band">
         <div class="container">
@@ -862,7 +860,7 @@
         </div>
       </section>
     </div>
-  `}function H(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`nl-email-input`);w(`Subscribe me to the AryansArcade Letter`,`Please add ${t?t.value:``} to the newsletter.`)})}var U=[{group:`CORE RUNTIMES`,items:[`TypeScript`,`JavaScript (ESNext)`,`Node.js`,`Python`,`Go`,`Rust / WASM`]},{group:`INTERFACES & UX`,items:[`React 19`,`Next.js 15`,`Vite`,`HTML5 / Semantic CSS`,`Design Systems`]},{group:`DATA & STORAGE`,items:[`PostgreSQL`,`SQLite / LibSQL`,`Cloudflare D1`,`Redis`,`Vector Embeddings`]},{group:`DEVOPS & CLOUD`,items:[`Docker`,`Cloudflare Workers`,`AWS`,`GitHub Actions`,`Vercel`]}];function W(){return`
+  `}function B(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`nl-email-input`);S(`Subscribe me to the AryansArcade Letter`,`Please add ${t?t.value:``} to the newsletter.`)})}var V=[{group:`CORE RUNTIMES`,items:[`TypeScript`,`JavaScript (ESNext)`,`Node.js`,`Python`,`Go`,`Rust / WASM`]},{group:`INTERFACES & UX`,items:[`React 19`,`Next.js 15`,`Vite`,`HTML5 / Semantic CSS`,`Design Systems`]},{group:`DATA & STORAGE`,items:[`PostgreSQL`,`SQLite / LibSQL`,`Cloudflare D1`,`Redis`,`Vector Embeddings`]},{group:`DEVOPS & CLOUD`,items:[`Docker`,`Cloudflare Workers`,`AWS`,`GitHub Actions`,`Vercel`]}];function H(){return`
     <div class="page-view about-page">
       <section class="page-header-band">
         <div class="container">
@@ -939,7 +937,7 @@
               <div class="about-toolkit-block">
                 <span class="toolkit-heading">PRIMARY ENGINEERING TOOLKIT</span>
                 <div class="toolkit-matrix-grid">
-                  ${U.map(e=>`
+                  ${V.map(e=>`
                     <div class="toolkit-group-card">
                       <span class="toolkit-group-name">${e.group}</span>
                       <div class="toolkit-chips">
@@ -954,7 +952,7 @@
         </div>
       </section>
     </div>
-  `}var ie=[{amount:`₹100`,amountUsd:`$2`,name:`Server Sparks`,desc:`Covers edge compute costs and keeps open-source experiments online.`,perk:`Public builder appreciation + Discord supporter role`},{amount:`₹500`,amountUsd:`$7`,name:`API & Compute Fuel`,desc:`Directly subsidizes GPU and LLM inference credits for research benchmarks.`,perk:`Early access to pre-release betas & experimental repositories`,recommended:!0},{amount:`₹1,000`,amountUsd:`$15`,name:`Sponsor a Build`,desc:`Funds deep-dive technical articles, research papers, and open-source tooling.`,perk:`Thank-you credit on the site + priority on feature requests`}],G=[{q:`How is this different from buying a product?`,a:`When you hire me for a project, you pay for work built for you and own all of its code. Supporting AryansArcade is a voluntary tip that funds free tools like Spinpath and the content I share.`},{q:`What payment methods will be accepted?`,a:`UPI, credit/debit cards, net banking, and international cards via Stripe/Razorpay.`},{q:`Can I cancel anytime if I choose recurring patronage?`,a:`Yes, full control with one-click cancellation from your billing portal.`}];function K(){return`
+  `}var U=[{amount:`₹100`,amountUsd:`$2`,name:`Server Sparks`,desc:`Covers edge compute costs and keeps open-source experiments online.`,perk:`Public builder appreciation + Discord supporter role`},{amount:`₹500`,amountUsd:`$7`,name:`API & Compute Fuel`,desc:`Directly subsidizes GPU and LLM inference credits for research benchmarks.`,perk:`Early access to pre-release betas & experimental repositories`,recommended:!0},{amount:`₹1,000`,amountUsd:`$15`,name:`Sponsor a Build`,desc:`Funds deep-dive technical articles, research papers, and open-source tooling.`,perk:`Thank-you credit on the site + priority on feature requests`}],W=[{q:`How is this different from buying a product?`,a:`When you hire me for a project, you pay for work built for you and own all of its code. Supporting AryansArcade is a voluntary tip that funds free tools like Spinpath and the content I share.`},{q:`What payment methods will be accepted?`,a:`UPI, credit/debit cards, net banking, and international cards via Stripe/Razorpay.`},{q:`Can I cancel anytime if I choose recurring patronage?`,a:`Yes, full control with one-click cancellation from your billing portal.`}];function oe(){return`
     <div class="page-view support-page">
       <section class="page-header-band">
         <div class="container">
@@ -976,7 +974,7 @@
       <section class="section support-tiers-section">
         <div class="container">
           <div class="support-cards-grid animate-stagger" id="support-tiers-container">
-            ${ie.map(e=>`
+            ${U.map(e=>`
               <div class="support-tier-card ${e.recommended?`tier-recommended`:``}">
                 ${e.recommended?`<span class="tier-pill-badge">MOST POPULAR</span>`:``}
                 <div class="tier-head">
@@ -1029,7 +1027,7 @@
           </div>
 
           <div class="faq-accordion-list animate-on-scroll">
-            ${G.map(e=>`
+            ${W.map(e=>`
               <div class="faq-item">
                 <h4 class="faq-question">${e.q}</h4>
                 <p class="faq-answer">${e.a}</p>
@@ -1039,7 +1037,7 @@
         </div>
       </section>
     </div>
-  `}function q(){document.querySelectorAll(`.btn-support-select`).forEach(e=>{e.onclick=()=>{let t=e.getAttribute(`data-amount`);alert(`Thank you for supporting AryansArcade with ${t}! Payment integration will be connected in Phase 5.`)}});let e=document.getElementById(`btn-custom-support`),t=document.getElementById(`custom-amount-input`);e&&t&&(e.onclick=()=>{let e=t.value||`2500`;alert(`Thank you for supporting AryansArcade with ₹${e}! Payment integration will be connected in Phase 5.`)})}function J(){return`
+  `}function G(){document.querySelectorAll(`.btn-support-select`).forEach(e=>{e.onclick=()=>{let t=e.getAttribute(`data-amount`);alert(`Thank you for supporting AryansArcade with ${t}! Payment integration will be connected in Phase 5.`)}});let e=document.getElementById(`btn-custom-support`),t=document.getElementById(`custom-amount-input`);e&&t&&(e.onclick=()=>{let e=t.value||`2500`;alert(`Thank you for supporting AryansArcade with ₹${e}! Payment integration will be connected in Phase 5.`)})}function K(){return`
     <div class="page-view contact-page">
       <section class="page-header-band">
         <div class="container">
@@ -1067,7 +1065,7 @@
                     <span class="item-label">Direct Email</span>
                     <span class="item-value">${e.email}</span>
                   </a>
-                  ${T().map(e=>`
+                  ${C().map(e=>`
                   <a href="${e.url}" target="_blank" rel="noopener noreferrer" class="direct-item">
                     <span class="item-label">${e.label||e.key}</span>
                     <span class="item-value">${e.handle}</span>
@@ -1120,25 +1118,25 @@
         </div>
       </section>
     </div>
-  `}function Y(){let e=document.getElementById(`contact-page-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=new FormData(e),r=e.querySelector(`#contact-intent`),i=r?r.options[r.selectedIndex].text:``;w(`Project enquiry from ${n.get(`name`)}`,`Name: ${n.get(`name`)}
+  `}function q(){let e=document.getElementById(`contact-page-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=new FormData(e),r=e.querySelector(`#contact-intent`),i=r?r.options[r.selectedIndex].text:``;S(`Project enquiry from ${n.get(`name`)}`,`Name: ${n.get(`name`)}
 Email: ${n.get(`email`)}
 Topic: ${i}
 
-${n.get(`message`)}`);let a=document.getElementById(`btn-contact-submit`);a&&(a.textContent=`Opening your email app…`)})}var ae=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,oe=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,se=!1,ce=!1,X=[];function Z(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),le(),!ae()&&(ue(),oe()&&(de(),fe(),pe()))}function le(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),se||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function ue(){X=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{X.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};ce||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function de(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function fe(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function pe(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}var Q={"/":`Aryan builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects and hire for your next build.`,"/work":`Projects by Aryan: Spinpath (learning website), Excuses and Carousel Studio (mobile apps) and a nightly AI podcast automation.`,"/services":`Hire Aryan for automation, website development, Android and iOS app development, and AI features. Fixed plans, weekly updates, you own the code.`,"/about":`About Aryan, the developer behind AryansArcade, building apps, websites and AI automations.`,"/contact":`Contact Aryan at AryansArcade to start an app, website or automation project.`};function me(e){let t=Q[e]||Q[`/`],n=document.querySelector(`meta[name="description"]`);n&&n.setAttribute(`content`,t)}function he(){window.addEventListener(`hashchange`,$),window.addEventListener(`load`,$),$()}function $(){let e=window.location.hash||`#/`,t=document.getElementById(`app`);if(!t)return;let n=e.replace(/^#/,``)||`/`,r=``,i=`AryansArcade — Builder Ecosystem & Digital Storefront`,a=null;if(n.startsWith(`/products`)&&!f())window.location.replace(`#/work`);else if(n===`/content`&&!g()||n===`/newsletter`&&!_())window.location.replace(`#/`);else{if(n===`/`||n===``)r=j(),i=`AryansArcade — Apps, Websites & AI Automation by Aryan`,a=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=e.querySelector(`input[type="email"]`).value;w(`Subscribe me to the AryansArcade Letter`,`Please add ${n} to the newsletter.`)})};else if(n===`/products`)r=M(),i=`Products & Architecture — AryansArcade`,a=N;else if(n.startsWith(`/products/`)){let e=n.replace(`/products/`,``).split(`?`)[0],t=p().find(t=>t.slug===e);r=P(e),i=t?`${t.name} — AryansArcade`:`Product Detail — AryansArcade`}else n===`/work`?(r=F(),i=`Projects — AryansArcade`,a=I):n===`/services`?(r=L(),i=`Services: Automation, Websites & Apps — AryansArcade`):n===`/content`?(r=R(),i=`Content, Articles & Video Teardowns — AryansArcade`,a=B):n===`/newsletter`?(r=V(),i=`AryansArcade Letter — Weekly Builder Dispatch`,a=H):n===`/about`?(r=W(),i=`About & Engineering Ethos — AryansArcade`):n===`/support`?(r=K(),i=`Support & Patronage — AryansArcade`,a=q):n===`/contact`?(r=J(),i=`Contact & Technical Brief — AryansArcade`,a=Y):(r=`
+${n.get(`message`)}`);let a=document.getElementById(`btn-contact-submit`);a&&(a.textContent=`Opening your email app…`)})}var se=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,ce=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,le=!1,ue=!1,J=[];function de(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),fe(),!se()&&(pe(),ce()&&(me(),he(),ge()))}function fe(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),le||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function pe(){J=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{J.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};ue||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function me(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function he(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function ge(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}var Y={"/":{title:`AryansArcade — Apps, Websites & AI Automation by Aryan Singh`,description:`Aryan Singh builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects like Spinpath, Excuses and Carousel Studio, and hire for your next build.`},"/work":{title:`Projects — Apps, Websites & Automations | AryansArcade`,description:`Projects by Aryan Singh: Spinpath (learning website), Excuses and Carousel Studio (Android and iOS apps) and a nightly AI podcast automation.`},"/services":{title:`Hire an App, Website & Automation Developer | AryansArcade`,description:`Hire Aryan Singh for automation, website development, Android and iOS app development, and AI features. Clear plans, weekly updates, and you own the code.`},"/content":{title:`Posts on AI, Software & Startups | AryansArcade`,description:`Selected posts by Aryan Singh from X and Instagram on AI coding, code review, startups and building products in public.`},"/about":{title:`About Aryan Singh | AryansArcade`,description:`About Aryan Singh, the developer behind AryansArcade, building Android and iOS apps, websites and AI automations.`},"/contact":{title:`Contact Aryan Singh | AryansArcade`,description:`Contact Aryan Singh at AryansArcade to start an app, website or automation project. Email, LinkedIn, Instagram and X.`},"/support":{title:`Support AryansArcade`,description:`Support the free tools and posts Aryan Singh shares at AryansArcade.`}},X=`https://aryansarcade.in`;function _e(e){let t=Y[e];if(!t)return;let n=(e,t,n)=>{let r=document.querySelector(e);r&&r.setAttribute(t,n)};n(`meta[name="description"]`,`content`,t.description),n(`meta[property="og:title"]`,`content`,t.title),n(`meta[property="og:description"]`,`content`,t.description);let r=X+(e===`/`?`/`:e);n(`link[rel="canonical"]`,`href`,r),n(`meta[property="og:url"]`,`content`,r)}function Z(){return window.location.pathname.replace(/\/+$/,``)||`/`}function Q(e,{replace:t=!1}={}){(e!==Z()||t)&&(window.history[t?`replaceState`:`pushState`]({},``,e),$())}function ve(){window.location.hash.startsWith(`#/`)&&window.history.replaceState({},``,window.location.hash.slice(1)),window.addEventListener(`popstate`,$),document.addEventListener(`click`,e=>{let t=e.target.closest(`a[href^="/"]`);if(!t||t.target===`_blank`||e.metaKey||e.ctrlKey||e.shiftKey||e.button!==0)return;let n=t.getAttribute(`href`);/\.[a-z0-9]+$/i.test(n)||(e.preventDefault(),Q(n))}),$()}function $(){let e=document.getElementById(`app`);if(!e)return;let t=Z(),n=``,r=`AryansArcade — Builder Ecosystem & Digital Storefront`,i=null;if(t.startsWith(`/products`)&&!f())Q(`/work`,{replace:!0});else if(t===`/content`&&!g()||t===`/newsletter`&&!_())Q(`/`,{replace:!0});else{if(t===`/`||t===``)n=k(),r=`AryansArcade — Apps, Websites & AI Automation by Aryan`,i=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=e.querySelector(`input[type="email"]`).value;S(`Subscribe me to the AryansArcade Letter`,`Please add ${n} to the newsletter.`)})};else if(t===`/products`)n=A(),r=`Products & Architecture — AryansArcade`,i=j;else if(t.startsWith(`/products/`)){let e=t.replace(`/products/`,``).split(`?`)[0],i=p().find(t=>t.slug===e);n=M(e),r=i?`${i.name} — AryansArcade`:`Product Detail — AryansArcade`}else t===`/work`?(n=N(),r=`Projects — AryansArcade`,i=P):t===`/services`?(n=F(),r=`Services: Automation, Websites & Apps — AryansArcade`):t===`/content`?(n=I(),r=`Content, Articles & Video Teardowns — AryansArcade`,i=R):t===`/newsletter`?(n=z(),r=`AryansArcade Letter — Weekly Builder Dispatch`,i=B):t===`/about`?(n=H(),r=`About & Engineering Ethos — AryansArcade`):t===`/support`?(n=oe(),r=`Support & Patronage — AryansArcade`,i=G):t===`/contact`?(n=K(),r=`Contact & Technical Brief — AryansArcade`,i=q):(n=`
       <div class="page-view not-found-page">
         <section class="section">
           <div class="container" style="text-align: center; padding: 120px 0;">
             <span class="section-label">[ 404 NOT FOUND ]</span>
             <h1 class="section-title">Route not located.</h1>
             <p class="section-subtitle" style="margin: 0 auto 32px auto;">The requested destination does not exist within the AryansArcade ecosystem.</p>
-            <a href="#/" class="btn btn-primary">Return to Ecosystem Home</a>
+            <a href="/" class="btn btn-primary">Return to Ecosystem Home</a>
           </div>
         </section>
       </div>
-    `,i=`404 Not Found — AryansArcade`);document.title=i,me(n),t.innerHTML=`
+    `,r=`404 Not Found — AryansArcade`);document.title=Y[t]&&Y[t].title||r,_e(t),e.innerHTML=`
     ${ee()}
     <main id="main-content">
-      ${r}
+      ${n}
     </main>
-    ${te()}
-  `,S(),a&&a(),window.scrollTo({top:0,behavior:`instant`}),ge(),Z()}}function ge(){let e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`is-visible`)})},{threshold:.08,rootMargin:`0px 0px -30px 0px`});document.querySelectorAll(`.animate-on-scroll, .animate-stagger, .animate-slide-left, .animate-slide-right`).forEach(t=>e.observe(t))}if(window.top!==window.self)try{window.top.location.replace(window.self.location.href)}catch{document.documentElement.innerHTML=``}document.addEventListener(`DOMContentLoaded`,()=>{he()});
+    ${re()}
+  `,te(),i&&i(),window.scrollTo({top:0,behavior:`instant`}),ye(),de()}}function ye(){let e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`is-visible`)})},{threshold:.08,rootMargin:`0px 0px -30px 0px`});document.querySelectorAll(`.animate-on-scroll, .animate-stagger, .animate-slide-left, .animate-slide-right`).forEach(t=>e.observe(t))}if(window.top!==window.self)try{window.top.location.replace(window.self.location.href)}catch{document.documentElement.innerHTML=``}document.addEventListener(`DOMContentLoaded`,()=>{ve()});
