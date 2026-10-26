@@ -3,31 +3,431 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AryansArcade — Software Builder Ecosystem & Digital Storefront</title>
-  <meta name="description" content="AryansArcade is an independent software builder ecosystem & digital storefront. Explore commercial developer tools, AI applications, systems research, and technical dispatches." />
-  <meta name="keywords" content="AryansArcade, software developer, indie hacker, SaaS, developer tools, AI tools, automations, digital storefront" />
-  <meta name="author" content="AryansArcade" />
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="AryansArcade — Software Builder Ecosystem & Digital Storefront" />
-  <meta property="og:description" content="Independent software builder crafting production-grade developer tools, AI applications, and digital storefronts with architectural restraint." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <title>AryansArcade — Apps, Websites & AI Automation by Aryan</title>
+  <meta name="description" content="Aryan builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects like Spinpath, Excuses and Carousel Studio, and hire for your next build." />
+  <meta name="author" content="Aryan" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href="https://aryansarcade.in/" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Social previews -->
+  <meta property="og:site_name" content="AryansArcade" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://aryansarcade.in" />
-  
-  <!-- Favicon (Ember dot) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%230c0c0c'/><circle cx='50' cy='50' r='18' fill='%23cc2e39'/></svg>" />
-  
+  <meta property="og:url" content="https://aryansarcade.in/" />
+  <meta property="og:title" content="AryansArcade — Apps, Websites & AI Automation by Aryan" />
+  <meta property="og:description" content="Android and iOS apps, fast websites and AI automations that save you time. Real projects, built and shipped." />
+  <meta property="og:image" content="https://aryansarcade.in/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="AryansArcade: apps, websites and automations that save you time" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AryansArcade — Apps, Websites & AI Automation by Aryan" />
+  <meta name="twitter:description" content="Android and iOS apps, fast websites and AI automations that save you time." />
+  <meta name="twitter:image" content="https://aryansarcade.in/og.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable summary" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
-  <script type="module" crossorigin src="./assets/main-BXwRKkUp.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/store-DqCvXnoq.js">
-  <link rel="stylesheet" crossorigin href="./assets/store-BMdEeZWk.css">
-  <link rel="stylesheet" crossorigin href="./assets/main-D0rVZ4AJ.css">
+  <link rel="preload" as="image" href="./portrait.jpg" fetchpriority="high" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://aryansarcade.in/#website","url":"https://aryansarcade.in/","name":"AryansArcade","inLanguage":"en","publisher":{"@id":"https://aryansarcade.in/#business"}},{"@type":"Person","@id":"https://aryansarcade.in/#aryan","name":"Aryan","url":"https://aryansarcade.in/","image":"https://aryansarcade.in/portrait.jpg","jobTitle":"App, web and automation developer","worksFor":{"@id":"https://aryansarcade.in/#business"},"knowsAbout":["Android development","iOS development","Kotlin Multiplatform","React Native","Web development","AI automation","Browser automation","LLM integration"],"sameAs":["https://github.com/greedilearner"]},{"@type":"ProfessionalService","@id":"https://aryansarcade.in/#business","name":"AryansArcade","url":"https://aryansarcade.in/","logo":"https://aryansarcade.in/apple-touch-icon.png","image":"https://aryansarcade.in/og.jpg","description":"Android and iOS apps, fast websites and AI automations built by Aryan.","founder":{"@id":"https://aryansarcade.in/#aryan"},"email":"hello@aryansarcade.in","areaServed":"Worldwide","hasOfferCatalog":{"@type":"OfferCatalog","name":"Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Automation","description":"The boring, repeated work, done by software instead of people. Scheduled jobs, browser automation and AI workflows that pull data, fill forms, post content, generate reports and send them where they need to go. Like the nightly podcast generator, but for your business."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Website Development","description":"Fast, good-looking websites that are easy to keep up to date. Portfolios, business sites, landing pages and web apps. Designed with care, built to load fast on phones, and set up so you can edit content yourself."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"App Development","description":"Mobile apps people keep on their home screen. Native Android in Kotlin, or one codebase for Android and iOS with React Native or Kotlin Multiplatform. From first prototype to a build you can put in the Play Store."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI Features","description":"Put Claude, GPT, Gemini or a local model inside your product. Chat, search over your own documents, voice notes to text, summaries and smart suggestions, built into the app or site you already have."}}]}},{"@type":"ItemList","@id":"https://aryansarcade.in/#projects","name":"Projects by Aryan","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebSite","name":"Spinpath","description":"A learning website that spins a random concept from your chosen path (AI engineer, web, data, security and more), then turns it into speaking drills: debate motions, fresh articles from the past week, interview questions and \"explain it to…\" prompts.","creator":{"@id":"https://aryansarcade.in/#aryan"},"keywords":"JavaScript, HTML / CSS, GitHub Actions, GitHub Pages","url":"https://greedilearner.github.io/spinpath/"}},{"@type":"ListItem","position":2,"item":{"@type":"MobileApplication","name":"Excuses","description":"Schedule tasks, then record a voice diary when they slip. AI reads the patterns behind missed tasks and reflects them back without shame. Built first in Expo / React Native, then ported to Kotlin Multiplatform with shared UI for Android and iOS.","creator":{"@id":"https://aryansarcade.in/#aryan"},"keywords":"React Native, Expo, Kotlin Multiplatform, Compose, Ktor","applicationCategory":"LifestyleApplication","operatingSystem":"Android, iOS"}},{"@type":"ListItem","position":3,"item":{"@type":"MobileApplication","name":"Carousel Studio","description":"An Android app that turns spoken reflections, notes or YouTube transcripts into Instagram-ready carousel images and X threads. Runs on a local Ollama model, remembers your voice and past posts, and saves straight to the gallery.","creator":{"@id":"https://aryansarcade.in/#aryan"},"keywords":"Kotlin, Jetpack Compose, Room, Ollama, RAG","url":"https://github.com/greedilearner/post_automation","applicationCategory":"LifestyleApplication","operatingSystem":"Android"}},{"@type":"ListItem","position":4,"item":{"@type":"SoftwareApplication","name":"Nightly AI Podcast","description":"An automation that asks for tonight's learning topic, drives Google NotebookLM in a real browser to generate a two-host audio overview, downloads the MP3 and files it in a personal podcast library with its own web player.","creator":{"@id":"https://aryansarcade.in/#aryan"},"keywords":"Python, Playwright, Flask, Scheduler, SQLite","applicationCategory":"UtilitiesApplication","operatingSystem":"Windows, macOS, Linux"}}]}]}</script>
+  <script type="module" crossorigin src="./assets/main-ZnoR4Eg3.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-Di_dJWkZ.css">
 </head>
 <body>
-  <!-- Root mounting node for zero-dependency client router -->
-  <div id="app"></div>
-
+  <!-- The build fills this with the rendered home page so search engines and AI crawlers can read it without JavaScript -->
+  <div id="app">
+    <nav class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <a href="#/" class="nav-logo" aria-label="AryansArcade Home">
+          Aryans<span class="wordmark-em">Arcade</span><span class="logo-dot"></span>
+        </a>
+        
+        <div class="nav-links" id="nav-links">
+          
+              <a href="#/work" class="nav-link ">
+                Work
+              </a>
+            
+              <a href="#/services" class="nav-link ">
+                Services
+              </a>
+            
+              <a href="#/content" class="nav-link ">
+                Content
+              </a>
+            
+              <a href="#/newsletter" class="nav-link ">
+                Newsletter
+              </a>
+            
+              <a href="#/about" class="nav-link ">
+                About
+              </a>
+            
+          <a href="#/contact" class="nav-cta">Contact</a>
+        </div>
+        
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      
+      <div class="nav-mobile" id="nav-mobile">
+        <a href="#/" class="nav-link active">Home</a>
+        
+          <a href="#/work" class="nav-link ">
+            Work
+          </a>
+        
+          <a href="#/services" class="nav-link ">
+            Services
+          </a>
+        
+          <a href="#/content" class="nav-link ">
+            Content
+          </a>
+        
+          <a href="#/newsletter" class="nav-link ">
+            Newsletter
+          </a>
+        
+          <a href="#/about" class="nav-link ">
+            About
+          </a>
+        
+        <a href="#/support" class="nav-link ">Support</a>
+        <a href="#/contact" class="nav-link ">Contact</a>
+      </div>
+    </nav>
+  <main id="main-content">
+    <div class="page-view home-page">
+      <!-- ═══════════ HERO ═══════════ -->
+      <section class="home-hero-section hero-split">
+        <div class="container hero-grid">
+          <div class="home-hero-inner hero-intro">
+            <div class="hero-brand-eyebrow hero-fade" style="--d:0">
+              <span class="status-pulse-dot"></span>
+              <span>Available for new projects</span>
+            </div>
+
+            <h1 class="home-hero-headline hero-words">
+              <span class="word-mask"><span class="word" style="--i:0">I</span></span> <span class="word-mask"><span class="word" style="--i:1">build</span></span> <span class="word-mask"><span class="word" style="--i:2">apps,</span></span> <span class="word-mask"><span class="word" style="--i:3">websites</span></span><br />
+              <span class="word-mask"><span class="word" style="--i:4">&amp;</span></span> <span class="word-mask"><em class="word" style="--i:5">automations</em></span><br />
+              <span class="word-mask"><span class="word" style="--i:6">that</span></span> <span class="word-mask"><span class="word" style="--i:7">save</span></span> <span class="word-mask"><span class="word" style="--i:8">you</span></span> <span class="word-mask"><span class="word" style="--i:9">time.</span></span>
+            </h1>
+
+            <p class="home-hero-sub hero-fade" style="--d:1">
+              I'm Aryan. I design and build Android and iOS apps, fast websites, and AI automations that take repetitive work off your plate.
+            </p>
+
+            <div class="home-hero-ctas hero-fade" style="--d:2">
+              <a href="#/work" class="btn btn-primary magnetic">See my work 
+  <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+    <path d="M3.33 8h9.34M8.67 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg></a>
+              <a href="#/services" class="btn btn-secondary magnetic">Services</a>
+            </div>
+          </div>
+
+          <div class="hero-photo-wrap" data-parallax="0.06">
+            <div class="hero-photo-frame" data-tilt>
+              <img src="portrait.jpg" alt="Aryan sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
+            </div>
+            <div class="hero-badge" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <defs><path id="badge-circle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0" /></defs>
+                <text><textPath href="#badge-circle">APPS • WEBSITES • AUTOMATION • </textPath></text>
+              </svg>
+              <span class="hero-badge-core">✦</span>
+            </div>
+            <div class="hero-photo-caption">
+              <span>Aryan</span>
+              <span>Builder · AryansArcade</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════ MARQUEE ═══════════ -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track"><span class="marquee-item">Automation</span><span class="marquee-star">✦</span><span class="marquee-item">Website Development</span><span class="marquee-star">✦</span><span class="marquee-item">App Development</span><span class="marquee-star">✦</span><span class="marquee-item">AI Features</span><span class="marquee-star">✦</span><span class="marquee-item">Android & iOS</span><span class="marquee-star">✦</span><span class="marquee-item">Browser Automation</span><span class="marquee-star">✦</span><span class="marquee-item">Motion & UI</span><span class="marquee-star">✦</span><span class="marquee-item">Automation</span><span class="marquee-star">✦</span><span class="marquee-item">Website Development</span><span class="marquee-star">✦</span><span class="marquee-item">App Development</span><span class="marquee-star">✦</span><span class="marquee-item">AI Features</span><span class="marquee-star">✦</span><span class="marquee-item">Android & iOS</span><span class="marquee-star">✦</span><span class="marquee-item">Browser Automation</span><span class="marquee-star">✦</span><span class="marquee-item">Motion & UI</span><span class="marquee-star">✦</span></div>
+      </div>
+
+      <!-- ═══════════ LIVE NOW ═══════════ -->
+      <section class="currently-building-strip">
+        <div class="container">
+          <div class="strip-box animate-on-scroll">
+            <div class="strip-left">
+              <span class="strip-tag">LIVE NOW</span>
+              <h3 class="strip-title">Spinpath: Spin a topic, learn it, say it out loud.</h3>
+              <p class="strip-desc">Static site, no build step · articles refreshed daily by a GitHub Action</p>
+            </div>
+            <div class="strip-right">
+              <a href="https://greedilearner.github.io/spinpath/" target="_blank" rel="noopener" class="btn btn-light">Visit live site →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════ PROJECTS ═══════════ -->
+      <section class="section home-work-section">
+        <div class="container">
+          <div class="section-head animate-on-scroll">
+            <span class="section-label draw-line">[ 01 ] PROJECTS</span>
+            <div class="section-head-split">
+              <div>
+                <h2 class="section-title">Things we've built and shipped.</h2>
+                <p class="section-subtitle">A website, two apps and an automation. All real, all in use.</p>
+              </div>
+              <a href="#/work" class="head-view-all-link">All projects (4) →</a>
+            </div>
+          </div>
+
+          <div class="project-list animate-stagger">
+            
+    <a class="project-row" href="https://greedilearner.github.io/spinpath/" target="_blank" rel="noopener" data-spotlight>
+      <span class="project-index">01</span>
+      <div class="project-main">
+        <div class="project-meta">
+          <span>Websites</span><span class="dot">•</span><span>Live</span><span class="dot">•</span><span>2026</span>
+        </div>
+        <h3 class="project-title">Spinpath</h3>
+        <p class="project-kicker">Spin a topic, learn it, say it out loud.</p>
+        <p class="project-desc">A learning website that spins a random concept from your chosen path (AI engineer, web, data, security and more), then turns it into speaking drills: debate motions, fresh articles from the past week, interview questions and "explain it to…" prompts.</p>
+        <div class="work-row-tags">
+          <span class="work-tag">JavaScript</span><span class="work-tag">HTML / CSS</span><span class="work-tag">GitHub Actions</span><span class="work-tag">GitHub Pages</span>
+        </div>
+      </div>
+      <span class="project-cta">Visit live site →</span>
+    </a>
+    <a class="project-row" href="#/contact" data-spotlight>
+      <span class="project-index">02</span>
+      <div class="project-main">
+        <div class="project-meta">
+          <span>Apps</span><span class="dot">•</span><span>Android & iOS</span><span class="dot">•</span><span>2026</span>
+        </div>
+        <h3 class="project-title">Excuses</h3>
+        <p class="project-kicker">A to-do app that asks why, kindly.</p>
+        <p class="project-desc">Schedule tasks, then record a voice diary when they slip. AI reads the patterns behind missed tasks and reflects them back without shame. Built first in Expo / React Native, then ported to Kotlin Multiplatform with shared UI for Android and iOS.</p>
+        <div class="work-row-tags">
+          <span class="work-tag">React Native</span><span class="work-tag">Expo</span><span class="work-tag">Kotlin Multiplatform</span><span class="work-tag">Compose</span><span class="work-tag">Ktor</span>
+        </div>
+      </div>
+      <span class="project-cta">Ask for a demo →</span>
+    </a>
+    <a class="project-row" href="https://github.com/greedilearner/post_automation" target="_blank" rel="noopener" data-spotlight>
+      <span class="project-index">03</span>
+      <div class="project-main">
+        <div class="project-meta">
+          <span>Apps</span><span class="dot">•</span><span>Android</span><span class="dot">•</span><span>2026</span>
+        </div>
+        <h3 class="project-title">Carousel Studio</h3>
+        <p class="project-kicker">Thoughts in, Instagram carousels out.</p>
+        <p class="project-desc">An Android app that turns spoken reflections, notes or YouTube transcripts into Instagram-ready carousel images and X threads. Runs on a local Ollama model, remembers your voice and past posts, and saves straight to the gallery.</p>
+        <div class="work-row-tags">
+          <span class="work-tag">Kotlin</span><span class="work-tag">Jetpack Compose</span><span class="work-tag">Room</span><span class="work-tag">Ollama</span><span class="work-tag">RAG</span>
+        </div>
+      </div>
+      <span class="project-cta">View on GitHub →</span>
+    </a>
+    <a class="project-row" href="#/contact" data-spotlight>
+      <span class="project-index">04</span>
+      <div class="project-main">
+        <div class="project-meta">
+          <span>Automation</span><span class="dot">•</span><span>Running nightly</span><span class="dot">•</span><span>2026</span>
+        </div>
+        <h3 class="project-title">Nightly AI Podcast</h3>
+        <p class="project-kicker">Ask a question at night, hear the answer by morning.</p>
+        <p class="project-desc">An automation that asks for tonight's learning topic, drives Google NotebookLM in a real browser to generate a two-host audio overview, downloads the MP3 and files it in a personal podcast library with its own web player.</p>
+        <div class="work-row-tags">
+          <span class="work-tag">Python</span><span class="work-tag">Playwright</span><span class="work-tag">Flask</span><span class="work-tag">Scheduler</span><span class="work-tag">SQLite</span>
+        </div>
+      </div>
+      <span class="project-cta">Ask for a demo →</span>
+    </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════ SERVICES ═══════════ -->
+      <section class="section home-services-section">
+        <div class="container">
+          <div class="section-head animate-on-scroll">
+            <span class="section-label draw-line">[ 02 ] SERVICES</span>
+            <div class="section-head-split">
+              <div>
+                <h2 class="section-title">What I can build for you.</h2>
+                <p class="section-subtitle">Pick one, or combine them: an app with AI inside, a website with automations behind it.</p>
+              </div>
+              <a href="#/services" class="head-view-all-link">Service details →</a>
+            </div>
+          </div>
+
+          <div class="home-services-list animate-stagger">
+            
+              <a href="#/services" class="home-service-item" data-spotlight>
+                <span class="home-service-num">01</span>
+                <h3 class="home-service-title">Automation</h3>
+                <p class="home-service-tag">The boring, repeated work, done by software instead of people.</p>
+                <span class="home-service-time">1–3 weeks</span>
+              </a>
+            
+              <a href="#/services" class="home-service-item" data-spotlight>
+                <span class="home-service-num">02</span>
+                <h3 class="home-service-title">Website Development</h3>
+                <p class="home-service-tag">Fast, good-looking websites that are easy to keep up to date.</p>
+                <span class="home-service-time">2–4 weeks</span>
+              </a>
+            
+              <a href="#/services" class="home-service-item" data-spotlight>
+                <span class="home-service-num">03</span>
+                <h3 class="home-service-title">App Development</h3>
+                <p class="home-service-tag">Mobile apps people keep on their home screen.</p>
+                <span class="home-service-time">3–8 weeks</span>
+              </a>
+            
+              <a href="#/services" class="home-service-item" data-spotlight>
+                <span class="home-service-num">04</span>
+                <h3 class="home-service-title">AI Features</h3>
+                <p class="home-service-tag">Put Claude, GPT, Gemini or a local model inside your product.</p>
+                <span class="home-service-time">1–4 weeks</span>
+              </a>
+            
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!-- ═══════════ LATEST CONTENT ═══════════ -->
+      <section class="section home-content-section">
+        <div class="container">
+          <div class="section-head animate-on-scroll">
+            <span class="section-label draw-line">[ 03 ] LATEST CONTENT</span>
+            <div class="section-head-split">
+              <div>
+                <h2 class="section-title">Building in public.</h2>
+                <p class="section-subtitle">Technical teardowns, architecture blueprints, and engineering essays.</p>
+              </div>
+              <a href="#/content" class="head-view-all-link">Read all dispatches →</a>
+            </div>
+          </div>
+
+          <div class="home-content-dual animate-stagger">
+            
+              <article class="content-teaser-card">
+                <div class="content-teaser-header">
+                  <span class="c-type-tag">Articles</span>
+                  <span class="c-time">Sep 2026 • 6 min read</span>
+                </div>
+                <h3 class="content-teaser-title">Zero-Dependency State Synchronization in Edge Runtimes</h3>
+                <p class="content-teaser-excerpt">Why we replaced heavy state synchronization libraries with native BroadcastChannel and light event-stream telemetry on Cloudflare Workers.</p>
+                <a href="#/content" class="card-view-btn">Read Entry →</a>
+              </article>
+            
+              <article class="content-teaser-card">
+                <div class="content-teaser-header">
+                  <span class="c-type-tag">Videos</span>
+                  <span class="c-time">Sep 2026 • 14:28 video</span>
+                </div>
+                <h3 class="content-teaser-title">Building a Production SaaS from Scratch in 48 Hours</h3>
+                <p class="content-teaser-excerpt">Complete architectural teardown from blank repository to live Stripe checkout, SQLite schema migration, and automated edge deploys.</p>
+                <a href="#/content" class="card-view-btn">Read Entry →</a>
+              </article>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════ NEWSLETTER TEASER ═══════════ -->
+      <section class="home-newsletter-band animate-on-scroll">
+        <div class="container">
+          <div class="newsletter-compact-box">
+            <div class="newsletter-text-col">
+              <span class="section-label">[ 04 ] ARYANSARCADE LETTER</span>
+              <h2 class="newsletter-box-title">One useful engineering dispatch every week.</h2>
+              <p class="newsletter-box-desc">AI systems, apps, automation and what I'm building. No spam, ever.</p>
+            </div>
+            <form class="newsletter-quick-form" id="home-newsletter-form">
+              <input type="email" placeholder="Enter your email address" required aria-label="Email address" />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════ ABOUT SHORT INTRO ═══════════ -->
+      <section class="section home-about-teaser animate-on-scroll">
+        <div class="container">
+          <div class="about-teaser-split">
+            <div class="about-teaser-label">
+              <span class="avatar-crop about-teaser-avatar" aria-hidden="true"></span>
+            </div>
+            <div class="about-teaser-content">
+              <p class="about-quote">
+                "I like building things people actually use: an app that helps you understand why tasks slip, a site that makes you say ideas out loud, an automation that hands you a podcast every morning. If you have something like that in mind, let's talk."
+              </p>
+              <div class="about-teaser-footer">
+                <span class="builder-name">Aryan — Founder, AryansArcade</span>
+                <a href="#/contact" class="about-more-link">Start a project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+    <footer class="footer-band" id="footer">
+      <div class="container">
+        <div class="footer-grid-layout">
+          <div class="footer-brand-col">
+            <span class="footer-wordmark">Aryans<span class="wordmark-em">Arcade</span><span class="footer-dot"></span></span>
+            <p class="footer-tagline">Personal Builder Ecosystem & Digital Storefront</p>
+            <span class="footer-copyright">© 2026 AryansArcade. Built with architectural restraint.</span>
+          </div>
+          
+          <div class="footer-nav-col">
+            <span class="footer-col-title">ECOSYSTEM</span>
+            <div class="footer-links-grid">
+              
+                <a href="#/work" class="footer-link">Work</a>
+              
+                <a href="#/services" class="footer-link">Services</a>
+              
+                <a href="#/content" class="footer-link">Content</a>
+              
+                <a href="#/newsletter" class="footer-link">Newsletter</a>
+              
+                <a href="#/about" class="footer-link">About</a>
+              
+                <a href="#/support" class="footer-link">Support</a>
+              
+                <a href="#/contact" class="footer-link">Contact</a>
+              
+            </div>
+          </div>
+          
+          <div class="footer-connect-col">
+            <span class="footer-col-title">DIRECT CHANNELS</span>
+            <div class="footer-social-links">
+              <a href="https://github.com/greedilearner" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            </div>
+            <a href="mailto:hello@aryansarcade.in" class="footer-email-link">hello@aryansarcade.in</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
 </body>
 </html>

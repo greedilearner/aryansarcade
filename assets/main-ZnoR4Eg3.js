@@ -1,4 +1,4 @@
-import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./store-DqCvXnoq.js";var u={name:`AryansArcade`,shortName:`AA`,tagline:`Personal Builder Ecosystem & Digital Storefront`,founder:`Aryan`,description:`Independent software builder crafting production-grade developer tools, AI applications, web systems, and digital storefronts with architectural restraint.`,domain:`aryansarcade.in`,email:`hello@aryansarcade.in`,navLinks:[{label:`Work`,path:`#/work`},{label:`Products`,path:`#/products`},{label:`Services`,path:`#/services`},{label:`Content`,path:`#/content`},{label:`Newsletter`,path:`#/newsletter`},{label:`About`,path:`#/about`}],footerLinks:[{label:`Work`,path:`#/work`},{label:`Products`,path:`#/products`},{label:`Services`,path:`#/services`},{label:`Content`,path:`#/content`},{label:`Newsletter`,path:`#/newsletter`},{label:`About`,path:`#/about`},{label:`Support`,path:`#/support`},{label:`Contact`,path:`#/contact`}],socials:{github:{url:`https://github.com/greedilearner`,handle:`@greedilearner`},youtube:{url:`https://youtube.com/@yourchannel`,handle:`@yourchannel`},instagram:{url:`https://instagram.com/yourhandle`,handle:`@yourhandle`},x:{url:`https://x.com/yourhandle`,handle:`@yourhandle`}}},d=e=>e.filter(e=>e.path!==`#/products`||a());function f(){let e=window.location.hash||`#/`;return`
+(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e={name:`AryansArcade`,shortName:`AA`,tagline:`Personal Builder Ecosystem & Digital Storefront`,founder:`Aryan`,description:`Independent software builder crafting production-grade developer tools, AI applications, web systems, and digital storefronts with architectural restraint.`,domain:`aryansarcade.in`,email:`hello@aryansarcade.in`,navLinks:[{label:`Work`,path:`#/work`},{label:`Products`,path:`#/products`},{label:`Services`,path:`#/services`},{label:`Content`,path:`#/content`},{label:`Newsletter`,path:`#/newsletter`},{label:`About`,path:`#/about`}],footerLinks:[{label:`Work`,path:`#/work`},{label:`Products`,path:`#/products`},{label:`Services`,path:`#/services`},{label:`Content`,path:`#/content`},{label:`Newsletter`,path:`#/newsletter`},{label:`About`,path:`#/about`},{label:`Support`,path:`#/support`},{label:`Contact`,path:`#/contact`}],socials:{github:{label:`GitHub`,url:`https://github.com/greedilearner`,handle:`@greedilearner`},youtube:null,instagram:null,x:null}},t=[`All`,`Apps`,`AI Tools`,`Automations`,`Websites`,`Digital Products`],n=[],r=[`All`,`Websites`,`Apps`,`Automation`],i=[{id:`spinpath`,slug:`spinpath`,title:`Spinpath`,kicker:`Spin a topic, learn it, say it out loud.`,category:`Websites`,year:`2026`,status:`Live`,description:`A learning website that spins a random concept from your chosen path (AI engineer, web, data, security and more), then turns it into speaking drills: debate motions, fresh articles from the past week, interview questions and "explain it to…" prompts.`,metrics:`Static site, no build step · articles refreshed daily by a GitHub Action`,tags:[`JavaScript`,`HTML / CSS`,`GitHub Actions`,`GitHub Pages`],linkText:`Visit live site →`,linkUrl:`https://greedilearner.github.io/spinpath/`,external:!0,highlight:!0},{id:`excuses`,slug:`excuses`,title:`Excuses`,kicker:`A to-do app that asks why, kindly.`,category:`Apps`,year:`2026`,status:`Android & iOS`,description:`Schedule tasks, then record a voice diary when they slip. AI reads the patterns behind missed tasks and reflects them back without shame. Built first in Expo / React Native, then ported to Kotlin Multiplatform with shared UI for Android and iOS.`,metrics:`Bring-your-own-key AI: Claude, Gemini, OpenAI, DeepSeek or NVIDIA NIM`,tags:[`React Native`,`Expo`,`Kotlin Multiplatform`,`Compose`,`Ktor`],linkText:`Ask for a demo →`,linkUrl:`#/contact`,highlight:!1},{id:`carousel-studio`,slug:`carousel-studio`,title:`Carousel Studio`,kicker:`Thoughts in, Instagram carousels out.`,category:`Apps`,year:`2026`,status:`Android`,description:`An Android app that turns spoken reflections, notes or YouTube transcripts into Instagram-ready carousel images and X threads. Runs on a local Ollama model, remembers your voice and past posts, and saves straight to the gallery.`,metrics:`Local LLM via Ollama · voice memory (RAG) · 1080×1350 PNG export`,tags:[`Kotlin`,`Jetpack Compose`,`Room`,`Ollama`,`RAG`],linkText:`View on GitHub →`,linkUrl:`https://github.com/greedilearner/post_automation`,external:!0},{id:`nightly-podcast`,slug:`nightly-podcast`,title:`Nightly AI Podcast`,kicker:`Ask a question at night, hear the answer by morning.`,category:`Automation`,year:`2026`,status:`Running nightly`,description:`An automation that asks for tonight's learning topic, drives Google NotebookLM in a real browser to generate a two-host audio overview, downloads the MP3 and files it in a personal podcast library with its own web player.`,metrics:`Scheduled job · browser automation with Playwright · no API keys needed`,tags:[`Python`,`Playwright`,`Flask`,`Scheduler`,`SQLite`],linkText:`Ask for a demo →`,linkUrl:`#/contact`}],a=[{id:`automation`,title:`Automation`,category:`Save hours`,tagline:`The boring, repeated work, done by software instead of people.`,description:`Scheduled jobs, browser automation and AI workflows that pull data, fill forms, post content, generate reports and send them where they need to go. Like the nightly podcast generator, but for your business.`,deliverables:[`Browser automation (Playwright) for sites with no API`,`AI workflows that read, summarise and draft for you`,`Scheduled jobs with alerts when something breaks`],timeline:`1–3 weeks`},{id:`website-development`,title:`Website Development`,category:`Get found`,tagline:`Fast, good-looking websites that are easy to keep up to date.`,description:`Portfolios, business sites, landing pages and web apps. Designed with care, built to load fast on phones, and set up so you can edit content yourself.`,deliverables:[`Custom design with motion that feels intentional`,`Mobile-first, fast loading, SEO basics done right`,`Hosting and domain set up, plus an admin to edit content`],timeline:`2–4 weeks`},{id:`app-development`,title:`App Development`,category:`Android & iOS`,tagline:`Mobile apps people keep on their home screen.`,description:`Native Android in Kotlin, or one codebase for Android and iOS with React Native or Kotlin Multiplatform. From first prototype to a build you can put in the Play Store.`,deliverables:[`Kotlin / Jetpack Compose, React Native or Kotlin Multiplatform`,`Offline storage, notifications, voice and camera features`,`Play Store and App Store build and release help`],timeline:`3–8 weeks`},{id:`ai-integration`,title:`AI Features`,category:`Add intelligence`,tagline:`Put Claude, GPT, Gemini or a local model inside your product.`,description:`Chat, search over your own documents, voice notes to text, summaries and smart suggestions, built into the app or site you already have.`,deliverables:[`Works with hosted models or private local models (Ollama)`,`Search and answers over your own documents (RAG)`,`Clear costs, with keys and data kept under your control`],timeline:`1–4 weeks`}],o=[{step:`01`,title:`Call`,desc:`A short call to understand what you need, who it is for and what done looks like.`},{step:`02`,title:`Plan`,desc:`A clear written plan with screens, features, price and timeline before any work starts.`},{step:`03`,title:`Build`,desc:`Weekly updates with a live link or test build, so you see progress and can steer it.`},{step:`04`,title:`Launch`,desc:`We launch it together. You own all the code, and get 30 days of fixes after launch.`}],s=[`All`,`Articles`,`Videos`,`Build Logs`],c=[{id:`c-1`,type:`Articles`,title:`Zero-Dependency State Synchronization in Edge Runtimes`,date:`Sep 2026`,readTime:`6 min read`,excerpt:`Why we replaced heavy state synchronization libraries with native BroadcastChannel and light event-stream telemetry on Cloudflare Workers.`,tag:`ARCHITECTURE`,url:`#/content`},{id:`c-2`,type:`Videos`,title:`Building a Production SaaS from Scratch in 48 Hours`,date:`Sep 2026`,readTime:`14:28 video`,excerpt:`Complete architectural teardown from blank repository to live Stripe checkout, SQLite schema migration, and automated edge deploys.`,tag:`FULL-STACK`,url:`#/content`},{id:`c-3`,type:`Build Logs`,title:`RFC-04: Migrating from REST to Event-Driven SQLite Streaming`,date:`Aug 2026`,readTime:`4 min read`,excerpt:`Detailed engineering benchmarks showing a 70% decrease in server latency when using streaming SQLite changelogs over HTTP polling.`,tag:`PERFORMANCE`,url:`#/content`},{id:`c-4`,type:`Articles`,title:`The Anti-AI-Slop Manifesto: Why High-Craft UI Will Win`,date:`Aug 2026`,readTime:`8 min read`,excerpt:`How to avoid generic purple gradients, floating shadow boxes, and fake copy. Practical rules for shipping interfaces with tactile gravitas.`,tag:`DESIGN CRAFT`,url:`#/content`},{id:`c-5`,type:`Videos`,title:`Profiling LLM Inference Energy & Latency with Python`,date:`Jul 2026`,readTime:`22:10 video`,excerpt:`How to build an OpenTelemetry instrumentation agent measuring GPU wattage, token velocity, and dollar-cost per generation.`,tag:`AI TELEMETRY`,url:`#/content`}],l={title:`ARYANSARCADE LETTER`,tagline:`AI, systems architecture, building in public, and technical experiments.`,cadence:`One useful dispatch every week. No spam. No marketing filler.`,subscriberCount:`2,400+ engineers & builders`,archive:[{issue:`Issue #42`,title:`Local-First CRDTs vs Server Authority in 2026`,date:`Sep 24, 2026`,readTime:`5 min read`,preview:`Why we ported our synchronization engine to fractional indexing and what happens when two offline nodes edit the same schema simultaneously.`},{issue:`Issue #41`,title:`The Real Cost of LLM Tokens at 10 Million Requests/Month`,date:`Sep 17, 2026`,readTime:`7 min read`,preview:`Granular telemetry from our production deployments comparing Claude 3.5 Sonnet, GPT-4o mini, and self-hosted vLLM clusters.`},{issue:`Issue #40`,title:`Eliminating Drop-Shadows: A Case for Architectural Restraint`,date:`Sep 10, 2026`,readTime:`4 min read`,preview:`How hairline borders and optical contrast create stronger visual hierarchy and 60fps scrolling performance on mobile screens.`}]},u={PRODUCTS:`rns_arcade_products_v2`,WORK:`rns_arcade_work_v2`,SERVICES:`rns_arcade_services_v2`,CONTENT:`rns_arcade_content_v3`,NEWSLETTER:`rns_arcade_newsletter_v2`};function d(e,t){try{let n=localStorage.getItem(e);return n?JSON.parse(n):(localStorage.setItem(e,JSON.stringify(t)),t)}catch(n){return console.error(`Failed to load ${e} from storage:`,n),t}}function f(){return p().length>0}function p(){return d(u.PRODUCTS,n)}function m(){return d(u.WORK,i)}function h(){return d(u.SERVICES,a)}function g(){return d(u.CONTENT,c)}function _(){return d(u.NEWSLETTER,l)}var v=e=>e.filter(e=>e.path!==`#/products`||f());function y(){let t=window.location.hash||`#/`;return`
     <nav class="navbar" id="navbar">
       <div class="navbar-inner">
         <a href="#/" class="nav-logo" aria-label="AryansArcade Home">
@@ -6,9 +6,9 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </a>
         
         <div class="nav-links" id="nav-links">
-          ${d(u.navLinks).map(t=>{let n=e===t.path||t.path!==`#/`&&e.startsWith(t.path);return`
-              <a href="${t.path}" class="nav-link ${n?`active`:``}">
-                ${t.label}
+          ${v(e.navLinks).map(e=>{let n=t===e.path||e.path!==`#/`&&t.startsWith(e.path);return`
+              <a href="${e.path}" class="nav-link ${n?`active`:``}">
+                ${e.label}
               </a>
             `}).join(``)}
           <a href="#/contact" class="nav-cta">Contact</a>
@@ -22,30 +22,30 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       </div>
       
       <div class="nav-mobile" id="nav-mobile">
-        <a href="#/" class="nav-link ${e===`#/`?`active`:``}">Home</a>
-        ${d(u.navLinks).map(t=>`
-          <a href="${t.path}" class="nav-link ${e.startsWith(t.path)?`active`:``}">
-            ${t.label}
+        <a href="#/" class="nav-link ${t===`#/`?`active`:``}">Home</a>
+        ${v(e.navLinks).map(e=>`
+          <a href="${e.path}" class="nav-link ${t.startsWith(e.path)?`active`:``}">
+            ${e.label}
           </a>
         `).join(``)}
-        <a href="#/support" class="nav-link ${e.startsWith(`#/support`)?`active`:``}">Support</a>
-        <a href="#/contact" class="nav-link ${e.startsWith(`#/contact`)?`active`:``}">Contact</a>
+        <a href="#/support" class="nav-link ${t.startsWith(`#/support`)?`active`:``}">Support</a>
+        <a href="#/contact" class="nav-link ${t.startsWith(`#/contact`)?`active`:``}">Contact</a>
       </div>
     </nav>
-  `}function p(){let e=document.getElementById(`nav-hamburger`),t=document.getElementById(`nav-mobile`);e&&t&&(e.onclick=()=>{e.classList.toggle(`active`),t.classList.toggle(`open`),document.body.style.overflow=t.classList.contains(`open`)?`hidden`:``},t.querySelectorAll(`.nav-link`).forEach(n=>{n.onclick=()=>{e.classList.remove(`active`),t.classList.remove(`open`),document.body.style.overflow=``}}))}var m=e=>e.filter(e=>e.path!==`#/products`||a());function h(){return`
+  `}function ee(){let e=document.getElementById(`nav-hamburger`),t=document.getElementById(`nav-mobile`);e&&t&&(e.onclick=()=>{e.classList.toggle(`active`),t.classList.toggle(`open`),document.body.style.overflow=t.classList.contains(`open`)?`hidden`:``},t.querySelectorAll(`.nav-link`).forEach(n=>{n.onclick=()=>{e.classList.remove(`active`),t.classList.remove(`open`),document.body.style.overflow=``}}))}var b=1800;function x(t,n=``){let r=new URLSearchParams;r.set(`subject`,String(t).slice(0,140)),n&&r.set(`body`,String(n).slice(0,b));let i=r.toString().replace(/\+/g,`%20`);window.location.href=`mailto:${e.email}?${i}`}function S(){return Object.entries(e.socials).filter(([,e])=>e&&e.url).map(([e,t])=>({key:e,...t}))}var te=e=>e.filter(e=>e.path!==`#/products`||f());function ne(){return`
     <footer class="footer-band" id="footer">
       <div class="container">
         <div class="footer-grid-layout">
           <div class="footer-brand-col">
             <span class="footer-wordmark">Aryans<span class="wordmark-em">Arcade</span><span class="footer-dot"></span></span>
-            <p class="footer-tagline">${u.tagline}</p>
+            <p class="footer-tagline">${e.tagline}</p>
             <span class="footer-copyright">© 2026 AryansArcade. Built with architectural restraint.</span>
           </div>
           
           <div class="footer-nav-col">
             <span class="footer-col-title">ECOSYSTEM</span>
             <div class="footer-links-grid">
-              ${m(u.footerLinks).map(e=>`
+              ${te(e.footerLinks).map(e=>`
                 <a href="${e.path}" class="footer-link">${e.label}</a>
               `).join(``)}
             </div>
@@ -54,21 +54,18 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
           <div class="footer-connect-col">
             <span class="footer-col-title">DIRECT CHANNELS</span>
             <div class="footer-social-links">
-              <a href="${u.socials.github.url}" target="_blank" rel="noopener" class="footer-link">GitHub</a>
-              <a href="${u.socials.youtube.url}" target="_blank" rel="noopener" class="footer-link">YouTube</a>
-              <a href="${u.socials.instagram.url}" target="_blank" rel="noopener" class="footer-link">Instagram</a>
-              <a href="${u.socials.x.url}" target="_blank" rel="noopener" class="footer-link">X (Twitter)</a>
+              ${S().map(e=>`<a href="${e.url}" target="_blank" rel="noopener noreferrer" class="footer-link">${e.label||e.key}</a>`).join(``)}
             </div>
-            <a href="mailto:${u.email}" class="footer-email-link">${u.email}</a>
+            <a href="mailto:${e.email}" class="footer-email-link">${e.email}</a>
           </div>
         </div>
       </div>
     </footer>
-  `}function g(e){return`
+  `}function C(e){return`
     <article class="product-item-card" id="card-${e.slug}">
       <div class="card-identity-header">
         <div class="card-icon-frame" style="--product-accent: ${e.accentColor};">
-          ${_(e.logoIcon)}
+          ${re(e.logoIcon)}
         </div>
         <div class="card-meta-pill">
           <span class="card-category">${e.category}</span>
@@ -93,7 +90,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </a>
       </div>
     </article>
-  `}function _(e){switch(e){case`activity`:return`
+  `}function re(e){switch(e){case`activity`:return`
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
         </svg>
@@ -136,10 +133,10 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="12" cy="12" r="10"></circle>
         </svg>
-      `}}var v=`
+      `}}var w=`
   <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
     <path d="M3.33 8h9.34M8.67 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>`;function y(e,t=0){return e.split(` `).map((e,n)=>`<span class="word-mask"><span class="word" style="--i:${t+n}">${e}</span></span>`).join(` `)}function b(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
+  </svg>`;function T(e,t=0){return e.split(` `).map((e,n)=>`<span class="word-mask"><span class="word" style="--i:${t+n}">${e}</span></span>`).join(` `)}function E(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
     <a class="project-row" href="${e.linkUrl}"${n} data-spotlight>
       <span class="project-index">${String(t+1).padStart(2,`0`)}</span>
       <div class="project-main">
@@ -154,7 +151,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </div>
       <span class="project-cta">${e.linkText}</span>
-    </a>`}function x(){let e=o(),t=i(),n=c(),r=s().slice(0,2),a=e.filter(e=>e.featured).slice(0,3),l=t.find(e=>e.highlight)||t[0],d=0,f=()=>`[ ${String(++d).padStart(2,`0`)} ]`,p=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
+    </a>`}function D(){let t=p(),n=m(),r=h(),i=g().slice(0,2),a=t.filter(e=>e.featured).slice(0,3),o=n.find(e=>e.highlight)||n[0],s=0,c=()=>`[ ${String(++s).padStart(2,`0`)} ]`,l=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
     <div class="page-view home-page">
       <!-- ═══════════ HERO ═══════════ -->
       <section class="home-hero-section hero-split">
@@ -166,24 +163,24 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
             </div>
 
             <h1 class="home-hero-headline hero-words">
-              ${y(`I build apps, websites`,0)}<br />
-              ${y(`&amp;`,4)} <span class="word-mask"><em class="word" style="--i:5">automations</em></span><br />
-              ${y(`that save you time.`,6)}
+              ${T(`I build apps, websites`,0)}<br />
+              ${T(`&amp;`,4)} <span class="word-mask"><em class="word" style="--i:5">automations</em></span><br />
+              ${T(`that save you time.`,6)}
             </h1>
 
             <p class="home-hero-sub hero-fade" style="--d:1">
-              I'm ${u.founder}. I design and build Android and iOS apps, fast websites, and AI automations that take repetitive work off your plate.
+              I'm ${e.founder}. I design and build Android and iOS apps, fast websites, and AI automations that take repetitive work off your plate.
             </p>
 
             <div class="home-hero-ctas hero-fade" style="--d:2">
-              <a href="#/work" class="btn btn-primary magnetic">See my work ${v}</a>
+              <a href="#/work" class="btn btn-primary magnetic">See my work ${w}</a>
               <a href="#/services" class="btn btn-secondary magnetic">Services</a>
             </div>
           </div>
 
           <div class="hero-photo-wrap" data-parallax="0.06">
             <div class="hero-photo-frame" data-tilt>
-              <img src="portrait.jpg" alt="${u.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
+              <img src="portrait.jpg" alt="${e.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
             </div>
             <div class="hero-badge" aria-hidden="true">
               <svg viewBox="0 0 120 120">
@@ -193,7 +190,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
               <span class="hero-badge-core">✦</span>
             </div>
             <div class="hero-photo-caption">
-              <span>${u.founder}</span>
+              <span>${e.founder}</span>
               <span>Builder · AryansArcade</span>
             </div>
           </div>
@@ -202,7 +199,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
 
       <!-- ═══════════ MARQUEE ═══════════ -->
       <div class="marquee" aria-hidden="true">
-        <div class="marquee-track">${p}${p}</div>
+        <div class="marquee-track">${l}${l}</div>
       </div>
 
       <!-- ═══════════ LIVE NOW ═══════════ -->
@@ -211,11 +208,11 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
           <div class="strip-box animate-on-scroll">
             <div class="strip-left">
               <span class="strip-tag">LIVE NOW</span>
-              <h3 class="strip-title">${l.title}: ${l.kicker||``}</h3>
-              <p class="strip-desc">${l.metrics}</p>
+              <h3 class="strip-title">${o.title}: ${o.kicker||``}</h3>
+              <p class="strip-desc">${o.metrics}</p>
             </div>
             <div class="strip-right">
-              <a href="${l.linkUrl}" ${l.external?`target="_blank" rel="noopener"`:``} class="btn btn-light">${l.linkText}</a>
+              <a href="${o.linkUrl}" ${o.external?`target="_blank" rel="noopener"`:``} class="btn btn-light">${o.linkText}</a>
             </div>
           </div>
         </div>
@@ -225,18 +222,18 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section home-work-section">
         <div class="container">
           <div class="section-head animate-on-scroll">
-            <span class="section-label draw-line">${f()} PROJECTS</span>
+            <span class="section-label draw-line">${c()} PROJECTS</span>
             <div class="section-head-split">
               <div>
                 <h2 class="section-title">Things we've built and shipped.</h2>
                 <p class="section-subtitle">A website, two apps and an automation. All real, all in use.</p>
               </div>
-              <a href="#/work" class="head-view-all-link">All projects (${t.length}) →</a>
+              <a href="#/work" class="head-view-all-link">All projects (${n.length}) →</a>
             </div>
           </div>
 
           <div class="project-list animate-stagger">
-            ${t.map((e,t)=>b(e,t)).join(``)}
+            ${n.map((e,t)=>E(e,t)).join(``)}
           </div>
         </div>
       </section>
@@ -245,7 +242,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section home-services-section">
         <div class="container">
           <div class="section-head animate-on-scroll">
-            <span class="section-label draw-line">${f()} SERVICES</span>
+            <span class="section-label draw-line">${c()} SERVICES</span>
             <div class="section-head-split">
               <div>
                 <h2 class="section-title">What I can build for you.</h2>
@@ -256,7 +253,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
           </div>
 
           <div class="home-services-list animate-stagger">
-            ${n.map((e,t)=>`
+            ${r.map((e,t)=>`
               <a href="#/services" class="home-service-item" data-spotlight>
                 <span class="home-service-num">0${t+1}</span>
                 <h3 class="home-service-title">${e.title}</h3>
@@ -273,18 +270,18 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section home-products-section">
         <div class="container">
           <div class="section-head animate-on-scroll">
-            <span class="section-label draw-line">${f()} PRODUCTS</span>
+            <span class="section-label draw-line">${c()} PRODUCTS</span>
             <div class="section-head-split">
               <div>
                 <h2 class="section-title">Engineered to ship. Priced to own.</h2>
                 <p class="section-subtitle">Commercial digital products, applications, and developer utilities with direct source code licenses.</p>
               </div>
-              <a href="#/products" class="head-view-all-link">View all products (${e.length}) →</a>
+              <a href="#/products" class="head-view-all-link">View all products (${t.length}) →</a>
             </div>
           </div>
 
           <div class="home-products-grid animate-stagger">
-            ${a.map(e=>g(e)).join(``)}
+            ${a.map(e=>C(e)).join(``)}
           </div>
         </div>
       </section>
@@ -294,7 +291,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section home-content-section">
         <div class="container">
           <div class="section-head animate-on-scroll">
-            <span class="section-label draw-line">${f()} LATEST CONTENT</span>
+            <span class="section-label draw-line">${c()} LATEST CONTENT</span>
             <div class="section-head-split">
               <div>
                 <h2 class="section-title">Building in public.</h2>
@@ -305,7 +302,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
           </div>
 
           <div class="home-content-dual animate-stagger">
-            ${r.map(e=>`
+            ${i.map(e=>`
               <article class="content-teaser-card">
                 <div class="content-teaser-header">
                   <span class="c-type-tag">${e.type}</span>
@@ -325,7 +322,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         <div class="container">
           <div class="newsletter-compact-box">
             <div class="newsletter-text-col">
-              <span class="section-label">${f()} ARYANSARCADE LETTER</span>
+              <span class="section-label">${c()} ARYANSARCADE LETTER</span>
               <h2 class="newsletter-box-title">One useful engineering dispatch every week.</h2>
               <p class="newsletter-box-desc">AI systems, apps, automation and what I'm building. No spam, ever.</p>
             </div>
@@ -349,7 +346,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
                 "I like building things people actually use: an app that helps you understand why tasks slip, a site that makes you say ideas out loud, an automation that hands you a podcast every morning. If you have something like that in mind, let's talk."
               </p>
               <div class="about-teaser-footer">
-                <span class="builder-name">${u.founder} — Founder, AryansArcade</span>
+                <span class="builder-name">${e.founder} — Founder, AryansArcade</span>
                 <a href="#/contact" class="about-more-link">Start a project →</a>
               </div>
             </div>
@@ -357,7 +354,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </section>
     </div>
-  `}function S(t=`All`){let n=o(),r=t===`All`?n:n.filter(e=>e.category.toLowerCase()===t.toLowerCase());return`
+  `}function O(e=`All`){let n=p(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view products-page">
       <section class="page-header-band">
         <div class="container">
@@ -370,11 +367,11 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
 
             <!-- Category Filter Controls -->
             <div class="catalog-filter-bar" id="product-category-filters">
-              ${e.map(e=>`
+              ${t.map(t=>`
                 <button 
-                  class="filter-pill ${e.toLowerCase()===t.toLowerCase()?`active`:``}" 
-                  data-category="${e}">
-                  ${e}
+                  class="filter-pill ${t.toLowerCase()===e.toLowerCase()?`active`:``}" 
+                  data-category="${t}">
+                  ${t}
                 </button>
               `).join(``)}
             </div>
@@ -385,12 +382,12 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section catalog-grid-section">
         <div class="container">
           <div class="catalog-products-grid animate-stagger" id="products-catalog-container">
-            ${r.length>0?r.map(e=>g(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}
+            ${r.length>0?r.map(e=>C(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}
           </div>
         </div>
       </section>
     </div>
-  `}function C(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=o(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>g(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function w(e){let t=o(),n=t.find(t=>t.slug===e)||t[0];return`
+  `}function k(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=p(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>C(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function A(e){let t=p(),n=t.find(t=>t.slug===e)||t[0];return`
     <div class="page-view product-detail-page" style="--product-accent: ${n.accentColor};">
       <!-- ═══════════ PRODUCT HERO ═══════════ -->
       <section class="pdp-hero-band">
@@ -626,7 +623,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </section>
     </div>
-  `}function T(e=`All`){let n=i(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
+  `}function j(e=`All`){let t=m(),n=e===`All`?t:t.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view work-page">
       <section class="page-header-band">
         <div class="container">
@@ -638,7 +635,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
             </p>
 
             <div class="catalog-filter-bar" id="work-category-filters">
-              ${t.map(t=>`
+              ${r.map(t=>`
                 <button 
                   class="filter-pill ${t.toLowerCase()===e.toLowerCase()?`active`:``}" 
                   data-category="${t}">
@@ -653,12 +650,12 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section work-list-section">
         <div class="container">
           <div class="project-list animate-stagger" id="work-container">
-            ${r.map((e,t)=>b(e,t)).join(``)}
+            ${n.map((e,t)=>E(e,t)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function E(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),a=i(),o=r===`All`?a:a.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=o.length>0?o.map((e,t)=>b(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function D(){return`
+  `}function M(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=m(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map((e,t)=>E(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function N(){return`
     <div class="page-view services-page">
       <section class="page-header-band">
         <div class="container">
@@ -680,7 +677,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section services-grid-section">
         <div class="container">
           <div class="services-dual-grid animate-stagger">
-            ${c().map((e,t)=>`
+            ${h().map((e,t)=>`
               <div class="service-card" id="service-${e.id}">
                 <div class="service-header">
                   <span class="service-idx">0${t+1}.</span>
@@ -718,7 +715,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
           </div>
 
           <div class="process-steps-row animate-stagger">
-            ${l.map(e=>`
+            ${o.map(e=>`
               <div class="process-col">
                 <span class="process-step-num">${e.step}</span>
                 <h4 class="process-col-title">${e.title}</h4>
@@ -745,7 +742,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </section>
     </div>
-  `}function O(e=`All`){let t=s(),r=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
+  `}function P(e=`All`){let t=g(),n=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
     <div class="page-view content-page">
       <section class="page-header-band">
         <div class="container">
@@ -757,7 +754,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
             </p>
 
             <div class="catalog-filter-bar" id="content-category-filters">
-              ${n.map(t=>`
+              ${s.map(t=>`
                 <button 
                   class="filter-pill ${t.toLowerCase()===e.toLowerCase()?`active`:``}" 
                   data-category="${t}">
@@ -772,12 +769,12 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section content-feed-section">
         <div class="container">
           <div class="content-feed-grid animate-stagger" id="content-feed-container">
-            ${r.map(e=>k(e)).join(``)}
+            ${n.map(e=>F(e)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function k(e){let t=e.type===`Videos`;return`
+  `}function F(e){let t=e.type===`Videos`;return`
     <article class="content-hub-card ${t?`video-card`:``}">
       <div class="hub-card-header">
         <span class="hub-tag">${e.tag}</span>
@@ -796,7 +793,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </a>
       </div>
     </article>
-  `}function A(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=s(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>k(e)).join(``)}})}function j(){let e=r();return`
+  `}function I(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=g(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>F(e)).join(``)}})}function L(){let e=_();return`
     <div class="page-view newsletter-page">
       <section class="page-header-band newsletter-hero-band">
         <div class="container">
@@ -861,7 +858,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </section>
     </div>
-  `}function M(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`btn-nl-submit`),n=document.getElementById(`nl-email-input`),r=t.innerHTML;t.innerHTML=`Subscribing...`,t.disabled=!0,setTimeout(()=>{t.innerHTML=`Subscribed ✓`,n.value=``,setTimeout(()=>{t.innerHTML=r,t.disabled=!1},3e3)},900)})}var N=[{group:`CORE RUNTIMES`,items:[`TypeScript`,`JavaScript (ESNext)`,`Node.js`,`Python`,`Go`,`Rust / WASM`]},{group:`INTERFACES & UX`,items:[`React 19`,`Next.js 15`,`Vite`,`HTML5 / Semantic CSS`,`Design Systems`]},{group:`DATA & STORAGE`,items:[`PostgreSQL`,`SQLite / LibSQL`,`Cloudflare D1`,`Redis`,`Vector Embeddings`]},{group:`DEVOPS & CLOUD`,items:[`Docker`,`Cloudflare Workers`,`AWS`,`GitHub Actions`,`Vercel`]}];function P(){return`
+  `}function R(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`nl-email-input`);x(`Subscribe me to the AryansArcade Letter`,`Please add ${t?t.value:``} to the newsletter.`)})}var z=[{group:`CORE RUNTIMES`,items:[`TypeScript`,`JavaScript (ESNext)`,`Node.js`,`Python`,`Go`,`Rust / WASM`]},{group:`INTERFACES & UX`,items:[`React 19`,`Next.js 15`,`Vite`,`HTML5 / Semantic CSS`,`Design Systems`]},{group:`DATA & STORAGE`,items:[`PostgreSQL`,`SQLite / LibSQL`,`Cloudflare D1`,`Redis`,`Vector Embeddings`]},{group:`DEVOPS & CLOUD`,items:[`Docker`,`Cloudflare Workers`,`AWS`,`GitHub Actions`,`Vercel`]}];function ie(){return`
     <div class="page-view about-page">
       <section class="page-header-band">
         <div class="container">
@@ -881,10 +878,10 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
             <div class="about-sidebar-col animate-slide-left">
               <div class="about-identity-box">
                 <div class="identity-avatar-frame">
-                  <span class="avatar-crop" role="img" aria-label="${u.founder}"></span>
+                  <span class="avatar-crop" role="img" aria-label="${e.founder}"></span>
                   <span class="identity-role-pill">FOUNDER // DEV</span>
                 </div>
-                <h3 class="identity-name">${u.founder}</h3>
+                <h3 class="identity-name">${e.founder}</h3>
                 <span class="identity-title">Software Developer & Product Builder</span>
                 
                 <div class="identity-specs-list">
@@ -938,7 +935,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
               <div class="about-toolkit-block">
                 <span class="toolkit-heading">PRIMARY ENGINEERING TOOLKIT</span>
                 <div class="toolkit-matrix-grid">
-                  ${N.map(e=>`
+                  ${z.map(e=>`
                     <div class="toolkit-group-card">
                       <span class="toolkit-group-name">${e.group}</span>
                       <div class="toolkit-chips">
@@ -953,7 +950,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </section>
     </div>
-  `}var F=[{amount:`₹100`,amountUsd:`$2`,name:`Server Sparks`,desc:`Covers edge compute costs and keeps open-source experiments online.`,perk:`Public builder appreciation + Discord supporter role`},{amount:`₹500`,amountUsd:`$7`,name:`API & Compute Fuel`,desc:`Directly subsidizes GPU and LLM inference credits for research benchmarks.`,perk:`Early access to pre-release betas & experimental repositories`,recommended:!0},{amount:`₹1,000`,amountUsd:`$15`,name:`Sponsor a Build`,desc:`Funds deep-dive technical articles, research papers, and open-source tooling.`,perk:`Name featured in newsletter archive + priority issue review`}],I=[{q:`How is this different from buying a product?`,a:`When you hire me for a project, you pay for work built for you and own all of its code. Supporting AryansArcade is a voluntary tip that funds free tools like Spinpath and the content I share.`},{q:`What payment methods will be accepted?`,a:`UPI, credit/debit cards, net banking, and international cards via Stripe/Razorpay.`},{q:`Can I cancel anytime if I choose recurring patronage?`,a:`Yes, full control with one-click cancellation from your billing portal.`}];function ee(){return`
+  `}var B=[{amount:`₹100`,amountUsd:`$2`,name:`Server Sparks`,desc:`Covers edge compute costs and keeps open-source experiments online.`,perk:`Public builder appreciation + Discord supporter role`},{amount:`₹500`,amountUsd:`$7`,name:`API & Compute Fuel`,desc:`Directly subsidizes GPU and LLM inference credits for research benchmarks.`,perk:`Early access to pre-release betas & experimental repositories`,recommended:!0},{amount:`₹1,000`,amountUsd:`$15`,name:`Sponsor a Build`,desc:`Funds deep-dive technical articles, research papers, and open-source tooling.`,perk:`Name featured in newsletter archive + priority issue review`}],V=[{q:`How is this different from buying a product?`,a:`When you hire me for a project, you pay for work built for you and own all of its code. Supporting AryansArcade is a voluntary tip that funds free tools like Spinpath and the content I share.`},{q:`What payment methods will be accepted?`,a:`UPI, credit/debit cards, net banking, and international cards via Stripe/Razorpay.`},{q:`Can I cancel anytime if I choose recurring patronage?`,a:`Yes, full control with one-click cancellation from your billing portal.`}];function H(){return`
     <div class="page-view support-page">
       <section class="page-header-band">
         <div class="container">
@@ -975,7 +972,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
       <section class="section support-tiers-section">
         <div class="container">
           <div class="support-cards-grid animate-stagger" id="support-tiers-container">
-            ${F.map(e=>`
+            ${B.map(e=>`
               <div class="support-tier-card ${e.recommended?`tier-recommended`:``}">
                 ${e.recommended?`<span class="tier-pill-badge">MOST POPULAR</span>`:``}
                 <div class="tier-head">
@@ -1028,7 +1025,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
           </div>
 
           <div class="faq-accordion-list animate-on-scroll">
-            ${I.map(e=>`
+            ${V.map(e=>`
               <div class="faq-item">
                 <h4 class="faq-question">${e.q}</h4>
                 <p class="faq-answer">${e.a}</p>
@@ -1038,7 +1035,7 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </section>
     </div>
-  `}function L(){document.querySelectorAll(`.btn-support-select`).forEach(e=>{e.onclick=()=>{let t=e.getAttribute(`data-amount`);alert(`Thank you for supporting AryansArcade with ${t}! Payment integration will be connected in Phase 5.`)}});let e=document.getElementById(`btn-custom-support`),t=document.getElementById(`custom-amount-input`);e&&t&&(e.onclick=()=>{let e=t.value||`2500`;alert(`Thank you for supporting AryansArcade with ₹${e}! Payment integration will be connected in Phase 5.`)})}function R(){return`
+  `}function U(){document.querySelectorAll(`.btn-support-select`).forEach(e=>{e.onclick=()=>{let t=e.getAttribute(`data-amount`);alert(`Thank you for supporting AryansArcade with ${t}! Payment integration will be connected in Phase 5.`)}});let e=document.getElementById(`btn-custom-support`),t=document.getElementById(`custom-amount-input`);e&&t&&(e.onclick=()=>{let e=t.value||`2500`;alert(`Thank you for supporting AryansArcade with ₹${e}! Payment integration will be connected in Phase 5.`)})}function W(){return`
     <div class="page-view contact-page">
       <section class="page-header-band">
         <div class="container">
@@ -1059,30 +1056,23 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
             <div class="contact-sidebar animate-slide-left">
               <div class="contact-direct-card">
                 <h4 class="direct-heading">DIRECT CHANNELS</h4>
-                <p class="direct-desc">Guaranteed response within 24 hours on business days. Direct communication preferred over formal bureaucracy.</p>
+                <p class="direct-desc">Email is the fastest way to reach me. I usually reply within a day.</p>
                 
                 <div class="direct-links-list">
-                  <a href="mailto:${u.email}" class="direct-item" id="contact-email">
+                  <a href="mailto:${e.email}" class="direct-item" id="contact-email">
                     <span class="item-label">Direct Email</span>
-                    <span class="item-value">${u.email}</span>
+                    <span class="item-value">${e.email}</span>
                   </a>
-                  <a href="${u.socials.github.url}" target="_blank" rel="noopener" class="direct-item" id="contact-gh">
-                    <span class="item-label">GitHub</span>
-                    <span class="item-value">${u.socials.github.handle}</span>
-                  </a>
-                  <a href="${u.socials.youtube.url}" target="_blank" rel="noopener" class="direct-item" id="contact-yt">
-                    <span class="item-label">YouTube</span>
-                    <span class="item-value">${u.socials.youtube.handle}</span>
-                  </a>
-                  <a href="${u.socials.x.url}" target="_blank" rel="noopener" class="direct-item" id="contact-x">
-                    <span class="item-label">X / Twitter</span>
-                    <span class="item-value">${u.socials.x.handle}</span>
-                  </a>
+                  ${S().map(e=>`
+                  <a href="${e.url}" target="_blank" rel="noopener noreferrer" class="direct-item">
+                    <span class="item-label">${e.label||e.key}</span>
+                    <span class="item-value">${e.handle}</span>
+                  </a>`).join(``)}
                 </div>
 
                 <div class="contact-meta-badge">
                   <span class="badge-dot-green"></span>
-                  <span>AVERAGE RESPONSE SLA: &lt; 4 HOURS</span>
+                  <span>USUALLY REPLIES WITHIN A DAY</span>
                 </div>
               </div>
             </div>
@@ -1126,7 +1116,11 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
         </div>
       </section>
     </div>
-  `}function z(){let e=document.getElementById(`contact-page-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=document.getElementById(`btn-contact-submit`),r=n.innerHTML;n.innerHTML=`Transmitting Brief...`,n.disabled=!0,setTimeout(()=>{n.innerHTML=`Inquiry Received ✓`,e.reset(),setTimeout(()=>{n.innerHTML=r,n.disabled=!1},3e3)},1100)})}var B=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,V=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,H=!1,U=!1,W=[];function G(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),K(),!B()&&(q(),V()&&(J(),Y(),X()))}function K(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),H||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function q(){W=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{W.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};U||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function J(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function Y(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function X(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}function Z(){window.addEventListener(`hashchange`,Q),window.addEventListener(`load`,Q),Q()}function Q(){let e=window.location.hash||`#/`,t=document.getElementById(`app`);if(!t)return;let n=e.replace(/^#/,``)||`/`,r=``,i=`AryansArcade — Builder Ecosystem & Digital Storefront`,s=null;if(n.startsWith(`/products`)&&!a()){window.location.replace(`#/work`);return}if(n===`/`||n===``)r=x(),i=`AryansArcade — Software Builder Ecosystem & Digital Storefront`,s=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault(),alert(`Subscribed to AryansArcade Letter! Confirmation email dispatched.`),e.reset()})};else if(n===`/products`)r=S(),i=`Products & Architecture — AryansArcade`,s=C;else if(n.startsWith(`/products/`)){let e=n.replace(`/products/`,``).split(`?`)[0],t=o().find(t=>t.slug===e);r=w(e),i=t?`${t.name} — AryansArcade`:`Product Detail — AryansArcade`}else n===`/work`?(r=T(),i=`Projects — AryansArcade`,s=E):n===`/services`?(r=D(),i=`Services: Automation, Websites & Apps — AryansArcade`):n===`/content`?(r=O(),i=`Content, Articles & Video Teardowns — AryansArcade`,s=A):n===`/newsletter`?(r=j(),i=`AryansArcade Letter — Weekly Builder Dispatch`,s=M):n===`/about`?(r=P(),i=`About & Engineering Ethos — AryansArcade`):n===`/support`?(r=ee(),i=`Support & Patronage — AryansArcade`,s=L):n===`/contact`?(r=R(),i=`Contact & Technical Brief — AryansArcade`,s=z):(r=`
+  `}function G(){let e=document.getElementById(`contact-page-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=new FormData(e),r=e.querySelector(`#contact-intent`),i=r?r.options[r.selectedIndex].text:``;x(`Project enquiry from ${n.get(`name`)}`,`Name: ${n.get(`name`)}
+Email: ${n.get(`email`)}
+Topic: ${i}
+
+${n.get(`message`)}`);let a=document.getElementById(`btn-contact-submit`);a&&(a.textContent=`Opening your email app…`)})}var K=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,q=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,J=!1,Y=!1,X=[];function ae(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),oe(),!K()&&(se(),q()&&(ce(),Z(),le()))}function oe(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),J||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function se(){X=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{X.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};Y||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function ce(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function Z(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function le(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}var Q={"/":`Aryan builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects and hire for your next build.`,"/work":`Projects by Aryan: Spinpath (learning website), Excuses and Carousel Studio (mobile apps) and a nightly AI podcast automation.`,"/services":`Hire Aryan for automation, website development, Android and iOS app development, and AI features. Fixed plans, weekly updates, you own the code.`,"/about":`About Aryan, the developer behind AryansArcade, building apps, websites and AI automations.`,"/contact":`Contact Aryan at AryansArcade to start an app, website or automation project.`};function ue(e){let t=Q[e]||Q[`/`],n=document.querySelector(`meta[name="description"]`);n&&n.setAttribute(`content`,t)}function de(){window.addEventListener(`hashchange`,$),window.addEventListener(`load`,$),$()}function $(){let e=window.location.hash||`#/`,t=document.getElementById(`app`);if(!t)return;let n=e.replace(/^#/,``)||`/`,r=``,i=`AryansArcade — Builder Ecosystem & Digital Storefront`,a=null;if(n.startsWith(`/products`)&&!f())window.location.replace(`#/work`);else{if(n===`/`||n===``)r=D(),i=`AryansArcade — Apps, Websites & AI Automation by Aryan`,a=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=e.querySelector(`input[type="email"]`).value;x(`Subscribe me to the AryansArcade Letter`,`Please add ${n} to the newsletter.`)})};else if(n===`/products`)r=O(),i=`Products & Architecture — AryansArcade`,a=k;else if(n.startsWith(`/products/`)){let e=n.replace(`/products/`,``).split(`?`)[0],t=p().find(t=>t.slug===e);r=A(e),i=t?`${t.name} — AryansArcade`:`Product Detail — AryansArcade`}else n===`/work`?(r=j(),i=`Projects — AryansArcade`,a=M):n===`/services`?(r=N(),i=`Services: Automation, Websites & Apps — AryansArcade`):n===`/content`?(r=P(),i=`Content, Articles & Video Teardowns — AryansArcade`,a=I):n===`/newsletter`?(r=L(),i=`AryansArcade Letter — Weekly Builder Dispatch`,a=R):n===`/about`?(r=ie(),i=`About & Engineering Ethos — AryansArcade`):n===`/support`?(r=H(),i=`Support & Patronage — AryansArcade`,a=U):n===`/contact`?(r=W(),i=`Contact & Technical Brief — AryansArcade`,a=G):(r=`
       <div class="page-view not-found-page">
         <section class="section">
           <div class="container" style="text-align: center; padding: 120px 0;">
@@ -1137,10 +1131,10 @@ import{C as e,S as t,b as n,c as r,d as i,f as a,l as o,s,u as c,x as l}from"./s
           </div>
         </section>
       </div>
-    `,i=`404 Not Found — AryansArcade`);document.title=i,t.innerHTML=`
-    ${f()}
+    `,i=`404 Not Found — AryansArcade`);document.title=i,ue(n),t.innerHTML=`
+    ${y()}
     <main id="main-content">
       ${r}
     </main>
-    ${h()}
-  `,p(),s&&s(),window.scrollTo({top:0,behavior:`instant`}),$(),G()}function $(){let e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`is-visible`)})},{threshold:.08,rootMargin:`0px 0px -30px 0px`});document.querySelectorAll(`.animate-on-scroll, .animate-stagger, .animate-slide-left, .animate-slide-right`).forEach(t=>e.observe(t))}document.addEventListener(`DOMContentLoaded`,()=>{Z()});
+    ${ne()}
+  `,ee(),a&&a(),window.scrollTo({top:0,behavior:`instant`}),fe(),ae()}}function fe(){let e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`is-visible`)})},{threshold:.08,rootMargin:`0px 0px -30px 0px`});document.querySelectorAll(`.animate-on-scroll, .animate-stagger, .animate-slide-left, .animate-slide-right`).forEach(t=>e.observe(t))}if(window.top!==window.self)try{window.top.location.replace(window.self.location.href)}catch{document.documentElement.innerHTML=``}document.addEventListener(`DOMContentLoaded`,()=>{de()});
