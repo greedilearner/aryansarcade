@@ -32,7 +32,7 @@
         <a href="/contact" class="nav-link ${t.startsWith(`/contact`)?`active`:``}">Contact</a>
       </div>
     </nav>
-  `}function te(){let e=document.getElementById(`nav-hamburger`),t=document.getElementById(`nav-mobile`);e&&t&&(e.onclick=()=>{e.classList.toggle(`active`),t.classList.toggle(`open`),document.body.style.overflow=t.classList.contains(`open`)?`hidden`:``},t.querySelectorAll(`.nav-link`).forEach(n=>{n.onclick=()=>{e.classList.remove(`active`),t.classList.remove(`open`),document.body.style.overflow=``}}))}var ne=1800;function S(t,n=``){let r=new URLSearchParams;r.set(`subject`,String(t).slice(0,140)),n&&r.set(`body`,String(n).slice(0,ne));let i=r.toString().replace(/\+/g,`%20`);window.location.href=`mailto:${e.email}?${i}`}function C(){return Object.entries(e.socials).filter(([,e])=>e&&e.url).map(([e,t])=>({key:e,...t}))}var w={"/products":f,"/content":g,"/newsletter":_},T=e=>e.filter(e=>!w[e.path]||w[e.path]());function re(){return`
+  `}function te(){let e=document.getElementById(`nav-hamburger`),t=document.getElementById(`nav-mobile`);e&&t&&(e.onclick=()=>{e.classList.toggle(`active`),t.classList.toggle(`open`),document.body.style.overflow=t.classList.contains(`open`)?`hidden`:``},t.querySelectorAll(`.nav-link`).forEach(n=>{n.onclick=()=>{e.classList.remove(`active`),t.classList.remove(`open`),document.body.style.overflow=``}}))}var S=1800;function C(t,n=``){let r=new URLSearchParams;r.set(`subject`,String(t).slice(0,140)),n&&r.set(`body`,String(n).slice(0,S));let i=r.toString().replace(/\+/g,`%20`);window.location.href=`mailto:${e.email}?${i}`}function w(){return Object.entries(e.socials).filter(([,e])=>e&&e.url).map(([e,t])=>({key:e,...t}))}var T={"/products":f,"/content":g,"/newsletter":_},ne=e=>e.filter(e=>!T[e.path]||T[e.path]());function re(){return`
     <footer class="footer-band" id="footer">
       <div class="container">
         <div class="footer-grid-layout">
@@ -45,7 +45,7 @@
           <div class="footer-nav-col">
             <span class="footer-col-title">ECOSYSTEM</span>
             <div class="footer-links-grid">
-              ${T(e.footerLinks).map(e=>`
+              ${ne(e.footerLinks).map(e=>`
                 <a href="${e.path}" class="footer-link">${e.label}</a>
               `).join(``)}
             </div>
@@ -54,7 +54,7 @@
           <div class="footer-connect-col">
             <span class="footer-col-title">DIRECT CHANNELS</span>
             <div class="footer-social-links">
-              ${C().map(e=>`<a href="${e.url}" target="_blank" rel="noopener noreferrer" class="footer-link">${e.label||e.key}</a>`).join(``)}
+              ${w().map(e=>`<a href="${e.url}" target="_blank" rel="noopener noreferrer" class="footer-link">${e.label||e.key}</a>`).join(``)}
             </div>
             <a href="mailto:${e.email}" class="footer-email-link">${e.email}</a>
           </div>
@@ -136,7 +136,7 @@
       `}}var ae=`
   <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
     <path d="M3.33 8h9.34M8.67 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>`;function D(e,t=0){return e.split(` `).map((e,n)=>`<span class="word-mask"><span class="word" style="--i:${t+n}">${e}</span></span>`).join(` `)}function O(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
+  </svg>`;function D(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
     <a class="project-row" href="${e.linkUrl}"${n} data-spotlight>
       <span class="project-index">${String(t+1).padStart(2,`0`)}</span>
       <div class="project-main">
@@ -151,47 +151,66 @@
         </div>
       </div>
       <span class="project-cta">${e.linkText}</span>
-    </a>`}function k(){let t=p(),n=m(),r=h(),i=v().slice(0,2),a=t.filter(e=>e.featured).slice(0,3),o=n.find(e=>e.highlight)||n[0],s=0,c=()=>`[ ${String(++s).padStart(2,`0`)} ]`,l=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
+    </a>`}function O(){let t=p(),n=m(),r=h(),i=v().slice(0,2),a=t.filter(e=>e.featured).slice(0,3),o=n.find(e=>e.highlight)||n[0],s=0,c=()=>`[ ${String(++s).padStart(2,`0`)} ]`,l=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
     <div class="page-view home-page">
-      <!-- ═══════════ HERO ═══════════ -->
-      <section class="home-hero-section hero-split">
-        <div class="container hero-grid">
-          <div class="home-hero-inner hero-intro">
-            <div class="hero-brand-eyebrow hero-fade" style="--d:0">
-              <span class="status-pulse-dot"></span>
-              <span>Available for new projects</span>
+      <!-- ═══════════ HERO — MAGAZINE COVER ═══════════ -->
+      <section class="home-hero-section cover-hero">
+        <div class="container cover">
+          <div class="cv-top hero-fade" style="--d:0" aria-hidden="true">
+            <div class="cv-kickers"><span>Apps</span><i>/</i><span>Websites</span><i>/</i><span>Automation</span><i>/</i><span>AI</span></div>
+            <div class="cv-issue">Vol. 01 &nbsp;Issue 10<br>${new Date().toLocaleString(`en-GB`,{month:`long`,year:`numeric`})}</div>
+          </div>
+
+          <div class="cv-mast hero-words" aria-hidden="true">
+            ${`ARYANS`.split(``).map((e,t)=>`<span class="word-mask"><span class="word" style="--i:${t}">${e}</span></span>`).join(``)}
+            <span class="cv-mast-script">Arcade</span>
+          </div>
+          <div class="cv-mast-sub hero-fade" style="--d:1" aria-hidden="true">The Modern<br>Builder</div>
+
+          <div class="cv-photo" data-parallax="0.04">
+            <img class="cv-photo-img" src="/portrait-cover.webp" alt="${e.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
+            <span class="cv-pen" aria-hidden="true">Ideas,<br>&nbsp;&nbsp;shipped.</span>
+          </div>
+
+          <div class="cv-left">
+            <div class="cv-line hero-fade" style="--d:1">
+              <span class="cv-status"><span class="status-pulse-dot"></span> Available for new projects</span>
+              <h1 class="cv-headline">I Build Apps, Sites &amp; <em>Automations</em></h1>
+              <span class="cv-rule"></span>
+              <p class="cv-sub">I'm ${e.founder}. Android and iOS apps, fast websites and AI automations that save you time.</p>
             </div>
+            <a class="cv-box hero-fade" style="--d:2" href="${o.linkUrl}"${o.external?` target="_blank" rel="noopener"`:``}>
+              <span class="cv-tag">Live now</span>
+              <span class="cv-box-title">${o.title}</span>
+              <span class="cv-box-kicker">${o.kicker||``}</span>
+              <span class="cv-rule"></span>
+            </a>
+            <span class="cv-inset hero-fade" style="--d:3" aria-hidden="true"></span>
+          </div>
 
-            <h1 class="home-hero-headline hero-words">
-              ${D(`I build apps, websites`,0)}<br />
-              ${D(`&amp;`,4)} <span class="word-mask"><em class="word" style="--i:5">automations</em></span><br />
-              ${D(`that save you time.`,6)}
-            </h1>
-
-            <p class="home-hero-sub hero-fade" style="--d:1">
-              I'm ${e.founder}. I design and build Android and iOS apps, fast websites, and AI automations that take repetitive work off your plate.
-            </p>
-
-            <div class="home-hero-ctas hero-fade" style="--d:2">
-              <a href="/work" class="btn btn-primary magnetic">See my work ${ae}</a>
-              <a href="/services" class="btn btn-secondary magnetic">Services</a>
+          <div class="cv-right">
+            <div class="cv-line hero-fade" style="--d:1">
+              <span class="cv-caps">Good things<br>take time</span>
+              <span class="cv-rule"></span>
+            </div>
+            <em class="cv-italic hero-fade" style="--d:2">Fewer clicks.<br>More time.</em>
+            <a class="cv-tile hero-fade" style="--d:2" href="/work" aria-label="See all ${n.length} projects">
+              <span class="cv-tile-n">${String(n.length).padStart(2,`0`)}</span>
+              <span class="cv-tile-l">Projects<br>shipped</span>
+            </a>
+            <div class="cv-line cv-line-big hero-fade" style="--d:3">
+              <span class="cv-tag">Automation</span>
+              <h2 class="cv-headline cv-headline-sm">Small Scripts, Big Changes</h2>
+              <p class="cv-small">Better workflows.<br>Less busywork.<br>A calmer you.</p>
             </div>
           </div>
 
-          <div class="hero-photo-wrap" data-parallax="0.06">
-            <div class="hero-photo-frame" data-tilt>
-              <img src="/portrait.jpg" alt="${e.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
-            </div>
-            <div class="hero-badge" aria-hidden="true">
-              <svg viewBox="0 0 120 120">
-                <defs><path id="badge-circle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0" /></defs>
-                <text><textPath href="#badge-circle">APPS • WEBSITES • AUTOMATION • </textPath></text>
-              </svg>
-              <span class="hero-badge-core">✦</span>
-            </div>
-            <div class="hero-photo-caption">
-              <span>${e.founder}</span>
-              <span>Builder · AryansArcade</span>
+          <div class="cv-foot hero-fade" style="--d:4">
+            <span class="cv-barcode" aria-hidden="true">${Array.from({length:38},(e,t)=>`<i style="width:${[1,3,1,2,1,1,3][t%7]}px"></i>`).join(``)}</span>
+            <span class="cv-foot-line" aria-hidden="true">Building is a state of mind</span>
+            <div class="cv-ctas">
+              <a href="/work" class="btn btn-primary magnetic">See my work ${ae}</a>
+              <a href="/services" class="btn btn-secondary magnetic">Services</a>
             </div>
           </div>
         </div>
@@ -233,7 +252,7 @@
           </div>
 
           <div class="project-list animate-stagger">
-            ${n.map((e,t)=>O(e,t)).join(``)}
+            ${n.map((e,t)=>D(e,t)).join(``)}
           </div>
         </div>
       </section>
@@ -347,7 +366,7 @@
             </div>
             <div class="about-teaser-content">
               <p class="about-quote">
-                "I like building things people actually use: an app that helps you understand why tasks slip, a site that makes you say ideas out loud, an automation that hands you a podcast every morning. If you have something like that in mind, let's talk."
+                I like building things people actually use: an app that helps you understand why tasks slip, a site that makes you say ideas out loud, an automation that hands you a podcast every morning. If you have something like that in mind, let's talk.
               </p>
               <div class="about-teaser-footer">
                 <span class="builder-name">${e.founder} — Founder, AryansArcade</span>
@@ -358,7 +377,7 @@
         </div>
       </section>
     </div>
-  `}function A(e=`All`){let n=p(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
+  `}function k(e=`All`){let n=p(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view products-page">
       <section class="page-header-band">
         <div class="container">
@@ -391,7 +410,7 @@
         </div>
       </section>
     </div>
-  `}function j(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=p(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>E(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function M(e){let t=p(),n=t.find(t=>t.slug===e)||t[0];return`
+  `}function A(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=p(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>E(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function j(e){let t=p(),n=t.find(t=>t.slug===e)||t[0];return`
     <div class="page-view product-detail-page" style="--product-accent: ${n.accentColor};">
       <!-- ═══════════ PRODUCT HERO ═══════════ -->
       <section class="pdp-hero-band">
@@ -627,7 +646,7 @@
         </div>
       </section>
     </div>
-  `}function N(e=`All`){let t=m(),n=e===`All`?t:t.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
+  `}function M(e=`All`){let t=m(),n=e===`All`?t:t.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view work-page">
       <section class="page-header-band">
         <div class="container">
@@ -654,12 +673,12 @@
       <section class="section work-list-section">
         <div class="container">
           <div class="project-list animate-stagger" id="work-container">
-            ${n.map((e,t)=>O(e,t)).join(``)}
+            ${n.map((e,t)=>D(e,t)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function P(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=m(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map((e,t)=>O(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function F(){return`
+  `}function N(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=m(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map((e,t)=>D(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function P(){return`
     <div class="page-view services-page">
       <section class="page-header-band">
         <div class="container">
@@ -746,7 +765,7 @@
         </div>
       </section>
     </div>
-  `}function I(e=`All`){let t=v(),n=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
+  `}function F(e=`All`){let t=v(),n=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
     <div class="page-view content-page">
       <section class="page-header-band">
         <div class="container">
@@ -773,12 +792,12 @@
       <section class="section content-feed-section">
         <div class="container">
           <div class="content-feed-grid animate-stagger" id="content-feed-container">
-            ${n.map(e=>L(e)).join(``)}
+            ${n.map(e=>I(e)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function L(e){let t=e.type===`Videos`,n={X:`Read on X →`,Instagram:`See carousel on Instagram →`,LinkedIn:`Read article on LinkedIn →`}[e.type]||(t?`Watch video →`:`Read article →`),r=e.url.startsWith(`http`);return`
+  `}function I(e){let t=e.type===`Videos`,n={X:`Read on X →`,Instagram:`See carousel on Instagram →`,LinkedIn:`Read article on LinkedIn →`}[e.type]||(t?`Watch video →`:`Read article →`),r=e.url.startsWith(`http`);return`
     <article class="content-hub-card ${t?`video-card`:``}" data-spotlight>
       <div class="hub-card-header">
         <span class="hub-tag">${e.tag}</span>
@@ -795,7 +814,7 @@
         <a href="${e.url}"${r?` target="_blank" rel="noopener noreferrer"`:``} class="hub-action-link">${n}</a>
       </div>
     </article>
-  `}function R(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=v(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>L(e)).join(``)}})}function z(){let e=y();return`
+  `}function L(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=v(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>I(e)).join(``)}})}function R(){let e=y();return`
     <div class="page-view newsletter-page">
       <section class="page-header-band newsletter-hero-band">
         <div class="container">
@@ -860,7 +879,7 @@
         </div>
       </section>
     </div>
-  `}function B(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`nl-email-input`);S(`Subscribe me to the AryansArcade Letter`,`Please add ${t?t.value:``} to the newsletter.`)})}var V=[{group:`CORE RUNTIMES`,items:[`TypeScript`,`JavaScript (ESNext)`,`Node.js`,`Python`,`Go`,`Rust / WASM`]},{group:`INTERFACES & UX`,items:[`React 19`,`Next.js 15`,`Vite`,`HTML5 / Semantic CSS`,`Design Systems`]},{group:`DATA & STORAGE`,items:[`PostgreSQL`,`SQLite / LibSQL`,`Cloudflare D1`,`Redis`,`Vector Embeddings`]},{group:`DEVOPS & CLOUD`,items:[`Docker`,`Cloudflare Workers`,`AWS`,`GitHub Actions`,`Vercel`]}];function H(){return`
+  `}function z(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`nl-email-input`);C(`Subscribe me to the AryansArcade Letter`,`Please add ${t?t.value:``} to the newsletter.`)})}var B=[{group:`CORE RUNTIMES`,items:[`TypeScript`,`JavaScript (ESNext)`,`Node.js`,`Python`,`Go`,`Rust / WASM`]},{group:`INTERFACES & UX`,items:[`React 19`,`Next.js 15`,`Vite`,`HTML5 / Semantic CSS`,`Design Systems`]},{group:`DATA & STORAGE`,items:[`PostgreSQL`,`SQLite / LibSQL`,`Cloudflare D1`,`Redis`,`Vector Embeddings`]},{group:`DEVOPS & CLOUD`,items:[`Docker`,`Cloudflare Workers`,`AWS`,`GitHub Actions`,`Vercel`]}];function V(){return`
     <div class="page-view about-page">
       <section class="page-header-band">
         <div class="container">
@@ -937,7 +956,7 @@
               <div class="about-toolkit-block">
                 <span class="toolkit-heading">PRIMARY ENGINEERING TOOLKIT</span>
                 <div class="toolkit-matrix-grid">
-                  ${V.map(e=>`
+                  ${B.map(e=>`
                     <div class="toolkit-group-card">
                       <span class="toolkit-group-name">${e.group}</span>
                       <div class="toolkit-chips">
@@ -952,7 +971,7 @@
         </div>
       </section>
     </div>
-  `}var U=[{amount:`₹100`,amountUsd:`$2`,name:`Server Sparks`,desc:`Covers edge compute costs and keeps open-source experiments online.`,perk:`Public builder appreciation + Discord supporter role`},{amount:`₹500`,amountUsd:`$7`,name:`API & Compute Fuel`,desc:`Directly subsidizes GPU and LLM inference credits for research benchmarks.`,perk:`Early access to pre-release betas & experimental repositories`,recommended:!0},{amount:`₹1,000`,amountUsd:`$15`,name:`Sponsor a Build`,desc:`Funds deep-dive technical articles, research papers, and open-source tooling.`,perk:`Thank-you credit on the site + priority on feature requests`}],W=[{q:`How is this different from buying a product?`,a:`When you hire me for a project, you pay for work built for you and own all of its code. Supporting AryansArcade is a voluntary tip that funds free tools like Spinpath and the content I share.`},{q:`What payment methods will be accepted?`,a:`UPI, credit/debit cards, net banking, and international cards via Stripe/Razorpay.`},{q:`Can I cancel anytime if I choose recurring patronage?`,a:`Yes, full control with one-click cancellation from your billing portal.`}];function oe(){return`
+  `}var H=[{amount:`₹100`,amountUsd:`$2`,name:`Server Sparks`,desc:`Covers edge compute costs and keeps open-source experiments online.`,perk:`Public builder appreciation + Discord supporter role`},{amount:`₹500`,amountUsd:`$7`,name:`API & Compute Fuel`,desc:`Directly subsidizes GPU and LLM inference credits for research benchmarks.`,perk:`Early access to pre-release betas & experimental repositories`,recommended:!0},{amount:`₹1,000`,amountUsd:`$15`,name:`Sponsor a Build`,desc:`Funds deep-dive technical articles, research papers, and open-source tooling.`,perk:`Thank-you credit on the site + priority on feature requests`}],U=[{q:`How is this different from buying a product?`,a:`When you hire me for a project, you pay for work built for you and own all of its code. Supporting AryansArcade is a voluntary tip that funds free tools like Spinpath and the content I share.`},{q:`What payment methods will be accepted?`,a:`UPI, credit/debit cards, net banking, and international cards via Stripe/Razorpay.`},{q:`Can I cancel anytime if I choose recurring patronage?`,a:`Yes, full control with one-click cancellation from your billing portal.`}];function W(){return`
     <div class="page-view support-page">
       <section class="page-header-band">
         <div class="container">
@@ -974,7 +993,7 @@
       <section class="section support-tiers-section">
         <div class="container">
           <div class="support-cards-grid animate-stagger" id="support-tiers-container">
-            ${U.map(e=>`
+            ${H.map(e=>`
               <div class="support-tier-card ${e.recommended?`tier-recommended`:``}">
                 ${e.recommended?`<span class="tier-pill-badge">MOST POPULAR</span>`:``}
                 <div class="tier-head">
@@ -1027,7 +1046,7 @@
           </div>
 
           <div class="faq-accordion-list animate-on-scroll">
-            ${W.map(e=>`
+            ${U.map(e=>`
               <div class="faq-item">
                 <h4 class="faq-question">${e.q}</h4>
                 <p class="faq-answer">${e.a}</p>
@@ -1065,7 +1084,7 @@
                     <span class="item-label">Direct Email</span>
                     <span class="item-value">${e.email}</span>
                   </a>
-                  ${C().map(e=>`
+                  ${w().map(e=>`
                   <a href="${e.url}" target="_blank" rel="noopener noreferrer" class="direct-item">
                     <span class="item-label">${e.label||e.key}</span>
                     <span class="item-value">${e.handle}</span>
@@ -1118,11 +1137,11 @@
         </div>
       </section>
     </div>
-  `}function q(){let e=document.getElementById(`contact-page-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=new FormData(e),r=e.querySelector(`#contact-intent`),i=r?r.options[r.selectedIndex].text:``;S(`Project enquiry from ${n.get(`name`)}`,`Name: ${n.get(`name`)}
+  `}function q(){let e=document.getElementById(`contact-page-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=new FormData(e),r=e.querySelector(`#contact-intent`),i=r?r.options[r.selectedIndex].text:``;C(`Project enquiry from ${n.get(`name`)}`,`Name: ${n.get(`name`)}
 Email: ${n.get(`email`)}
 Topic: ${i}
 
-${n.get(`message`)}`);let a=document.getElementById(`btn-contact-submit`);a&&(a.textContent=`Opening your email app…`)})}var se=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,ce=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,le=!1,ue=!1,J=[];function de(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),fe(),!se()&&(pe(),ce()&&(me(),he(),ge()))}function fe(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),le||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function pe(){J=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{J.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};ue||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function me(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function he(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function ge(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}var Y={"/":{title:`AryansArcade — Apps, Websites & AI Automation by Aryan Singh`,description:`Aryan Singh builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects like Spinpath, Excuses and Carousel Studio, and hire for your next build.`},"/work":{title:`Projects — Apps, Websites & Automations | AryansArcade`,description:`Projects by Aryan Singh: Spinpath (learning website), Excuses and Carousel Studio (Android and iOS apps) and a nightly AI podcast automation.`},"/services":{title:`Hire an App, Website & Automation Developer | AryansArcade`,description:`Hire Aryan Singh for automation, website development, Android and iOS app development, and AI features. Clear plans, weekly updates, and you own the code.`},"/content":{title:`Posts on AI, Software & Startups | AryansArcade`,description:`Articles and posts by Aryan Singh from LinkedIn, X and Instagram on AI, code review, CI/CD, startups and building products in public.`},"/about":{title:`About Aryan Singh | AryansArcade`,description:`About Aryan Singh, the developer behind AryansArcade, building Android and iOS apps, websites and AI automations.`},"/contact":{title:`Contact Aryan Singh | AryansArcade`,description:`Contact Aryan Singh at AryansArcade to start an app, website or automation project. Email, LinkedIn, Instagram and X.`},"/support":{title:`Support AryansArcade`,description:`Support the free tools and posts Aryan Singh shares at AryansArcade.`}},X=`https://aryansarcade.in`;function _e(e){let t=Y[e];if(!t)return;let n=(e,t,n)=>{let r=document.querySelector(e);r&&r.setAttribute(t,n)};n(`meta[name="description"]`,`content`,t.description),n(`meta[property="og:title"]`,`content`,t.title),n(`meta[property="og:description"]`,`content`,t.description);let r=X+(e===`/`?`/`:e);n(`link[rel="canonical"]`,`href`,r),n(`meta[property="og:url"]`,`content`,r)}function Z(){return window.location.pathname.replace(/\/+$/,``)||`/`}function Q(e,{replace:t=!1}={}){(e!==Z()||t)&&(window.history[t?`replaceState`:`pushState`]({},``,e),$())}function ve(){window.location.hash.startsWith(`#/`)&&window.history.replaceState({},``,window.location.hash.slice(1)),window.addEventListener(`popstate`,$),document.addEventListener(`click`,e=>{let t=e.target.closest(`a[href^="/"]`);if(!t||t.target===`_blank`||e.metaKey||e.ctrlKey||e.shiftKey||e.button!==0)return;let n=t.getAttribute(`href`);/\.[a-z0-9]+$/i.test(n)||(e.preventDefault(),Q(n))}),$()}function $(){let e=document.getElementById(`app`);if(!e)return;let t=Z(),n=``,r=`AryansArcade — Builder Ecosystem & Digital Storefront`,i=null;if(t.startsWith(`/products`)&&!f())Q(`/work`,{replace:!0});else if(t===`/content`&&!g()||t===`/newsletter`&&!_())Q(`/`,{replace:!0});else{if(t===`/`||t===``)n=k(),r=`AryansArcade — Apps, Websites & AI Automation by Aryan`,i=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=e.querySelector(`input[type="email"]`).value;S(`Subscribe me to the AryansArcade Letter`,`Please add ${n} to the newsletter.`)})};else if(t===`/products`)n=A(),r=`Products & Architecture — AryansArcade`,i=j;else if(t.startsWith(`/products/`)){let e=t.replace(`/products/`,``).split(`?`)[0],i=p().find(t=>t.slug===e);n=M(e),r=i?`${i.name} — AryansArcade`:`Product Detail — AryansArcade`}else t===`/work`?(n=N(),r=`Projects — AryansArcade`,i=P):t===`/services`?(n=F(),r=`Services: Automation, Websites & Apps — AryansArcade`):t===`/content`?(n=I(),r=`Content, Articles & Video Teardowns — AryansArcade`,i=R):t===`/newsletter`?(n=z(),r=`AryansArcade Letter — Weekly Builder Dispatch`,i=B):t===`/about`?(n=H(),r=`About & Engineering Ethos — AryansArcade`):t===`/support`?(n=oe(),r=`Support & Patronage — AryansArcade`,i=G):t===`/contact`?(n=K(),r=`Contact & Technical Brief — AryansArcade`,i=q):(n=`
+${n.get(`message`)}`);let a=document.getElementById(`btn-contact-submit`);a&&(a.textContent=`Opening your email app…`)})}var oe=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,se=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,ce=!1,le=!1,J=[];function ue(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),de(),!oe()&&(fe(),se()&&(pe(),me(),he()))}function de(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),ce||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function fe(){J=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{J.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};le||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function pe(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function me(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function he(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}var Y={"/":{title:`AryansArcade — Apps, Websites & AI Automation by Aryan Singh`,description:`Aryan Singh builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects like Spinpath, Excuses and Carousel Studio, and hire for your next build.`},"/work":{title:`Projects — Apps, Websites & Automations | AryansArcade`,description:`Projects by Aryan Singh: Spinpath (learning website), Excuses and Carousel Studio (Android and iOS apps) and a nightly AI podcast automation.`},"/services":{title:`Hire an App, Website & Automation Developer | AryansArcade`,description:`Hire Aryan Singh for automation, website development, Android and iOS app development, and AI features. Clear plans, weekly updates, and you own the code.`},"/content":{title:`Posts on AI, Software & Startups | AryansArcade`,description:`Articles and posts by Aryan Singh from LinkedIn, X and Instagram on AI, code review, CI/CD, startups and building products in public.`},"/about":{title:`About Aryan Singh | AryansArcade`,description:`About Aryan Singh, the developer behind AryansArcade, building Android and iOS apps, websites and AI automations.`},"/contact":{title:`Contact Aryan Singh | AryansArcade`,description:`Contact Aryan Singh at AryansArcade to start an app, website or automation project. Email, LinkedIn, Instagram and X.`},"/support":{title:`Support AryansArcade`,description:`Support the free tools and posts Aryan Singh shares at AryansArcade.`}},ge=`https://aryansarcade.in`;function X(e){let t=Y[e];if(!t)return;let n=(e,t,n)=>{let r=document.querySelector(e);r&&r.setAttribute(t,n)};n(`meta[name="description"]`,`content`,t.description),n(`meta[property="og:title"]`,`content`,t.title),n(`meta[property="og:description"]`,`content`,t.description);let r=ge+(e===`/`?`/`:e);n(`link[rel="canonical"]`,`href`,r),n(`meta[property="og:url"]`,`content`,r)}function Z(){return window.location.pathname.replace(/\/+$/,``)||`/`}function Q(e,{replace:t=!1}={}){(e!==Z()||t)&&(window.history[t?`replaceState`:`pushState`]({},``,e),$())}function _e(){window.location.hash.startsWith(`#/`)&&window.history.replaceState({},``,window.location.hash.slice(1)),window.addEventListener(`popstate`,$),document.addEventListener(`click`,e=>{let t=e.target.closest(`a[href^="/"]`);if(!t||t.target===`_blank`||e.metaKey||e.ctrlKey||e.shiftKey||e.button!==0)return;let n=t.getAttribute(`href`);/\.[a-z0-9]+$/i.test(n)||(e.preventDefault(),Q(n))}),$()}function $(){let e=document.getElementById(`app`);if(!e)return;let t=Z(),n=``,r=`AryansArcade — Builder Ecosystem & Digital Storefront`,i=null;if(t.startsWith(`/products`)&&!f())Q(`/work`,{replace:!0});else if(t===`/content`&&!g()||t===`/newsletter`&&!_())Q(`/`,{replace:!0});else{if(t===`/`||t===``)n=O(),r=`AryansArcade — Apps, Websites & AI Automation by Aryan`,i=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=e.querySelector(`input[type="email"]`).value;C(`Subscribe me to the AryansArcade Letter`,`Please add ${n} to the newsletter.`)})};else if(t===`/products`)n=k(),r=`Products & Architecture — AryansArcade`,i=A;else if(t.startsWith(`/products/`)){let e=t.replace(`/products/`,``).split(`?`)[0],i=p().find(t=>t.slug===e);n=j(e),r=i?`${i.name} — AryansArcade`:`Product Detail — AryansArcade`}else t===`/work`?(n=M(),r=`Projects — AryansArcade`,i=N):t===`/services`?(n=P(),r=`Services: Automation, Websites & Apps — AryansArcade`):t===`/content`?(n=F(),r=`Content, Articles & Video Teardowns — AryansArcade`,i=L):t===`/newsletter`?(n=R(),r=`AryansArcade Letter — Weekly Builder Dispatch`,i=z):t===`/about`?(n=V(),r=`About & Engineering Ethos — AryansArcade`):t===`/support`?(n=W(),r=`Support & Patronage — AryansArcade`,i=G):t===`/contact`?(n=K(),r=`Contact & Technical Brief — AryansArcade`,i=q):(n=`
       <div class="page-view not-found-page">
         <section class="section">
           <div class="container" style="text-align: center; padding: 120px 0;">
@@ -1133,10 +1152,10 @@ ${n.get(`message`)}`);let a=document.getElementById(`btn-contact-submit`);a&&(a.
           </div>
         </section>
       </div>
-    `,r=`404 Not Found — AryansArcade`);document.title=Y[t]&&Y[t].title||r,_e(t),e.innerHTML=`
+    `,r=`404 Not Found — AryansArcade`);document.title=Y[t]&&Y[t].title||r,X(t),e.innerHTML=`
     ${ee()}
     <main id="main-content">
       ${n}
     </main>
     ${re()}
-  `,te(),i&&i(),window.scrollTo({top:0,behavior:`instant`}),ye(),de()}}function ye(){let e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`is-visible`)})},{threshold:.08,rootMargin:`0px 0px -30px 0px`});document.querySelectorAll(`.animate-on-scroll, .animate-stagger, .animate-slide-left, .animate-slide-right`).forEach(t=>e.observe(t))}if(window.top!==window.self)try{window.top.location.replace(window.self.location.href)}catch{document.documentElement.innerHTML=``}document.addEventListener(`DOMContentLoaded`,()=>{ve()});
+  `,te(),i&&i(),window.scrollTo({top:0,behavior:`instant`}),ve(),ue()}}function ve(){let e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`is-visible`)})},{threshold:.08,rootMargin:`0px 0px -30px 0px`});document.querySelectorAll(`.animate-on-scroll, .animate-stagger, .animate-slide-left, .animate-slide-right`).forEach(t=>e.observe(t))}if(window.top!==window.self)try{window.top.location.replace(window.self.location.href)}catch{document.documentElement.innerHTML=``}function ye(){let e=document.getElementById(`ink-loader`);if(!e)return;if(getComputedStyle(e).display===`none`){e.remove();return}let t=new Promise(e=>setTimeout(e,2e3)),n=document.fonts?document.fonts.ready:Promise.resolve();Promise.all([t,n]).then(()=>{e.classList.add(`is-done`),setTimeout(()=>{document.body.classList.remove(`motion-ready`),document.body.offsetWidth,document.body.classList.add(`motion-ready`)},250),setTimeout(()=>e.remove(),900)})}document.addEventListener(`DOMContentLoaded`,()=>{_e(),ye()});
