@@ -67,7 +67,7 @@
   `}var T=`
   <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
     <path d="M3.33 8h9.34M8.67 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>`;function ae(e,t=0){return e.split(` `).map((e,n)=>`<span class="word-mask"><span class="word" style="--i:${t+n}">${e}</span></span>`).join(` `)}function E(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
+  </svg>`;function E(e,t=0){return e.split(` `).map((e,n)=>`<span class="word-mask"><span class="word" style="--i:${t+n}">${e}</span></span>`).join(` `)}function D(e,t){let n=e.external?` target="_blank" rel="noopener"`:``;return`
     <a class="project-row" href="${e.linkUrl}"${n} data-spotlight>
       <span class="project-index">${String(t+1).padStart(2,`0`)}</span>
       <div class="project-main">
@@ -82,14 +82,14 @@
         </div>
       </div>
       <span class="project-cta">${e.linkText}</span>
-    </a>`}var D=e=>e.external?` target="_blank" rel="noopener"`:``;function oe(e){return`
-    <a class="hm-tile" href="${e.linkUrl}"${D(e)} data-spotlight>
+    </a>`}var O=e=>e.external?` target="_blank" rel="noopener"`:``;function ae(e){return`
+    <a class="hm-tile" href="${e.linkUrl}"${O(e)} data-spotlight>
       <span class="hm-tile-meta">${e.category} · ${e.status}</span>
       <h3 class="hm-tile-title">${e.title}</h3>
       <p class="hm-tile-kicker">${e.kicker||``}</p>
       <span class="hm-tile-tags">${e.tags.slice(0,3).map(e=>`<i>${e}</i>`).join(``)}</span>
       <span class="hm-tile-go" aria-hidden="true">${T}</span>
-    </a>`}function se(){let t=p(),n=m(),r=h(),i=v().slice(0,2),a=t.find(e=>e.featured),s=n.find(e=>e.highlight)||n[0],c=n.filter(e=>e!==s),l=String(n.length).padStart(2,`0`),u=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
+    </a>`}function oe(){let t=p(),n=m(),r=h(),i=v().slice(0,2),a=t.find(e=>e.featured),s=n.find(e=>e.highlight)||n[0],c=n.filter(e=>e!==s),l=String(n.length).padStart(2,`0`),u=[`Automation`,`Website Development`,`App Development`,`AI Features`,`Android & iOS`,`Browser Automation`,`Motion & UI`].map(e=>`<span class="marquee-item">${e}</span><span class="marquee-star">✦</span>`).join(``);return`
     <div class="page-view home-page hm">
       <!-- ═══════════ HERO: headline, one line, one button ═══════════ -->
       <section class="hm-hero">
@@ -97,8 +97,8 @@
           <div class="hm-hero-text">
             <span class="hm-status hero-fade" style="--d:0"><span class="status-pulse-dot"></span> Available for new projects</span>
             <h1 class="hm-headline hero-words">
-              ${ae(`I build apps, websites and automations that`)}
-              <span class="word-mask"><em class="word" style="--i:7">give you time back.</em></span>
+              ${E(`I build apps, websites and automations that`)}
+              <em>${E(`give you time back.`,7)}</em>
             </h1>
             <p class="hm-sub hero-fade" style="--d:1">I'm ${e.founder}. Android and iOS apps, fast websites and AI that does the busywork, built end to end and handed over with the code.</p>
             <div class="hm-ctas hero-fade" style="--d:2">
@@ -116,7 +116,7 @@
             <div class="hm-portrait" data-parallax="0.03">
               <img src="/portrait-cover.webp" alt="${e.founder} sitting on a rock under a bright cloudy sky" width="1086" height="1448" fetchpriority="high" />
             </div>
-            <a class="hm-chip hm-chip-a" href="${s.linkUrl}"${D(s)}><span class="status-pulse-dot"></span>${s.title} is live</a>
+            <a class="hm-chip hm-chip-a" href="${s.linkUrl}"${O(s)}><span class="status-pulse-dot"></span>${s.title} is live</a>
             <span class="hm-chip hm-chip-b" aria-hidden="true">Ideas, <em>shipped.</em></span>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <a href="/work" class="hm-link">All projects (${n.length}) →</a>
           </div>
           <div class="hm-bento animate-stagger">
-            <a class="hm-tile hm-tile-feature" href="${s.linkUrl}"${D(s)} data-spotlight>
+            <a class="hm-tile hm-tile-feature" href="${s.linkUrl}"${O(s)} data-spotlight>
               <span class="hm-tile-meta"><span class="status-pulse-dot"></span> ${s.category} · ${s.status}</span>
               <h3 class="hm-tile-title">${s.title}</h3>
               <p class="hm-tile-kicker">${s.kicker||``}</p>
@@ -144,7 +144,7 @@
               <span class="hm-tile-tags">${s.tags.map(e=>`<i>${e}</i>`).join(``)}</span>
               <span class="hm-tile-cta">${s.linkText}</span>
             </a>
-            ${c.map(oe).join(``)}
+            ${c.map(ae).join(``)}
             ${a?`
             <a class="hm-tile hm-tile-product" href="${a.externalUrl||`/products`}"${a.externalUrl?` target="_blank" rel="noopener"`:``} data-spotlight>
               <span class="hm-tile-meta">Buy once, own it · ${a.status}</span>
@@ -250,11 +250,11 @@
         </div>
       </section>
     </div>
-  `}function O(e){let t=e.externalUrl||`/products/${e.slug}`;return`
+  `}function k(e){let t=e.externalUrl||`/products/${e.slug}`;return`
     <article class="product-item-card" id="card-${e.slug}">
       <div class="card-identity-header">
         <div class="card-icon-frame" style="--product-accent: ${e.accentColor};">
-          ${ce(e.logoIcon)}
+          ${se(e.logoIcon)}
         </div>
         <div class="card-meta-pill">
           <span class="card-category">${e.category}</span>
@@ -279,7 +279,7 @@
         </a>
       </div>
     </article>
-  `}function ce(e){switch(e){case`activity`:return`
+  `}function se(e){switch(e){case`activity`:return`
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
         </svg>
@@ -322,7 +322,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="12" cy="12" r="10"></circle>
         </svg>
-      `}}function le(e=`All`){let n=p(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
+      `}}function ce(e=`All`){let n=p(),r=e===`All`?n:n.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view products-page">
       <section class="page-header-band">
         <div class="container">
@@ -350,12 +350,12 @@
       <section class="section catalog-grid-section">
         <div class="container">
           <div class="catalog-products-grid animate-stagger" id="products-catalog-container">
-            ${r.length>0?r.map(e=>O(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}
+            ${r.length>0?r.map(e=>k(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}
           </div>
         </div>
       </section>
     </div>
-  `}function ue(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=p(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>O(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function de(e){let t=p(),n=t.find(t=>t.slug===e)||t[0];return`
+  `}function le(){let e=document.querySelectorAll(`#product-category-filters .filter-pill`),t=document.getElementById(`products-catalog-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=p(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map(e=>k(e)).join(``):`<div class="empty-state"><p>No products currently found in this category.</p></div>`}})}function ue(e){let t=p(),n=t.find(t=>t.slug===e)||t[0];return`
     <div class="page-view product-detail-page" style="--product-accent: ${n.accentColor};">
       <!-- ═══════════ PRODUCT HERO ═══════════ -->
       <section class="pdp-hero-band">
@@ -591,7 +591,7 @@
         </div>
       </section>
     </div>
-  `}function fe(e=`All`){let t=m(),n=e===`All`?t:t.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
+  `}function de(e=`All`){let t=m(),n=e===`All`?t:t.filter(t=>t.category.toLowerCase()===e.toLowerCase());return`
     <div class="page-view work-page">
       <section class="page-header-band">
         <div class="container">
@@ -618,12 +618,12 @@
       <section class="section work-list-section">
         <div class="container">
           <div class="project-list animate-stagger" id="work-container">
-            ${n.map((e,t)=>E(e,t)).join(``)}
+            ${n.map((e,t)=>D(e,t)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function pe(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=m(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map((e,t)=>E(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function me(){return`
+  `}function fe(){let e=document.querySelectorAll(`#work-category-filters .filter-pill`),t=document.getElementById(`work-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=m(),a=r===`All`?i:i.filter(e=>e.category.toLowerCase()===r.toLowerCase());t.innerHTML=a.length>0?a.map((e,t)=>D(e,t)).join(``):`<div class="empty-state"><p>No work items found in this category.</p></div>`}})}function pe(){return`
     <div class="page-view services-page">
       <section class="page-header-band">
         <div class="container">
@@ -710,7 +710,7 @@
         </div>
       </section>
     </div>
-  `}function he(e=`All`){let t=v(),n=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
+  `}function me(e=`All`){let t=v(),n=e===`All`?t:t.filter(t=>t.type.toLowerCase()===e.toLowerCase());return`
     <div class="page-view content-page">
       <section class="page-header-band">
         <div class="container">
@@ -737,12 +737,12 @@
       <section class="section content-feed-section">
         <div class="container">
           <div class="content-feed-grid animate-stagger" id="content-feed-container">
-            ${n.map(e=>k(e)).join(``)}
+            ${n.map(e=>A(e)).join(``)}
           </div>
         </div>
       </section>
     </div>
-  `}function k(e){let t=e.type===`Videos`,n={X:`Read on X →`,Instagram:`See carousel on Instagram →`,LinkedIn:`Read article on LinkedIn →`}[e.type]||(t?`Watch video →`:`Read article →`),r=e.url.startsWith(`http`);return`
+  `}function A(e){let t=e.type===`Videos`,n={X:`Read on X →`,Instagram:`See carousel on Instagram →`,LinkedIn:`Read article on LinkedIn →`}[e.type]||(t?`Watch video →`:`Read article →`),r=e.url.startsWith(`http`);return`
     <article class="content-hub-card ${t?`video-card`:``}" data-spotlight>
       <div class="hub-card-header">
         <span class="hub-tag">${e.tag}</span>
@@ -759,7 +759,7 @@
         <a href="${e.url}"${r?` target="_blank" rel="noopener noreferrer"`:``} class="hub-action-link">${n}</a>
       </div>
     </article>
-  `}function ge(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=v(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>k(e)).join(``)}})}function _e(){let e=y();return`
+  `}function he(){let e=document.querySelectorAll(`#content-category-filters .filter-pill`),t=document.getElementById(`content-feed-container`);e.length&&t&&e.forEach(n=>{n.onclick=()=>{e.forEach(e=>e.classList.remove(`active`)),n.classList.add(`active`);let r=n.getAttribute(`data-category`),i=v(),a=r===`All`?i:i.filter(e=>e.type.toLowerCase()===r.toLowerCase());t.innerHTML=a.map(e=>A(e)).join(``)}})}function ge(){let e=y();return`
     <div class="page-view newsletter-page">
       <section class="page-header-band newsletter-hero-band">
         <div class="container">
@@ -824,44 +824,44 @@
         </div>
       </section>
     </div>
-  `}function ve(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`nl-email-input`);S(`Subscribe me to the AryansArcade Letter`,`Please add ${t?t.value:``} to the newsletter.`)})}var ye=`/editions/latest.json`,be=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,A=e=>String(e??``).replace(/[&<>"']/g,e=>({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`})[e]),j=e=>/^https?:\/\//i.test(String(e||``))?A(e):``,M=/\s*\[(\d+(?:\s*,\s*\d+)*)\]/g,N=e=>String(e??``).replace(M,``),P=(e,t,n=``)=>`<a href="${e}"${n?` class="${n}"`:``} target="_blank" rel="noopener noreferrer">${t}</a>`;function F(e,t){let n=new Map((t||[]).map(e=>[Number(e.n),e]));return A(e).replace(M,(e,t)=>t.split(`,`).map(e=>{let t=e.trim(),r=n.get(Number(t)),i=r&&j(r.url);return`<sup class="np-cite">${i?`<a href="${i}" target="_blank" rel="noopener noreferrer" title="${A(r.site)}">${t}</a>`:t}</sup>`}).join(``))}var I=e=>Number(e).toLocaleString(`en-IN`,{maximumFractionDigits:2}),L=e=>`${e>=0?`▲`:`▼`} ${Math.abs(e).toFixed(2)}%`;function R(e,t){if(!Array.isArray(e)||e.length<2)return``;let n=Math.min(...e),r=Math.max(...e)-n||1,i=e.map((t,i)=>`${(i/(e.length-1)*80).toFixed(1)},${(24-(t-n)/r*24).toFixed(1)}`).join(` `);return`<svg class="np-spark ${t?`is-up`:`is-down`}" viewBox="0 -2 80 28" preserveAspectRatio="none" aria-hidden="true"><polyline points="${i}" /></svg>`}var xe=`<svg class="np-fleuron" viewBox="0 0 240 24" aria-hidden="true"><path d="M4 12h84c10 0 14-8 22-8s10 8 10 8-2 8-10 8-12-8-22-8M236 12h-84c-10 0-14-8-22-8s-10 8-10 8 2 8 10 8 12-8 22-8"/><path d="M120 5l7 7-7 7-7-7z"/></svg>`;function z(e){let t=`<span>Today’s edition</span>`;if(e){let n=new Date(`${e.date}T12:00:00+05:30`),r=n.toLocaleDateString(`en-IN`,{weekday:`long`,day:`numeric`,month:`long`,year:`numeric`,timeZone:`Asia/Kolkata`});t=`<span>No. ${Math.round((n-new Date(`${e.date.slice(0,4)}-01-01T12:00:00+05:30`))/864e5)+1}</span><span>${A(r)}</span><span>${Number(e.readMinutes)||5} min read</span>`}return`
+  `}function _e(){let e=document.getElementById(`newsletter-main-form`);e&&(e.onsubmit=e=>{e.preventDefault();let t=document.getElementById(`nl-email-input`);S(`Subscribe me to the AryansArcade Letter`,`Please add ${t?t.value:``} to the newsletter.`)})}var ve=`/editions/latest.json`,ye=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,j=e=>String(e??``).replace(/[&<>"']/g,e=>({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`})[e]),M=e=>/^https?:\/\//i.test(String(e||``))?j(e):``,N=/\s*\[(\d+(?:\s*,\s*\d+)*)\]/g,be=e=>String(e??``).replace(N,``),P=(e,t,n=``)=>`<a href="${e}"${n?` class="${n}"`:``} target="_blank" rel="noopener noreferrer">${t}</a>`;function F(e,t){let n=new Map((t||[]).map(e=>[Number(e.n),e]));return j(e).replace(N,(e,t)=>t.split(`,`).map(e=>{let t=e.trim(),r=n.get(Number(t)),i=r&&M(r.url);return`<sup class="np-cite">${i?`<a href="${i}" target="_blank" rel="noopener noreferrer" title="${j(r.site)}">${t}</a>`:t}</sup>`}).join(``))}var I=e=>Number(e).toLocaleString(`en-IN`,{maximumFractionDigits:2}),L=e=>`${e>=0?`▲`:`▼`} ${Math.abs(e).toFixed(2)}%`;function R(e,t){if(!Array.isArray(e)||e.length<2)return``;let n=Math.min(...e),r=Math.max(...e)-n||1,i=e.map((t,i)=>`${(i/(e.length-1)*80).toFixed(1)},${(24-(t-n)/r*24).toFixed(1)}`).join(` `);return`<svg class="np-spark ${t?`is-up`:`is-down`}" viewBox="0 -2 80 28" preserveAspectRatio="none" aria-hidden="true"><polyline points="${i}" /></svg>`}var xe=`<svg class="np-fleuron" viewBox="0 0 240 24" aria-hidden="true"><path d="M4 12h84c10 0 14-8 22-8s10 8 10 8-2 8-10 8-12-8-22-8M236 12h-84c-10 0-14-8-22-8s-10 8-10 8 2 8 10 8 12-8 22-8"/><path d="M120 5l7 7-7 7-7-7z"/></svg>`;function z(e){let t=`<span>Today’s edition</span>`;if(e){let n=new Date(`${e.date}T12:00:00+05:30`),r=n.toLocaleDateString(`en-IN`,{weekday:`long`,day:`numeric`,month:`long`,year:`numeric`,timeZone:`Asia/Kolkata`});t=`<span>No. ${Math.round((n-new Date(`${e.date.slice(0,4)}-01-01T12:00:00+05:30`))/864e5)+1}</span><span>${j(r)}</span><span>${Number(e.readMinutes)||5} min read</span>`}return`
     <header class="np-masthead">
       <div class="np-ears">
         <span>All the news.<br />None of the noise.</span>
         <span>New Delhi<br />Price: free</span>
       </div>
       <h1 class="np-title">The Arcade Daily</h1>
-      ${e&&e.built?`<span class="np-ear-note">printed by Jarvis at ${A(new Date(e.built).toLocaleTimeString(`en-IN`,{hour:`numeric`,minute:`2-digit`,timeZone:`Asia/Kolkata`}))}</span>`:``}
+      ${e&&e.built?`<span class="np-ear-note">printed by Jarvis at ${j(new Date(e.built).toLocaleTimeString(`en-IN`,{hour:`numeric`,minute:`2-digit`,timeZone:`Asia/Kolkata`}))}</span>`:``}
       <div class="np-dateline np-rule-draw">${t}</div>
-    </header>`}function B(e,t,n=!1){let r=j(e.image);if(!r)return``;let i=[[`-3%`,`-2%`],[`3%`,`-1%`],[`-2%`,`2%`],[`2%`,`2%`]][t%4];return`
+    </header>`}function B(e,t,n=!1){let r=M(e.image);if(!r)return``;let i=[[`-3%`,`-2%`],[`3%`,`-1%`],[`-2%`,`2%`],[`2%`,`2%`]][t%4];return`
     <figure class="np-photo${n?` is-big`:``}">
       <img src="${r}" alt="" loading="${n?`eager`:`lazy`}" referrerpolicy="no-referrer" style="--kb-x:${i[0]};--kb-y:${i[1]}" />
     </figure>`}function Se(e,t){return`
     <article class="np-card np-reveal">
       ${B(e,t)}
-      <h3 class="np-hl"><button type="button" class="np-open" data-story="${A(e.id)}">${A(e.headline)}</button></h3>
-      <p class="np-dek">${A(e.dek)}</p>
+      <h3 class="np-hl"><button type="button" class="np-open" data-story="${j(e.id)}">${j(e.headline)}</button></h3>
+      <p class="np-dek">${j(e.dek)}</p>
       <p class="np-more">${Number(e.outlets)>1?`${Number(e.outlets)} outlets · `:``}Read the story →</p>
     </article>`}function Ce(e){return`
     <article class="np-lead np-reveal">
       ${B(e,0,!0)}
-      <h2 class="np-lead-hl"><button type="button" class="np-open" data-story="${A(e.id)}">${A(e.headline)}</button></h2>
-      <p class="np-lead-dek">${A(e.dek)}</p>
-      <ul class="np-lead-points">${(e.points||[]).slice(0,3).map(e=>`<li>${A(N(e))}</li>`).join(``)}</ul>
-      <button type="button" class="np-open np-read" data-story="${A(e.id)}">Read the full story →</button>
+      <h2 class="np-lead-hl"><button type="button" class="np-open" data-story="${j(e.id)}">${j(e.headline)}</button></h2>
+      <p class="np-lead-dek">${j(e.dek)}</p>
+      <ul class="np-lead-points">${(e.points||[]).slice(0,3).map(e=>`<li>${j(be(e))}</li>`).join(``)}</ul>
+      <button type="button" class="np-open np-read" data-story="${j(e.id)}">Read the full story →</button>
     </article>`}function we(e){let t=e.movers||[],n=e.market||[],r=t.map(e=>`
     <div class="np-mover">
       <div class="np-quote">
-        <strong>${A(e.name)}</strong>
+        <strong>${j(e.name)}</strong>
         ${R(e.closes,e.change>=0)}
         <span class="np-price">₹${I(e.price)}</span>
         <span class="np-chg ${e.change>=0?`is-up`:`is-down`}">${L(e.change)}</span>
       </div>
-      ${e.why?`<p class="np-mover-why">${A(e.why)}</p>`:``}
+      ${e.why?`<p class="np-mover-why">${j(e.why)}</p>`:``}
       ${(e.points||[]).length?`<ul class="np-mover-points">${e.points.map(t=>`<li>${F(t,e.sources)}</li>`).join(``)}</ul>`:``}
     </div>`).join(``),i=n.map(e=>`
     <tr>
-      <th scope="row">${A(e.name)}</th>
+      <th scope="row">${j(e.name)}</th>
       <td>${R(e.closes,e.change>=0)}</td>
       <td class="np-price">${e.index?``:`₹`}${I(e.price)}</td>
       <td class="np-chg ${e.change>=0?`is-up`:`is-down`}">${L(e.change)}</td>
@@ -874,7 +874,7 @@
     <div class="np-listen">
       <span class="np-listen-label">Listen to today’s brief</span>
       <audio controls preload="none" src="/editions/${e.date}.ogg">Your browser can’t play this audio.</audio>
-    </div>`}function Ee(e){let t=(e.market||[]).filter(e=>e.index);return t.length?`<div class="np-ticker">${t.map(e=>`<span><b>${A(e.name)}</b> ${I(e.price)} <i class="${e.change>=0?`is-up`:`is-down`}">${L(e.change)}</i></span>`).join(``)}</div>`:``}function De(e,t,n){let r=(e.sections||[]).map(e=>({...e,stories:(e.stories||[]).filter(e=>e!==n)})).filter(e=>e.stories.length),i=1;return`
+    </div>`}function Ee(e){let t=(e.market||[]).filter(e=>e.index);return t.length?`<div class="np-ticker">${t.map(e=>`<span><b>${j(e.name)}</b> ${I(e.price)} <i class="${e.change>=0?`is-up`:`is-down`}">${L(e.change)}</i></span>`).join(``)}</div>`:``}function De(e,t,n){let r=(e.sections||[]).map(e=>({...e,stories:(e.stories||[]).filter(e=>e!==n)})).filter(e=>e.stories.length),i=1;return`
     ${z(e)}
     ${Ee(e)}
     ${Te(e)}
@@ -883,8 +883,8 @@
       ${we(e)}
     </div>
     ${r.map(e=>`
-      <section class="np-section" aria-labelledby="np-sec-${A(e.id)}">
-        <h2 class="np-section-head np-rule-draw" id="np-sec-${A(e.id)}"><span>${A(e.name)}</span></h2>
+      <section class="np-section" aria-labelledby="np-sec-${j(e.id)}">
+        <h2 class="np-section-head np-rule-draw" id="np-sec-${j(e.id)}"><span>${j(e.name)}</span></h2>
         <div class="np-cols">${e.stories.map(e=>Se(e,i++)).join(``)}</div>
       </section>`).join(``)}
     <footer class="np-end np-reveal">
@@ -892,22 +892,22 @@
       <p class="np-end-title">You’re all caught up.</p>
       <p class="np-end-note">${t.length} stories today. The next edition goes to press at 6:30 am IST.</p>
     </footer>
-    <dialog class="np-story" id="np-story" aria-labelledby="np-story-title"></dialog>`}function Oe(e){let t=(e||[]).map(e=>({...e,at:Date.parse(e.when)}));return t.every(e=>!Number.isNaN(e.at))?t.sort((e,t)=>e.at-t.at):t}function ke(e,t){let n=e.sources||[],r=n[0]?`<figcaption>Photo via ${A(n[0].site)}</figcaption>`:``,i=j(e.image),a=(e,t)=>t?`<section class="np-sv-block"><h3>${e}</h3>${t}</section>`:``,o=(e,t,n=`ul`)=>(e||[]).length?`<${n}>${e.map(t).join(``)}</${n}>`:``,s=e.learn&&j(e.learn.url),c=o(e.voices,e=>`<li><blockquote>“${A(e.said)}”</blockquote><cite>${A(e.who)}</cite></li>`),l=o(e.x,e=>{let t=j(e.url);return`<li class="np-x"><p>${A(e.text)}</p><cite>${A(e.name)} <span>@${A(e.handle)}</span>${t?` · ${P(t,`View on X`)}`:``}</cite></li>`});return`
+    <dialog class="np-story" id="np-story" aria-labelledby="np-story-title"></dialog>`}function Oe(e){let t=(e||[]).map(e=>({...e,at:Date.parse(e.when)}));return t.every(e=>!Number.isNaN(e.at))?t.sort((e,t)=>e.at-t.at):t}function ke(e,t){let n=e.sources||[],r=n[0]?`<figcaption>Photo via ${j(n[0].site)}</figcaption>`:``,i=M(e.image),a=(e,t)=>t?`<section class="np-sv-block"><h3>${e}</h3>${t}</section>`:``,o=(e,t,n=`ul`)=>(e||[]).length?`<${n}>${e.map(t).join(``)}</${n}>`:``,s=e.learn&&M(e.learn.url),c=o(e.voices,e=>`<li><blockquote>“${j(e.said)}”</blockquote><cite>${j(e.who)}</cite></li>`),l=o(e.x,e=>{let t=M(e.url);return`<li class="np-x"><p>${j(e.text)}</p><cite>${j(e.name)} <span>@${j(e.handle)}</span>${t?` · ${P(t,`View on X`)}`:``}</cite></li>`});return`
     <div class="np-sv">
       <button type="button" class="np-sv-close" aria-label="Close story">×</button>
-      <p class="np-sv-kicker">${A(t)}</p>
-      <h2 class="np-sv-hl" id="np-story-title">${A(e.headline)}</h2>
-      <p class="np-sv-dek">${A(e.dek)}</p>
+      <p class="np-sv-kicker">${j(t)}</p>
+      <h2 class="np-sv-hl" id="np-story-title">${j(e.headline)}</h2>
+      <p class="np-sv-dek">${j(e.dek)}</p>
       ${i?`<figure class="np-photo is-big"><img src="${i}" alt="" referrerpolicy="no-referrer" style="--kb-x:-2%;--kb-y:-2%" />${r}</figure>`:``}
       ${a(`What happened`,o(e.points,e=>`<li>${F(e,n)}</li>`))}
-      ${a(`In plain words`,e.eli5?`<p>${A(e.eli5)}</p>`:``)}
-      ${a(`Why it matters`,e.why?`<p>${A(e.why)}</p>`:``)}
-      ${a(`How we got here`,o(Oe(e.timeline),e=>`<li><time>${A(e.when)}</time><span>${F(e.what,n)}</span></li>`,`ol`))}
+      ${a(`In plain words`,e.eli5?`<p>${j(e.eli5)}</p>`:``)}
+      ${a(`Why it matters`,e.why?`<p>${j(e.why)}</p>`:``)}
+      ${a(`How we got here`,o(Oe(e.timeline),e=>`<li><time>${j(e.when)}</time><span>${F(e.what,n)}</span></li>`,`ol`))}
       ${a(`What people are saying`,c+l?`<div class="np-voices">${c}${l}</div>`:``)}
-      ${a(`What we don’t know yet`,o(e.unclear,e=>`<li>${A(e)}</li>`))}
-      ${s?`<p class="np-learn-row">${P(s,`Learn: ${A(e.learn.label)} <span>· ${A(e.learn.site)}</span>`,`np-learn`)}</p>`:``}
-      ${a(`Sources`,o(n,e=>{let t=j(e.url);return`<li><b>${A(e.site)}</b> — ${t?P(t,A(e.title)):A(e.title)}</li>`},`ol`))}
-    </div>`}function Ae(e,t,n){e.querySelectorAll(`.np-photo img`).forEach(e=>{e.addEventListener(`error`,()=>e.closest(`.np-photo`)?.remove(),{once:!0})});let r=e.querySelector(`#np-story`),i=new Map((t.sections||[]).flatMap(e=>(e.stories||[]).map(t=>[t.id,e.name]))),a=(e,t)=>{let a=n.find(t=>String(t.id)===e);a&&(r.innerHTML=ke(a,i.get(a.id)||`Today`),r.querySelectorAll(`.np-photo img`).forEach(e=>{e.addEventListener(`error`,()=>e.closest(`.np-photo`)?.remove(),{once:!0})}),r.querySelector(`.np-sv-close`).addEventListener(`click`,()=>r.close()),r.addEventListener(`close`,()=>{document.body.classList.remove(`np-locked`),t?.focus()},{once:!0}),document.body.classList.add(`np-locked`),r.showModal(),r.scrollTop=0)};r.addEventListener(`click`,e=>{e.target===r&&r.close()}),e.addEventListener(`click`,e=>{let t=e.target.closest(`.np-open`);if(t)return a(t.dataset.story,t);let n=e.target.closest(`.np-card`);n&&!e.target.closest(`a`)&&n.querySelector(`.np-open`)?.click()});let o=e.querySelectorAll(`.np-reveal, .np-rule-draw`);if(be()||!(`IntersectionObserver`in window)){o.forEach(e=>e.classList.add(`is-in`));return}let s=new IntersectionObserver(e=>e.forEach(e=>{e.isIntersecting&&(e.target.classList.add(`is-in`),s.unobserve(e.target))}),{rootMargin:`0px 0px -40px 0px`});o.forEach(e=>s.observe(e))}function je(){return`
+      ${a(`What we don’t know yet`,o(e.unclear,e=>`<li>${j(e)}</li>`))}
+      ${s?`<p class="np-learn-row">${P(s,`Learn: ${j(e.learn.label)} <span>· ${j(e.learn.site)}</span>`,`np-learn`)}</p>`:``}
+      ${a(`Sources`,o(n,e=>{let t=M(e.url);return`<li><b>${j(e.site)}</b> — ${t?P(t,j(e.title)):j(e.title)}</li>`},`ol`))}
+    </div>`}function Ae(e,t,n){e.querySelectorAll(`.np-photo img`).forEach(e=>{e.addEventListener(`error`,()=>e.closest(`.np-photo`)?.remove(),{once:!0})});let r=e.querySelector(`#np-story`),i=new Map((t.sections||[]).flatMap(e=>(e.stories||[]).map(t=>[t.id,e.name]))),a=(e,t)=>{let a=n.find(t=>String(t.id)===e);a&&(r.innerHTML=ke(a,i.get(a.id)||`Today`),r.querySelectorAll(`.np-photo img`).forEach(e=>{e.addEventListener(`error`,()=>e.closest(`.np-photo`)?.remove(),{once:!0})}),r.querySelector(`.np-sv-close`).addEventListener(`click`,()=>r.close()),r.addEventListener(`close`,()=>{document.body.classList.remove(`np-locked`),t?.focus()},{once:!0}),document.body.classList.add(`np-locked`),r.showModal(),r.scrollTop=0)};r.addEventListener(`click`,e=>{e.target===r&&r.close()}),e.addEventListener(`click`,e=>{let t=e.target.closest(`.np-open`);if(t)return a(t.dataset.story,t);let n=e.target.closest(`.np-card`);n&&!e.target.closest(`a`)&&n.querySelector(`.np-open`)?.click()});let o=e.querySelectorAll(`.np-reveal, .np-rule-draw`);if(ye()||!(`IntersectionObserver`in window)){o.forEach(e=>e.classList.add(`is-in`));return}let s=new IntersectionObserver(e=>e.forEach(e=>{e.isIntersecting&&(e.target.classList.add(`is-in`),s.unobserve(e.target))}),{rootMargin:`0px 0px -40px 0px`});o.forEach(e=>s.observe(e))}function je(){return`
     <div class="page-view news-page">
       <div class="np-desk">
         <div class="np-paper" id="np-paper" aria-busy="true">
@@ -915,7 +915,7 @@
           <p class="np-status">The presses are running…</p>
         </div>
       </div>
-    </div>`}async function Me(){let e=document.getElementById(`np-paper`);if(!e)return;let t;try{let e=await fetch(ye,{cache:`no-cache`});if(!e.ok)throw Error(`HTTP ${e.status}`);t=await e.json()}catch(t){console.warn(`News edition did not load:`,t),e.removeAttribute(`aria-busy`),e.querySelector(`.np-status`).textContent=`Today’s paper hasn’t landed yet. Check back after 6:30 am IST.`;return}if(!e.isConnected)return;let n=(t.sections||[]).flatMap(e=>e.stories||[]),r=n.find(e=>e.headline===t.lead)||n[0];e.innerHTML=De(t,n,r),e.removeAttribute(`aria-busy`),Ae(e,t,n)}var V=`aa-news-pop-closed`,H=null,U=!1,W=()=>{try{return sessionStorage.getItem(V)===`1`}catch{return!1}};function Ne(){let e=document.createElement(`div`);return e.className=`news-pop`,e.hidden=!0,e.innerHTML=`
+    </div>`}async function Me(){let e=document.getElementById(`np-paper`);if(!e)return;let t;try{let e=await fetch(ve,{cache:`no-cache`});if(!e.ok)throw Error(`HTTP ${e.status}`);t=await e.json()}catch(t){console.warn(`News edition did not load:`,t),e.removeAttribute(`aria-busy`),e.querySelector(`.np-status`).textContent=`Today’s paper hasn’t landed yet. Check back after 6:30 am IST.`;return}if(!e.isConnected)return;let n=(t.sections||[]).flatMap(e=>e.stories||[]),r=n.find(e=>e.headline===t.lead)||n[0];e.innerHTML=De(t,n,r),e.removeAttribute(`aria-busy`),Ae(e,t,n)}var V=`aa-news-pop-closed`,H=null,U=!1,W=()=>{try{return sessionStorage.getItem(V)===`1`}catch{return!1}};function Ne(){let e=document.createElement(`div`);return e.className=`news-pop`,e.hidden=!0,e.innerHTML=`
     <a href="/news" class="news-pop-link" aria-label="Read today's Arcade Daily">
       <span class="news-pop-bubble"><b>Hot off the press!</b> Click here to read The Arcade Daily</span>
       <span class="news-pop-icon">
@@ -1284,7 +1284,7 @@ ${n.get(`message`)}`);let a=document.getElementById(`btn-contact-submit`);a&&(a.
 
       <h2>Your legal rights</h2>
       <p>This policy doesn't limit any refund rights you have under the consumer laws of your country.</p>
-    `})}var qe=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,Je=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,Ye=!1,Xe=!1,J=[];function Ze(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),Qe(),!qe()&&(Y(),Je()&&($e(),et(),tt()))}function Qe(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),Ye||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function Y(){J=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{J.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};Xe||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function $e(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function et(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function tt(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}var X={"/":{title:`AryansArcade — Apps, Websites & AI Automation by Aryan Singh`,description:`Aryan Singh builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects like Spinpath, Excuses and Carousel Studio, and hire for your next build.`},"/work":{title:`Projects — Apps, Websites & Automations | AryansArcade`,description:`Projects by Aryan Singh: Spinpath (learning website), Excuses and Carousel Studio (Android and iOS apps) and a nightly AI podcast automation.`},"/services":{title:`Hire an App, Website & Automation Developer | AryansArcade`,description:`Hire Aryan Singh for automation, website development, Android and iOS app development, and AI features. Clear plans, weekly updates, and you own the code.`},"/content":{title:`Posts on AI, Software & Startups | AryansArcade`,description:`Articles and posts by Aryan Singh from LinkedIn, X and Instagram on AI, code review, CI/CD, startups and building products in public.`},"/news":{title:`The Arcade Daily — Today’s News in Five Minutes | AryansArcade`,description:`A short daily newspaper: India, markets, world and tech, with why each story matters, how it got here and every source linked.`},"/about":{title:`About Aryan Singh | AryansArcade`,description:`About Aryan Singh, the developer behind AryansArcade, building Android and iOS apps, websites and AI automations.`},"/contact":{title:`Contact Aryan Singh | AryansArcade`,description:`Contact Aryan Singh at AryansArcade to start an app, website or automation project. Email, LinkedIn, Instagram and X.`},"/products":{title:`Products — Apps You Buy Once | AryansArcade`,description:`Apps by Aryan Singh you buy once and own, starting with Carousel Studio: speak an idea, get an Instagram carousel and X thread in your own voice.`},"/terms":{title:`Terms of Sale and Use | AryansArcade`,description:`Terms for using AryansArcade and buying its digital products, sold through Dodo Payments as merchant of record.`},"/privacy":{title:`Privacy Policy | AryansArcade`,description:`What AryansArcade collects, why, and what it never does with your data. No trackers, no data selling.`},"/refunds":{title:`Refund Policy | AryansArcade`,description:`Full refund within 14 days if an AryansArcade product does not work for you.`},"/support":{title:`Support AryansArcade`,description:`Support the free tools and posts Aryan Singh shares at AryansArcade.`}},nt=`https://aryansarcade.in`;function rt(e){let t=X[e];if(!t)return;let n=(e,t,n)=>{let r=document.querySelector(e);r&&r.setAttribute(t,n)};n(`meta[name="description"]`,`content`,t.description),n(`meta[property="og:title"]`,`content`,t.title),n(`meta[property="og:description"]`,`content`,t.description);let r=nt+(e===`/`?`/`:e);n(`link[rel="canonical"]`,`href`,r),n(`meta[property="og:url"]`,`content`,r)}function Z(){return window.location.pathname.replace(/\/+$/,``)||`/`}function Q(e,{replace:t=!1}={}){(e!==Z()||t)&&(window.history[t?`replaceState`:`pushState`]({},``,e),$())}function it(){window.location.hash.startsWith(`#/`)&&window.history.replaceState({},``,window.location.hash.slice(1)),window.addEventListener(`popstate`,$),document.addEventListener(`click`,e=>{let t=e.target.closest(`a[href^="/"]`);if(!t||t.target===`_blank`||e.metaKey||e.ctrlKey||e.shiftKey||e.button!==0)return;let n=t.getAttribute(`href`);/\.[a-z0-9]+$/i.test(n)||(e.preventDefault(),Q(n))}),$()}function $(){let e=document.getElementById(`app`);if(!e)return;let t=Z(),n=``,r=`AryansArcade — Builder Ecosystem & Digital Storefront`,i=null;if(t.startsWith(`/products`)&&!f())Q(`/work`,{replace:!0});else if(t===`/content`&&!g()||t===`/newsletter`&&!_())Q(`/`,{replace:!0});else{if(t===`/`||t===``)n=se(),r=`AryansArcade — Apps, Websites & AI Automation by Aryan`,i=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=e.querySelector(`input[type="email"]`).value;S(`Subscribe me to the AryansArcade Letter`,`Please add ${n} to the newsletter.`)})};else if(t===`/products`)n=le(),r=`Products & Architecture — AryansArcade`,i=ue;else if(t.startsWith(`/products/`)){let e=t.replace(`/products/`,``).split(`?`)[0],i=p().find(t=>t.slug===e);if(i&&i.externalUrl){window.location.replace(i.externalUrl);return}n=de(e),r=i?`${i.name} — AryansArcade`:`Product Detail — AryansArcade`}else t===`/work`?(n=fe(),r=`Projects — AryansArcade`,i=pe):t===`/services`?(n=me(),r=`Services: Automation, Websites & Apps — AryansArcade`):t===`/content`?(n=he(),r=`Content, Articles & Video Teardowns — AryansArcade`,i=ge):t===`/newsletter`?(n=_e(),r=`AryansArcade Letter — Weekly Builder Dispatch`,i=ve):t===`/news`?(n=je(),i=Me):t===`/about`?(n=Ie(),r=`About & Engineering Ethos — AryansArcade`):t===`/support`?(n=ze(),r=`Support & Patronage — AryansArcade`,i=Be):t===`/contact`?(n=Ve(),r=`Contact & Technical Brief — AryansArcade`,i=He):t===`/terms`?n=We():t===`/privacy`?n=Ge():t===`/refunds`?n=Ke():(n=`
+    `})}var qe=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,Je=()=>window.matchMedia(`(hover: hover) and (pointer: fine)`).matches,Ye=!1,Xe=!1,J=[];function Ze(){document.body.classList.remove(`motion-ready`),document.body.offsetWidth,requestAnimationFrame(()=>document.body.classList.add(`motion-ready`)),Qe(),!qe()&&(Y(),Je()&&($e(),et(),tt()))}function Qe(){let e=document.querySelector(`.scroll-progress`);e||(e=document.createElement(`div`),e.className=`scroll-progress`,e.setAttribute(`aria-hidden`,`true`),document.body.appendChild(e));let t=()=>{let t=document.documentElement.scrollHeight-window.innerHeight;e.style.transform=`scaleX(${t>0?window.scrollY/t:0})`};t(),Ye||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(t),{passive:!0}),!0)}function Y(){J=[...document.querySelectorAll(`[data-parallax]`)];let e=()=>{J.forEach(e=>{let t=parseFloat(e.dataset.parallax)||.05;e.style.setProperty(`--parallax`,`${window.scrollY*t}px`)})};Xe||=(window.addEventListener(`scroll`,()=>requestAnimationFrame(e),{passive:!0}),!0),e()}function $e(){document.querySelectorAll(`[data-spotlight]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect();e.style.setProperty(`--mx`,`${t.clientX-n.left}px`),e.style.setProperty(`--my`,`${t.clientY-n.top}px`)})})}function et(){document.querySelectorAll(`[data-tilt]`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=(t.clientX-n.left)/n.width-.5,i=(t.clientY-n.top)/n.height-.5;e.style.setProperty(`--rx`,`${(-i*6).toFixed(2)}deg`),e.style.setProperty(`--ry`,`${(r*8).toFixed(2)}deg`)}),e.addEventListener(`pointerleave`,()=>{e.style.setProperty(`--rx`,`0deg`),e.style.setProperty(`--ry`,`0deg`)})})}function tt(){document.querySelectorAll(`.magnetic`).forEach(e=>{e.addEventListener(`pointermove`,t=>{let n=e.getBoundingClientRect(),r=t.clientX-n.left-n.width/2,i=t.clientY-n.top-n.height/2;e.style.transform=`translate(${r*.18}px, ${i*.3}px)`}),e.addEventListener(`pointerleave`,()=>{e.style.transform=``})})}var X={"/":{title:`AryansArcade — Apps, Websites & AI Automation by Aryan Singh`,description:`Aryan Singh builds Android and iOS apps, fast websites and AI automations at AryansArcade. See real projects like Spinpath, Excuses and Carousel Studio, and hire for your next build.`},"/work":{title:`Projects — Apps, Websites & Automations | AryansArcade`,description:`Projects by Aryan Singh: Spinpath (learning website), Excuses and Carousel Studio (Android and iOS apps) and a nightly AI podcast automation.`},"/services":{title:`Hire an App, Website & Automation Developer | AryansArcade`,description:`Hire Aryan Singh for automation, website development, Android and iOS app development, and AI features. Clear plans, weekly updates, and you own the code.`},"/content":{title:`Posts on AI, Software & Startups | AryansArcade`,description:`Articles and posts by Aryan Singh from LinkedIn, X and Instagram on AI, code review, CI/CD, startups and building products in public.`},"/news":{title:`The Arcade Daily — Today’s News in Five Minutes | AryansArcade`,description:`A short daily newspaper: India, markets, world and tech, with why each story matters, how it got here and every source linked.`},"/about":{title:`About Aryan Singh | AryansArcade`,description:`About Aryan Singh, the developer behind AryansArcade, building Android and iOS apps, websites and AI automations.`},"/contact":{title:`Contact Aryan Singh | AryansArcade`,description:`Contact Aryan Singh at AryansArcade to start an app, website or automation project. Email, LinkedIn, Instagram and X.`},"/products":{title:`Products — Apps You Buy Once | AryansArcade`,description:`Apps by Aryan Singh you buy once and own, starting with Carousel Studio: speak an idea, get an Instagram carousel and X thread in your own voice.`},"/terms":{title:`Terms of Sale and Use | AryansArcade`,description:`Terms for using AryansArcade and buying its digital products, sold through Dodo Payments as merchant of record.`},"/privacy":{title:`Privacy Policy | AryansArcade`,description:`What AryansArcade collects, why, and what it never does with your data. No trackers, no data selling.`},"/refunds":{title:`Refund Policy | AryansArcade`,description:`Full refund within 14 days if an AryansArcade product does not work for you.`},"/support":{title:`Support AryansArcade`,description:`Support the free tools and posts Aryan Singh shares at AryansArcade.`}},nt=`https://aryansarcade.in`;function rt(e){let t=X[e];if(!t)return;let n=(e,t,n)=>{let r=document.querySelector(e);r&&r.setAttribute(t,n)};n(`meta[name="description"]`,`content`,t.description),n(`meta[property="og:title"]`,`content`,t.title),n(`meta[property="og:description"]`,`content`,t.description);let r=nt+(e===`/`?`/`:e);n(`link[rel="canonical"]`,`href`,r),n(`meta[property="og:url"]`,`content`,r)}function Z(){return window.location.pathname.replace(/\/+$/,``)||`/`}function Q(e,{replace:t=!1}={}){(e!==Z()||t)&&(window.history[t?`replaceState`:`pushState`]({},``,e),$())}function it(){window.location.hash.startsWith(`#/`)&&window.history.replaceState({},``,window.location.hash.slice(1)),window.addEventListener(`popstate`,$),document.addEventListener(`click`,e=>{let t=e.target.closest(`a[href^="/"]`);if(!t||t.target===`_blank`||e.metaKey||e.ctrlKey||e.shiftKey||e.button!==0)return;let n=t.getAttribute(`href`);/\.[a-z0-9]+$/i.test(n)||(e.preventDefault(),Q(n))}),$()}function $(){let e=document.getElementById(`app`);if(!e)return;let t=Z(),n=``,r=`AryansArcade — Builder Ecosystem & Digital Storefront`,i=null;if(t.startsWith(`/products`)&&!f())Q(`/work`,{replace:!0});else if(t===`/content`&&!g()||t===`/newsletter`&&!_())Q(`/`,{replace:!0});else{if(t===`/`||t===``)n=oe(),r=`AryansArcade — Apps, Websites & AI Automation by Aryan`,i=()=>{let e=document.getElementById(`home-newsletter-form`);e&&(e.onsubmit=t=>{t.preventDefault();let n=e.querySelector(`input[type="email"]`).value;S(`Subscribe me to the AryansArcade Letter`,`Please add ${n} to the newsletter.`)})};else if(t===`/products`)n=ce(),r=`Products & Architecture — AryansArcade`,i=le;else if(t.startsWith(`/products/`)){let e=t.replace(`/products/`,``).split(`?`)[0],i=p().find(t=>t.slug===e);if(i&&i.externalUrl){window.location.replace(i.externalUrl);return}n=ue(e),r=i?`${i.name} — AryansArcade`:`Product Detail — AryansArcade`}else t===`/work`?(n=de(),r=`Projects — AryansArcade`,i=fe):t===`/services`?(n=pe(),r=`Services: Automation, Websites & Apps — AryansArcade`):t===`/content`?(n=me(),r=`Content, Articles & Video Teardowns — AryansArcade`,i=he):t===`/newsletter`?(n=ge(),r=`AryansArcade Letter — Weekly Builder Dispatch`,i=_e):t===`/news`?(n=je(),i=Me):t===`/about`?(n=Ie(),r=`About & Engineering Ethos — AryansArcade`):t===`/support`?(n=ze(),r=`Support & Patronage — AryansArcade`,i=Be):t===`/contact`?(n=Ve(),r=`Contact & Technical Brief — AryansArcade`,i=He):t===`/terms`?n=We():t===`/privacy`?n=Ge():t===`/refunds`?n=Ke():(n=`
       <div class="page-view not-found-page">
         <section class="section">
           <div class="container" style="text-align: center; padding: 120px 0;">
