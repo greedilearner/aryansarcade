@@ -1,0 +1,1028 @@
+{
+ "date": "2026-11-22",
+ "built": "2026-11-22T16:21:09.760Z",
+ "lead": "Nvidia faces China export restrictions and CEO return debate",
+ "sections": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "0261121ataleoftwonvidias",
+     "section": "tech",
+     "headline": "Nvidia faces China export restrictions and CEO return debate",
+     "dek": "Nvidia is navigating export controls and shareholder calls for former CEO Jensen Huang's return.",
+     "points": [
+      "Nvidia is halting H200 chip sales in China due to export restrictions [1]",
+      "Shareholders are pushing for a special committee to decide on Jensen Huang's return [2]",
+      "There are new claims against Jensen Huang involving threats and sexual remarks [3]"
+     ],
+     "why": "The controversy highlights the intersection of geopolitics and business, with export controls affecting revenue and leadership decisions impacting stock performance. Companies and investors must navigate these complex dynamics.",
+     "timeline": [
+      {
+       "when": "Recent",
+       "what": "Nvidia announced it would no longer sell H200 chips in China [1]"
+      },
+      {
+       "when": "Recent",
+       "what": "A shareholder wrote an open letter calling for a special committee to decide on Jensen Huang's return [2]"
+      },
+      {
+       "when": "Recent",
+       "what": "New claims surfaced against Jensen Huang involving threats and sexual remarks [3]"
+      }
+     ],
+     "eli5": "Nvidia is having problems with selling chips to China and some people want the old boss back. There are also new stories about the old boss that are making people worried.",
+     "voices": [
+      {
+       "who": "Kirsten Korosec",
+       "said": "Nvidia is shutting down chip sales in China due to export restrictions [1]"
+      },
+      {
+       "who": "Nahas Newman",
+       "said": "The board should decide on Jensen Huang's return through a special committee [2]"
+      },
+      {
+       "who": "Jensen Huang's spokesperson",
+       "said": "The company is yet to confirm or dismiss old claims against the ex CEO [3]"
+      }
+     ],
+     "unclear": [
+      "Whether the new claims against Jensen Huang are true",
+      "The exact impact of export restrictions on Nvidia's revenue",
+      "Whether the board will create a special committee for the CEO decision"
+     ],
+     "learn": {
+      "label": "What semiconductors are",
+      "site": "Investopedia",
+      "url": "https://www.investopedia.com/terms/s/semiconductor.asp"
+     },
+     "image": "https://www.livemint.com/lm-img/img/2026/11/22/1600x900/logo/Nvidia-Jensen_huang-shareholder_1795339840114_7D22_1795339840305_wgMr_d90f42b5-55ef-41bc-96b3-7473dce41c23_jy0U.jpg",
+     "outlets": 3,
+     "sources": [
+      {
+       "n": 1,
+       "title": "A tale of two Nvidias",
+       "site": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+      },
+      {
+       "n": 2,
+       "title": "Nvidia shareholder writes open letter to board, calls for newly elected board leaders to decide on Jensen Huang's return",
+       "site": "Mint",
+       "url": "https://www.livemint.com/companies/news/nvidia-shareholder-writes-open-letter-to-board-calls-for-newly-elected-board-leaders-to-decide-on-jensen-huangs-return-11795339464376.html"
+      },
+      {
+       "n": 3,
+       "title": "Jensen Huang threatened Nvidia employees and made sexual remarks? New claims surfaced against ex CEO",
+       "site": "Mint",
+       "url": "https://www.livemint.com/companies/news/jensen-huang-threatened-nvidia-employees-and-made-sexual-remarks-new-claims-surfaced-against-ex-ceo-11795267299390.html"
+      },
+      {
+       "n": 4,
+       "title": "U.S. blocks China’s remote access to AI chips after Nvidia scandal; China slams move",
+       "site": "The Hindu",
+       "url": "https://www.thehindu.com/news/international/us-blocks-chinas-remote-access-to-ai-chips-after-nvidia-scandal-china-slams-move/article71711869.ece"
+      }
+     ],
+     "x": [],
+     "creators": []
+    },
+    {
+     "id": "toknow11795310250674html",
+     "section": "tech",
+     "headline": "Amazon seeks $7.5 billion Decart deal to boost AI chip efficiency",
+     "dek": "Amazon is close to acquiring Decart for $7.5 billion to enhance AI chip efficiency and compete with Nvidia.",
+     "points": [
+      "Amazon is nearing a $7.5 billion deal to acquire Decart, as reported by the Financial Times [1]",
+      "Decart's software improves AI model efficiency, freeing up computer chip capacity [1]",
+      "Decart was valued at $4 billion in May after raising $300 million in funding [1]"
+     ],
+     "why": "The acquisition could help Amazon strengthen its position in the AI chip market against Nvidia, impacting both tech and investment strategies. It reflects the growing importance of AI efficiency in the tech industry.",
+     "timeline": [
+      {
+       "when": "May 2023",
+       "what": "Decart raised $300 million in funding, reaching a $4 billion valuation [1]"
+      },
+      {
+       "when": "August 2024",
+       "what": "Anthropic explored a potential $6 billion deal with Decart [1]"
+      },
+      {
+       "when": "Early 2025",
+       "what": "Amazon is close to finalizing the $7.5 billion acquisition of Decart [1]"
+      }
+     ],
+     "eli5": "Amazon wants to buy a company called Decart to make their AI chips work better, so they can compete with another big tech company called Nvidia.",
+     "voices": [
+      {
+       "who": "Sanchari Ghosh, Assistant Editor at Mint",
+       "said": "As AI reshapes investing behaviour, capital is increasingly flowing into decentralized ecosystems, redefining how assets are managed."
+      }
+     ],
+     "unclear": [
+      "Whether the deal will be finalized as soon as early next week",
+      "The exact impact of the acquisition on Amazon's competition with Nvidia",
+      "The future of Decart's products after the acquisition"
+     ],
+     "learn": {
+      "label": "How mergers and acquisitions work",
+      "site": "Investopedia",
+      "url": "https://www.investopedia.com/terms/m/mergersandacquisitions.asp"
+     },
+     "image": "https://www.livemint.com/lm-img/img/2026/11/22/1600x900/logo/amazon_1795311931008_mSFk_1795311947677_jm15_118159dc-f098-4aa0-9a28-4114f4bc5a43_Kso4.jpg",
+     "outlets": 1,
+     "sources": [
+      {
+       "n": 1,
+       "title": "Amazon eyes $7.5 billion Decart deal to boost AI chip efficiency, challenge Nvidia | 5 things to know",
+       "site": "Mint",
+       "url": "https://www.livemint.com/companies/news/amazon-eyes-7-5-billion-decart-deal-to-boost-ai-chip-efficiency-challenge-nvidia-5-things-to-know-11795310250674.html"
+      }
+     ],
+     "x": [],
+     "creators": []
+    },
+    {
+     "id": "ankers11795345268760html",
+     "section": "tech",
+     "headline": "Anthropic's IPO challenges Wall Street norms",
+     "dek": "Anthropic's IPO process faced unique challenges and restrictions from the company.",
+     "points": [
+      "Anthropic instructed some underwriters to limit deal teams to four bankers [1]",
+      "Banks received last-minute changes to the S-1A filing [1]",
+      "Anthropic asked bank officers to sign non-competes covering rivals [1]"
+     ],
+     "why": "The unique IPO process highlights the growing power of tech companies over Wall Street, which could reshape how startups raise funds. This shift could benefit tech firms but challenge traditional banking practices.",
+     "timeline": [
+      {
+       "when": "Nov 22",
+       "what": "Reuters reported on Anthropic's IPO challenges"
+      },
+      {
+       "when": "Around 2 a.m. New York time",
+       "what": "Corrected S-1A filing was sent to banks"
+      }
+     ],
+     "eli5": "A big tech company called Anthropic made it hard for Wall Street bankers to do their job when they went public, causing some problems and complaints.",
+     "voices": [
+      {
+       "who": "Jay Ritter, University of Florida professor",
+       "said": "Tech companies have market power to change how IPOs work"
+      },
+      {
+       "who": "Bankers and lawyers",
+       "said": "The IPO process was complicated and different from usual"
+      }
+     ],
+     "unclear": [
+      "Whether banks found a way around Anthropic's restrictions on deal teams",
+      "The full impact of non-competes on banking relationships",
+      "How much control tech companies will have on future IPOs"
+     ],
+     "learn": {
+      "label": "What an IPO is",
+      "site": "Investopedia",
+      "url": "https://www.investopedia.com/terms/i/ipo.asp"
+     },
+     "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/company_4_1733465206851_1733465215415.png",
+     "outlets": 1,
+     "sources": [
+      {
+       "n": 1,
+       "title": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+       "site": "Mint",
+       "url": "https://www.livemint.com/companies/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-11795345268760.html"
+      }
+     ],
+     "x": [],
+     "creators": []
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "name": "Business",
+   "stories": [
+    {
+     "id": "gissue11795342582808html",
+     "section": "business",
+     "headline": "Tata Sons faces governance clash over listing and control",
+     "dek": "Tata Trusts and directors clash over whether Tata Sons should list and who should lead.",
+     "points": [
+      "Tata Sons board meeting this week will revisit listing issues amid a governance dispute [1]",
+      "Trustees Venu Srinivasan and Vijay Singh have challenged Noel Tata on governance matters [1]",
+      "Noel Tata's letter to the Tata Trusts questioned communication with the RBI on listing [2]"
+     ],
+     "why": "The dispute affects governance and control of a major Indian business empire, impacting its ability to raise capital and operate smoothly. The outcome could influence how Tata Sons navigates regulatory and financial challenges.",
+     "timeline": [
+      {
+       "when": "17 September",
+       "what": "Tata Sons directors overruled opposition from Noel Tata on listing efforts and reappointment of Chandrasekaran"
+      },
+      {
+       "when": "20 November",
+       "what": "Noel Tata sent a letter challenging the minutes of the Sep 17 meeting and raised conflict-of-interest concerns"
+      }
+     ],
+     "eli5": "Big bosses at Tata are arguing about whether to let the company go public and who should lead. This could affect how the company makes money and runs its business.",
+     "voices": [
+      {
+       "who": "Noel Tata, Chairman of Tata Trusts",
+       "said": "Questioned Tata Sons' communication with the RBI on listing"
+      },
+      {
+       "who": "Venu Srinivasan, Trustee",
+       "said": "Challenged governance matters with Noel Tata"
+      },
+      {
+       "who": "Jimmy Tata, half brother of Noel Tata",
+       "said": "Backed Chandrasekarans reappointment and a Tata Sons listing"
+      },
+      {
+       "who": "Tata Trusts",
+       "said": "Didn't respond to requests for comments on board meeting discussions"
+      }
+     ],
+     "unclear": [
+      "Whether the Tata Trusts will address the listing issue in their next board meeting",
+      "The exact impact of the governance dispute on Tata Sons' operations and financial decisions",
+      "How the regulatory freeze on meetings at one of the Tata Trusts will affect the company's ability to function"
+     ],
+     "learn": {
+      "label": "What an IPO is",
+      "site": "Investopedia",
+      "url": "https://www.investopedia.com/terms/i/ipo.asp"
+     },
+     "image": "https://www.livemint.com/lm-img/img/2026/11/22/1600x900/logo/Bombay-House_1795343611598_aUEZ_1795343611781_1yk6_0db96078-2525-4009-8c47-b3f82d4f824f_owSq.jpg",
+     "outlets": 2,
+     "sources": [
+      {
+       "n": 1,
+       "title": "Tata Sons board meeting this week to revisit listing issue amid row",
+       "site": "Mint",
+       "url": "https://www.livemint.com/companies/news/tata-sons-board-meeting-listing-issue-11795342582808.html"
+      },
+      {
+       "n": 2,
+       "title": "Noel Tata's salvo sets stage for stormy Tata Sons board meet next week",
+       "site": "Business Standard",
+       "url": "https://www.business-standard.com/companies/news/noel-tata-tata-sons-board-recording-chandrasekaran-reappointment-listing-126112100507_1.html"
+      }
+     ],
+     "x": [],
+     "creators": []
+    },
+    {
+     "id": "o137cr126112200157_1html",
+     "section": "business",
+     "headline": "Reliance Brands reports revenue growth and reduced loss in FY26",
+     "dek": "Reliance Brands saw a 3.8% revenue increase and narrowed its loss in FY26.",
+     "points": [
+      "Reliance Brands revenue rose 3.77% to Rs 3,390.89 crore in FY26 [1]",
+      "The company's loss narrowed to Rs 137.04 crore from Rs 233.79 crore in FY25 [1]",
+      "RBL expanded its portfolio with new global brand partnerships in FY26 [1]"
+     ],
+     "why": "The reduced loss shows improved financial performance, which is important for investors and business partners. The expansion into premium fashion segments may increase market share and revenue potential.",
+     "timeline": [
+      {
+       "when": "March 31, 2026",
+       "what": "RBL operated 1,085 Points of Sale across India"
+      },
+      {
+       "when": "FY26",
+       "what": "RBL added three globally recognised brands through master franchise partnerships"
+      },
+      {
+       "when": "FY25",
+       "what": "RBL reported revenue from operations of Rs 3,267.66 crore and a profit of Rs 237.12 crore"
+      }
+     ],
+     "eli5": "Reliance Brands made more money this year than last, and they lost less money, which is good news for their business.",
+     "voices": [
+      {
+       "who": "RBL",
+       "said": "The company achieved a net turnover of Rs 3,390.89 crore as compared to Rs 3,267.66 crore during last year"
+      },
+      {
+       "who": "RBL",
+       "said": "The company registered a loss of Rs 137.13 crore as compared to Rs 233.79 crore during last year"
+      }
+     ],
+     "unclear": [
+      "The exact impact of new brand partnerships on future revenue is unclear",
+      "The long-term financial stability of the company is still under observation"
+     ],
+     "learn": {
+      "label": "Reading a company's numbers",
+      "site": "Zerodha Varsity",
+      "url": "https://zerodha.com/varsity/module/fundamental-analysis/"
+     },
+     "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1261122/full-126112200157.jpg",
+     "outlets": 2,
+     "sources": [
+      {
+       "n": 1,
+       "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+       "site": "Economic Times",
+       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms"
+      },
+      {
+       "n": 2,
+       "title": "Reliance Brands FY26 revenue up 3.8% to ₹3,391 cr, loss narrows to ₹137 cr",
+       "site": "Business Standard",
+       "url": "https://www.business-standard.com/companies/news/reliance-brands-fy26-revenue-up-3-8-to-3-391-cr-loss-narrows-to-137-cr-126112200157_1.html"
+      }
+     ],
+     "x": [],
+     "creators": []
+    },
+    {
+     "id": "ianstartupipotracker2026",
+     "section": "business",
+     "headline": "Indian startups see record IPO success in 2025",
+     "dek": "Indian startups raised over ₹41,248 Cr in 2025 through IPOs.",
+     "points": [
+      "Eighteen Indian startups listed on the bourses in 2025, raising ₹41,248 Cr [1]",
+      "SEBI reforms and simplified DRHP filings helped reduce red tape [1]",
+      "Retail investors and OFS component provided liquidity to early backers [1]"
+     ],
+     "why": "Investors are prioritizing profitability and sustainable growth over hype, which benefits well-governed tech companies. Founders who focus on long-term value creation are rewarded by public markets.",
+     "timeline": [
+      {
+       "when": "2025",
+       "what": "18 startups listed on the bourses, raising ₹41,240 Cr"
+      },
+      {
+       "when": "2026",
+       "what": "17 new-age tech companies made their D-Street debut"
+      },
+      {
+       "when": "2026",
+       "what": "Unicorns like OYO and Razorpay could raise nearly ₹20,000 Cr"
+      }
+     ],
+     "eli5": "In 2025, many Indian tech companies went public and raised a lot of money. This happened because of good economic conditions and easier rules for starting companies.",
+     "voices": [
+      {
+       "who": "Ashish Kumar, cofounder and general partner at Fundamentum Partnership",
+       "said": "Founders who plan to grow their businesses over decades are rewarded by public markets"
+      },
+      {
+       "who": "Rehan Yar Khan, managing partner at Orios Venture Partners",
+       "said": "Investors will focus on predictable cash flows and financial prudence in 2026"
+      }
+     ],
+     "unclear": [
+      "Whether retail subscription levels will continue to moderate",
+      "The impact of geopolitical tensions on foreign institutional investors",
+      "The exact amount of money unicorns like OYO and Razorpay will raise in 2026"
+     ],
+     "learn": {
+      "label": "What an IPO is",
+      "site": "Investopedia",
+      "url": "https://www.investopedia.com/terms/i/ipo.asp"
+     },
+     "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/01/FTR-2-100.jpg",
+     "outlets": 1,
+     "sources": [
+      {
+       "n": 1,
+       "title": "Indian Startup IPO Tracker 2026",
+       "site": "Inc42",
+       "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/"
+      }
+     ],
+     "x": [
+      {
+       "handle": "ShekharGupta",
+       "name": "Shekhar Gupta",
+       "text": "An Indian military-industrial complex is rising.. \n\nBuilding armed unmanned boats for the Navy: How Sagar Defence is chasing a $2 billion-plus valuation in its IPO… \n\nBhaswar Kumar @AniketBS reports \n\n#ThePrintDefence \n\nhttps://theprint.in/defence/from-a-tiny-mumbai-office-to-a-planned-rs-3412-cr-ipo-how-sagar-defence-built-its-war-tech-business/3104871/",
+       "url": "https://x.com/ShekharGupta/status/2124099599199801373",
+       "followers": 2557000
+      }
+     ],
+     "creators": []
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "stories": [
+    {
+     "id": "farticleshow136070323cms",
+     "section": "finance",
+     "headline": "Gold prices fall to 14-month low amid AI selloff and Fed rate concerns",
+     "dek": "Gold prices have dropped to a 14-month low as market forces shift.",
+     "points": [
+      "Gold prices have fallen to a 14-month low as investors sell due to concerns over AI spending and potential Fed rate hikes [2]",
+      "Gold's five-year winning streak is under threat after a dramatic selloff, with prices now near $3,510 per ounce [1]",
+      "Silver has also crashed, reaching its lowest level since September 2025, alongside platinum and other metals [2]"
+     ],
+     "why": "AI spending slowdowns and Fed rate hike expectations are affecting investor sentiment, which can impact tech and finance sectors. Gold and silver are seen as safe-haven assets, so their decline may signal broader economic uncertainty.",
+     "timeline": [
+      {
+       "when": "First quarter of 2026",
+       "what": "Gold reached a record high of $5,594.82 per ounce [1]"
+      },
+      {
+       "when": "Second half of 2026",
+       "what": "Gold prices began to fall as the US dollar strengthened and risk appetite improved [1]"
+      },
+      {
+       "when": "Recent weeks",
+       "what": "Gold prices have fallen to a 14-month low, with silver also crashing to its lowest level since September 2025 [2]"
+      }
+     ],
+     "eli5": "Gold is losing value because people are worried about the economy and the US might raise interest rates. This makes gold less attractive, so its price drops.",
+     "voices": [
+      {
+       "who": "Abhishek Banerjee, smallcase Manger, Founder of Lotusdew Wealth and Investment Advisors",
+       "said": "Silver has more systematic demand due to its use in EVs and electronics, unlike gold [2]"
+      },
+      {
+       "who": "DSP Mutual Fund",
+       "said": "The fund is buying gold and silver as prices fall, using predefined price levels [4]"
+      }
+     ],
+     "unclear": [
+      "Whether the current selloff is driven by short-term liquidation or a sustained reassessment of monetary policy and global growth [5]",
+      "The exact impact of AI spending slowdowns on gold and silver prices [2]"
+     ],
+     "learn": {
+      "label": "What a repo (the RBI's rate) is",
+      "site": "Investopedia",
+      "url": "https://www.investopedia.com/terms/r/repurchaseagreement.asp"
+     },
+     "image": "https://img.etimg.com/photo/msid-136070323,imgsize-102862.cms",
+     "outlets": 2,
+     "sources": [
+      {
+       "n": 1,
+       "title": "Why gold’s five-year winning streak is under threat after dramatic selloff",
+       "site": "Economic Times",
+       "url": "https://economictimes.indiatimes.com/markets/commodities/why-golds-five-year-winning-streak-is-under-threat-after-dramatic-selloff/articleshow/136070323.cms"
+      },
+      {
+       "n": 2,
+       "title": "Gold, silver, copper, aluminium, platinum to zinc: Why are metal prices crashing to multi-month lows? Key reasons",
+       "site": "Mint",
+       "url": "https://www.livemint.com/market/commodities/gold-silver-copper-aluminium-platinum-to-zinc-why-are-metal-prices-crashing-to-multi-month-lows-key-reasons-11795357679178.html"
+      },
+      {
+       "n": 3,
+       "title": "What is future of gold rates? Price crash continues as AI selloff, Fed rate-hike concerns weigh on investors' sentiment",
+       "site": "Mint",
+       "url": "https://www.livemint.com/market/commodities/what-is-future-of-gold-rates-price-crash-continues-as-ai-selloff-fed-rate-hike-concerns-weigh-on-investors-sentiment-11795325490076.html"
+      },
+      {
+       "n": 4,
+       "title": "Gold, silver price crash: DSP Mutual Fund turns bullish on bullion, reveals new buying strategy; check price levels",
+       "site": "Mint",
+       "url": "https://www.livemint.com/market/commodities/gold-silver-price-crash-dsp-mutual-fund-turns-bullish-on-bullion-reveals-new-buying-strategy-check-price-levels-11795252615511.html"
+      },
+      {
+       "n": 5,
+       "title": "Gold slides to lowest level since September 2025, silver crashes nearly 4%: What's driving the selloff?",
+       "site": "Mint",
+       "url": "https://www.livemint.com/money/gold-slides-to-lowest-level-since-september-2025-silver-crashes-nearly-4-whats-driving-the-selloff-11795361232751.html"
+      },
+      {
+       "n": 6,
+       "title": "Gold and silver have crashed. Should investors buy the dip or wait?",
+       "site": "Mint",
+       "url": "https://www.livemint.com/money/personal-finance/gold-silver-etf-crash-should-investors-buy-the-dip-11795255637502.html"
+      }
+     ],
+     "x": [],
+     "creators": []
+    },
+    {
+     "id": "7articleshow136069094cms",
+     "section": "finance",
+     "headline": "InvIT IPOs to raise Rs 17,000 crore by March 2027",
+     "dek": "India's InvIT market sees growing interest as more trusts plan public offerings.",
+     "points": [
+      "Four to five InvITs plan to go public by March 2027, raising Rs 17,000 crore [1]",
+      "InvITs have already raised Rs 88,000 crore through equity issuances during FY23-FY25 [1]",
+      "Brookfield-backed Altius Telecom Infrastructure Trust filed for a Rs 6,000-crore IPO [1]",
+      "NHAI-sponsored Raajmarg Infra Investment Trust raised Rs 6,000 crore in March [1]"
+     ],
+     "why": "The expansion of InvITs provides a stable income stream for investors, and the increased capital can support tech and infrastructure projects. This is particularly relevant for tech and business professionals looking to invest in long-term, income-generating assets.",
+     "timeline": [
+      {
+       "when": "March 2023",
+       "what": "InvITs raised Rs 88,000 crore through equity issuances"
+      },
+      {
+       "when": "March 2027",
+       "what": "Four to five InvITs are expected to go public, raising Rs 17,000 crore"
+      },
+      {
+       "when": "March 2027",
+       "what": "NHAI-sponsored Raajmarg Infra Investment Trust raised Rs 6,000 crore"
+      }
+     ],
+     "eli5": "More companies are going public to raise money for big projects. This helps investors get regular income and supports new tech and infrastructure in India.",
+     "voices": [
+      {
+       "who": "Investment bankers",
+       "said": "Infrastructure developers are turning to InvITs to raise long-term capital and monetise assets"
+      },
+      {
+       "who": "Bharat InvITs Association",
+       "said": "InvITs have collectively distributed nearly Rs 1 lakh crore to investors over the past 10 years"
+      },
+      {
+       "who": "SEBI",
+       "said": "A framework for depository receipts allows foreign investors to invest in Indian REITs and InvITs"
+      }
+     ],
+     "unclear": [
+      "The exact number of InvITs that will go public by March 2027 is not confirmed",
+      "The future performance of InvITs and their impact on the tech and infrastructure sectors is uncertain",
+      "The long-term effects of the SEBI framework for depository receipts on foreign investment are not yet clear"
+     ],
+     "learn": {
+      "label": "What an IPO is",
+      "site": "Investopedia",
+      "url": "https://www.investopedia.com/terms/i/ipo.asp"
+     },
+     "image": "https://img.etimg.com/photo/msid-136069094,imgsize-41748.cms",
+     "outlets": 2,
+     "sources": [
+      {
+       "n": 1,
+       "title": "InvIT IPO rush gathers pace; 4-5 private trusts likely to go public by Mar 2027",
+       "site": "Economic Times",
+       "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/invit-ipo-rush-gathers-pace-4-5-private-trusts-likely-to-go-public-by-mar-2027/articleshow/136069094.cms"
+      },
+      {
+       "n": 2,
+       "title": "InvIT IPO rush gathers pace, 4-5 trusts likely to go public by Mar 2027",
+       "site": "Business Standard",
+       "url": "https://www.business-standard.com/markets/ipo/invit-ipo-rush-gathers-pace-4-5-trusts-likely-to-go-public-by-mar-2027-126112200225_1.html"
+      }
+     ],
+     "x": [
+      {
+       "handle": "ShekharGupta",
+       "name": "Shekhar Gupta",
+       "text": "An Indian military-industrial complex is rising.. \n\nBuilding armed unmanned boats for the Navy: How Sagar Defence is chasing a $2 billion-plus valuation in its IPO… \n\nBhaswar Kumar @AniketBS reports \n\n#ThePrintDefence \n\nhttps://theprint.in/defence/from-a-tiny-mumbai-office-to-a-planned-rs-3412-cr-ipo-how-sagar-defence-built-its-war-tech-business/3104871/",
+       "url": "https://x.com/ShekharGupta/status/2124099599199801373",
+       "followers": 2557000
+      }
+     ],
+     "creators": []
+    }
+   ]
+  },
+  {
+   "id": "geopolitics",
+   "name": "Geopolitics",
+   "stories": [
+    {
+     "id": "_mediumRSSat_campaignrss",
+     "section": "geopolitics",
+     "headline": "Drone attacks on Russian ships spark security concerns",
+     "dek": "Two Russian ships face drone strikes in Libya and Baltic Sea, raising tensions",
+     "points": [
+      "A Russian ship in Libya's Benghazi port was attacked by drones, causing fires [1]",
+      "A Russian cargo ship in the Gulf of Finland was hit by drones, leading to a fire and security measures [2]",
+      "Finland and Russia are investigating the drone attacks, with Finland blaming Ukraine [3]",
+      "Libya's government warns against foreign military use of its ports, highlighting regional tensions [1]"
+     ],
+     "why": "The use of drones in conflicts highlights the intersection of technology and geopolitics, impacting global security and trade. Businesses and investors must consider how such events could affect supply chains and international relations.",
+     "timeline": [
+      {
+       "when": "November 21, 2026",
+       "what": "A Russian cargo ship was attacked by drones in the Gulf of Finland, causing a fire [2]"
+      },
+      {
+       "when": "November 21, 2026",
+       "what": "Finland tightened security measures in the area and informed its allies about the incident [2]"
+      },
+      {
+       "when": "Sunday",
+       "what": "A Russian ship in Libya's Benghazi port was attacked by drones, leading to an investigation [1]"
+      }
+     ],
+     "eli5": "Two Russian ships were attacked by drones in different places, causing fires and making countries worry about safety.",
+     "voices": [
+      {
+       "who": "Government of National Stability (GNS)",
+       "said": "Libya is not involved in any conflicts beyond its borders [1]"
+      },
+      {
+       "who": "Prime Minister Petteri Orpo",
+       "said": "War is spilling over into our immediate vicinity, and Ukraine has the right to fight back [2]"
+      },
+      {
+       "who": "Kaliningrad Governor Alexei Besprozvannykh",
+       "said": "The incident posed no threat to supplies to the region [2]"
+      },
+      {
+       "who": "Government of National Unity (GNU)",
+       "said": "Hosting foreign forces in Libya raises serious fears about risks and threats to citizens [1]"
+      }
+     ],
+     "unclear": [
+      "The exact cause of the drone attacks on the Russian ships is still under investigation [1]",
+      "Who is responsible for the attacks on the ships is not yet confirmed [3]",
+      "The full impact of the attacks on international trade and security is unclear [2]"
+     ],
+     "learn": {
+      "label": "World affairs, explained",
+      "site": "CFR World101",
+      "url": "https://world101.cfr.org/"
+     },
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/577b/live/c0d843f0-e68a-11f1-936e-1fd1d31671db.jpg",
+     "outlets": 2,
+     "sources": [
+      {
+       "n": 1,
+       "title": "Explosion on Russian ship at Libya port likely caused by drone attack, officials say",
+       "site": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+       "n": 2,
+       "title": "Cargo ship bound for Russia's Kaliningrad hit by drones, Finland tightens security",
+       "site": "The Hindu",
+       "url": "https://www.thehindu.com/news/international/cargo-ship-bound-for-russias-kaliningrad-hit-by-drones-finland-tightens-security/article71729285.ece"
+      },
+      {
+       "n": 3,
+       "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+       "site": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+      },
+      {
+       "n": 4,
+       "title": "Finland detects drone attack on Russian cargo ship in Baltic",
+       "site": "The Hindu",
+       "url": "https://www.thehindu.com/news/international/finland-detects-drone-attack-on-russian-cargo-ship-in-baltic/article71728516.ece"
+      }
+     ],
+     "x": [
+      {
+       "handle": "ianbremmer",
+       "name": "ian bremmer",
+       "text": "russia’s strikes on ukraine/kyiv last night; announced as retaliation for kerch bridge attack on tuesday.\n\nviolation of polish airspace notable too given it follows yesterday’s (generally constructive) coalition of the willing meeting in berlin.\n\nputin testing limits and trying to project strength on heels of summit w/ trump + xi.",
+       "url": "https://x.com/ianbremmer/status/2123826226980647062",
+       "followers": 1487451
+      }
+     ],
+     "creators": []
+    },
+    {
+     "id": "nregulationskillerrobots",
+     "section": "geopolitics",
+     "headline": "UN agrees to discuss killer robots rules in two years",
+     "dek": "Countries agree to start discussing regulations for autonomous weapons systems.",
+     "points": [
+      "Countries agreed to begin discussions on rules for autonomous weapons, but no binding regulations were set [1]",
+      "Russia, the U.S., and Israel opposed immediate legally binding rules, leading to a weakened agreement [1]",
+      "The UN talks ended with a two-year timeline for further discussions, disappointing human rights groups [2]"
+     ],
+     "why": "Tech companies and investors may face new regulations that impact autonomous weapon development. Countries with strong defense industries may resist changes that could affect their profits.",
+     "timeline": [
+      {
+       "when": "November 16, 2026",
+       "what": "UN talks began on regulating lethal autonomous weapons systems"
+      },
+      {
+       "when": "November 21, 2026",
+       "what": "UN talks ended with a two-year timeline for discussions on regulating killer robots"
+      }
+     ],
+     "eli5": "Countries are talking about making rules for robots that can fight on their own, but they couldn't agree on strong rules right away.",
+     "voices": [
+      {
+       "who": "Julien Thoni",
+       "said": "The deal is a significant achievement for humanitarian disarmament"
+      },
+      {
+       "who": "Nicole van Rooijen",
+       "said": "Delaying the creation of a legally binding instrument puts civilians at risk"
+      },
+      {
+       "who": "Terrence O'Brien",
+       "said": "Negotiations were largely fruitless, with countries agreeing to start discussing options"
+      }
+     ],
+     "unclear": [
+      "Whether the two-year timeline will result in legally binding rules",
+      "How Russia, the U.S., and Israel will influence future discussions",
+      "The impact of these discussions on tech and business sectors"
+     ],
+     "learn": {
+      "label": "World affairs, explained",
+      "site": "CFR World101",
+      "url": "https://world101.cfr.org/"
+     },
+     "image": "https://th-i.thgim.com/public/incoming/iqr9rp/article71729215.ece/alternates/LANDSCAPE_1200/AFP_D7KZ2WF.jpg",
+     "outlets": 2,
+     "sources": [
+      {
+       "n": 1,
+       "title": "The UN fails to agree on rules regulating ‘killer robots’",
+       "site": "The Verge",
+       "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+      },
+      {
+       "n": 2,
+       "title": "States agree to UN talks aiming to regulate 'killer robots' by 2028",
+       "site": "The Hindu",
+       "url": "https://www.thehindu.com/news/international/states-agree-toun-talks-aiming-to-regulate-killer-robots-by-2028/article71729173.ece"
+      }
+     ],
+     "x": [],
+     "creators": []
+    }
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "symbol": "HDFCBANK.NS",
+   "name": "HDFC Bank",
+   "price": 846,
+   "change": 2.95,
+   "closes": [
+    706.95,
+    694.05,
+    692.8,
+    688.05,
+    680.2,
+    685.3,
+    683.3,
+    692.8,
+    700,
+    725.5,
+    736.7,
+    760,
+    788.25,
+    798.15,
+    806.6,
+    812.3,
+    804,
+    816.5,
+    814.95,
+    808.15,
+    821.8,
+    846
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+     "site": "Mint",
+     "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html"
+    },
+    {
+     "n": 2,
+     "title": "Bank holidays next week: SBI, HDFC, ICICI branches will be closed on these five days from 23-30 Nov. Check RBI calendar",
+     "site": "Mint",
+     "url": "https://www.livemint.com/money/bank-holidays-next-week-sbi-hdfc-icici-axis-branches-closed-these-five-days-23-30-november-check-city-dates-rbi-calendar-11795311812498.html"
+    },
+    {
+     "n": 3,
+     "title": "HDFC Bank Ltd. Shares Fall 30% as Margin Pressure Persists",
+     "site": "Multibagg AI",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2EtOW04Vl8tTlhkSFpvUlRfX2VVMjM1MV82SUM1SllmeEJFcUo0alplWE5SYUJvOVNFZFFHMlY3X2VBc1NwVDBCT2lqVjJjbHc3OEdaLUNnTnpMZHhZLTNDUWh1WE9xUl8zd09hYk0wQzJrbWNHc1NnV0xwZnJUT0d1c3RieDBEVXlzM3pfcmNnQ3ZGX3JvNjQ3ajhNVlhVcGY0V0hsaw?oc=5"
+    },
+    {
+     "n": 4,
+     "title": "HDFC Bank, Suzlon Energy, Paras Defence, JTL Industries Share में क्या करें? | Stock Market News",
+     "site": "YouTube",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBCS19vR1FnTTRmODlmMG8tbzBOTmFMNXZpVFNFdjkzZWFPN2UtNVoydkdJSkN6NkpCZ2pqdGlrZndqdw?oc=5"
+    },
+    {
+     "n": 5,
+     "title": "HDFC Bank shareholders approve Lily Vadera re-appointment as independent director",
+     "site": "scanx.trade",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTnhsMF9lUnFPMXVSamF1bnlvd2Y3V3poRGJwRElzV0xmQmFXYWdVVmZWV2RZX1o4NTZNQ3ljSFhvcWh4WFd5dHVscnhuNFlBSEgzbFhnbHJycXlLcGJmOTZMelpkbGtGLTEzVnZHM0tRcVdoaDcyT2Z3SkhGa1hSOTVuU0NONFQ1VlpqSGlxUTRxZFdhR2VYTXhwMVZzLWNrN2Q2UUVqQ2h3cllNTndHMDBwZjI2bFY3ajQ1c0ZyZklpeXN3?oc=5"
+    },
+    {
+     "n": 6,
+     "title": "HDFC Bank Ltd. is Rated Hold by MarketsMOJO",
+     "site": "MarketsMojo",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVFZKNkgxdEJ6U1pXM0w0MDZZOFhQc2tRX1htVVRQRGNmbmk4S1Fja2QzeDcxQ01wZVFTS0k1el9YMDRxdmkxbGg5WHRsY2pqcHVUTE85NDFBSWRlXzhPUkFTVy1NRGF6MGZEcHZiVk9EWVppR3BhSHRpcDJkUWdHYlhRcm5jWS1MN21iSFBCc3JjR3FEWUJ0Nm9mdXpvb05MSDdxQU5qbw?oc=5"
+    },
+    {
+     "n": 7,
+     "title": "HDFC Bank (NYSE:HDB) Shares Gap Up - Here's What Happened",
+     "site": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWtaQXdid3BxVEd0ZEc5V1Y0VzZGSTNabU1mVEM4cS1WVzNBTEpmYmkxVWZGbHJDRkZxb01abmJWX0JYYXBGWDQ3ZWxrNE5CRTZUV2c5dGlHZFVFTzM1QXZYaUNxcjFvRGhnbk1XQVNxNlR0Rm1QWTB0YVc0SkVQbFdXTTJkWUhURE5XVjY3ZWQ1Qk12WFNiMXFzV0tLRVRoSFVwQk0xa0ZlQjVyNm5mSWRB?oc=5"
+    },
+    {
+     "n": 8,
+     "title": "HDFC Bank (HDB) Finds Its Spark Amid Wall Street Selloff",
+     "site": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUTR4SFhtV0lFcWFLZmpWRGhuVUtpTTEySUxGMzQzWlVFd3dUdWFtWUIyYi01WUVuYW1rRVMwQ3FtV29fSDY4WnFnbE5FbERscmZhX2FfUUhSSklrUVRiUUdtZEVWU2tPa0lFNkJUNklJclFBLXhBWUVCVkhtcGgyalZKazhjTFZNLUNETElvZjc0cEs5?oc=5"
+    }
+   ],
+   "why": "HDFC Bank shares rose today due to positive market sentiment and broader banking sector performance.",
+   "points": [
+    "Nifty Bank rose around 16% month-to-date to a record intraday high [1]",
+    "Brokerages cited healthy credit demand and robust lending pipelines [1]",
+    "HDFC Bank shares gap up on Wall Street selloff [8]"
+   ]
+  }
+ ],
+ "market": [
+  {
+   "symbol": "^NSEI",
+   "name": "Nifty 50",
+   "index": true,
+   "price": 25800.6,
+   "change": 2.27,
+   "closes": [
+    22811.35,
+    22687.65,
+    22600,
+    22753.2,
+    22749.75,
+    22698.85,
+    22936.75,
+    23053.1,
+    23440.8,
+    23810.85,
+    23960.6,
+    24536.6,
+    25030.35,
+    25044.65,
+    25255.05,
+    25299.35,
+    25144.3,
+    25291.1,
+    25387.4,
+    25227.95,
+    25514.3,
+    25800.6
+   ],
+   "time": 1795168875000
+  },
+  {
+   "symbol": "^BSESN",
+   "name": "Sensex",
+   "index": true,
+   "price": 83919.71,
+   "change": 2.3,
+   "closes": [
+    73709.69,
+    73249.39,
+    73123.83,
+    73606.75,
+    73598.67,
+    73246.03,
+    74151.04,
+    74459.53,
+    75692.78,
+    76917.85,
+    77301.4,
+    79310.01,
+    81028.02,
+    81106.65,
+    81879.4,
+    81911.01,
+    81592.45,
+    82104.79,
+    82532.19,
+    82031.81,
+    83021.75,
+    83919.71
+   ],
+   "time": 1795168949000
+  },
+  {
+   "symbol": "RELIANCE.NS",
+   "name": "Reliance Industries",
+   "price": 1377.5,
+   "change": 0.14,
+   "closes": [
+    1209,
+    1184.5,
+    1190,
+    1201.8,
+    1196.2,
+    1158,
+    1167.4,
+    1164.9,
+    1300,
+    1307.9,
+    1311,
+    1313.4,
+    1320,
+    1324.4,
+    1335.4,
+    1339.7,
+    1339.7,
+    1344.8,
+    1367,
+    1363,
+    1375.6,
+    1377.5
+   ],
+   "time": 1795168690000
+  },
+  {
+   "symbol": "TCS.NS",
+   "name": "TCS",
+   "price": 2376.2,
+   "change": 1.43,
+   "closes": [
+    2529,
+    2506.9,
+    2530,
+    2535,
+    2496.9,
+    2460,
+    2478,
+    2502.6,
+    2501.7,
+    2499.1,
+    2436,
+    2495.7,
+    2498.5,
+    2475.4,
+    2472.1,
+    2442.4,
+    2407.5,
+    2405,
+    2406.6,
+    2379.5,
+    2342.7,
+    2376.2
+   ],
+   "time": 1795168691000
+  },
+  {
+   "symbol": "HDFCBANK.NS",
+   "name": "HDFC Bank",
+   "price": 846,
+   "change": 2.95,
+   "closes": [
+    706.95,
+    694.05,
+    692.8,
+    688.05,
+    680.2,
+    685.3,
+    683.3,
+    692.8,
+    700,
+    725.5,
+    736.7,
+    760,
+    788.25,
+    798.15,
+    806.6,
+    812.3,
+    804,
+    816.5,
+    814.95,
+    808.15,
+    821.8,
+    846
+   ],
+   "time": 1795168690000
+  },
+  {
+   "symbol": "INFY.NS",
+   "name": "Infosys",
+   "price": 1098,
+   "change": 0.56,
+   "closes": [
+    1168,
+    1153.35,
+    1153.8,
+    1166,
+    1163,
+    1123.15,
+    1146.5,
+    1185,
+    1161,
+    1148.1,
+    1128.2,
+    1167.4,
+    1181.4,
+    1154.1,
+    1155,
+    1151.2,
+    1141.5,
+    1145.1,
+    1130,
+    1108.8,
+    1091.9,
+    1098
+   ],
+   "time": 1795168690000
+  }
+ ],
+ "readMinutes": 5,
+ "audio": true,
+ "script": "Good morning. Here's your news for Sunday, 22 November.  \n\nNvidia faces China export restrictions and CEO return debate. The company is dealing with export controls that affect its revenue and shareholder calls for former CEO Jensen Huang to return. This highlights the growing influence of geopolitics on business decisions.  \n\nAmazon seeks $7.5 billion Decart deal to boost AI chip efficiency. The tech giant is close to acquiring Decart for $7.5 billion to improve AI chip performance and compete with Nvidia. This move shows how AI efficiency is becoming a key focus for major tech firms.  \n\nAnthropic's IPO challenges Wall Street norms. The company's IPO process faced unique challenges and restrictions from the company itself. This reflects the increasing power of tech firms over traditional financial institutions.  \n\nTata Sons faces governance clash over listing and control. The dispute between Tata Trusts and directors affects whether Tata Sons should list and who should lead. This has implications for how the company raises capital and operates.  \n\nReliance Brands reports revenue growth and reduced loss in FY26. The company saw a 3.8% revenue increase and narrowed its loss. This improved performance is important for investors and business partners.  \n\nIndian startups see record IPO success in 2025. Startups raised over ₹41,248 crore through IPOs in 2025. Investors are now focusing on profitability and sustainable growth.  \n\nGold prices fall to 14-month low amid AI selloff and Fed rate concerns. Gold prices have dropped to a 14-month low as AI spending slows and Fed rate hikes are expected. This signals broader economic uncertainty.  \n\nHDFC Bank up 2.95 percent. Shares of HDFC Bank rose today due to positive market sentiment and stronger performance in the banking sector.  \n\nThat's your news. You're all caught up."
+}
